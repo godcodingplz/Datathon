@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 SSU_Datathon.json
+=======
+.DS_Store
+>>>>>>> 122dbd3 (gitignore 추가)
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.env
