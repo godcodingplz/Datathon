@@ -1,0 +1,689 @@
+{
+  "year": 2023,
+  "class_name": "공학 일반",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 68,
+  "keywords": [
+    {
+      "keyword": "nursing",
+      "weight": 0.047782,
+      "weight_raw": 0.35,
+      "freq": 28,
+      "burst": 0.0,
+      "share": 0.026242,
+      "paper_count": 1067,
+      "merged_variants": "nurses;nursing"
+    },
+    {
+      "keyword": "covid-19",
+      "weight": 0.046075,
+      "weight_raw": 0.3375,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.025305,
+      "paper_count": 1067,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "nursing student",
+      "weight": 0.044369,
+      "weight_raw": 0.325,
+      "freq": 26,
+      "burst": 0.0,
+      "share": 0.024367,
+      "paper_count": 1067,
+      "merged_variants": "nursing student;nursing students"
+    },
+    {
+      "keyword": "depression",
+      "weight": 0.042662,
+      "weight_raw": 0.3125,
+      "freq": 25,
+      "burst": 0.0,
+      "share": 0.02343,
+      "paper_count": 1067,
+      "merged_variants": "depression"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.035836,
+      "weight_raw": 0.2625,
+      "freq": 21,
+      "burst": 0.0,
+      "share": 0.019681,
+      "paper_count": 1067,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "self-efficacy",
+      "weight": 0.032423,
+      "weight_raw": 0.2375,
+      "freq": 19,
+      "burst": 0.0,
+      "share": 0.017807,
+      "paper_count": 1067,
+      "merged_variants": "self efficacy"
+    },
+    {
+      "keyword": "social support",
+      "weight": 0.02901,
+      "weight_raw": 0.2125,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.015933,
+      "paper_count": 1067,
+      "merged_variants": "social support"
+    },
+    {
+      "keyword": "university student",
+      "weight": 0.027304,
+      "weight_raw": 0.2,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.014995,
+      "paper_count": 1067,
+      "merged_variants": "students;university student"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.025597,
+      "weight_raw": 0.1875,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.014058,
+      "paper_count": 1067,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "job satisfaction",
+      "weight": 0.023891,
+      "weight_raw": 0.175,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.013121,
+      "paper_count": 1067,
+      "merged_variants": "job satisfaction"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.023891,
+      "weight_raw": 0.175,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.013121,
+      "paper_count": 1067,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "self-esteem",
+      "weight": 0.018771,
+      "weight_raw": 0.1375,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.010309,
+      "paper_count": 1067,
+      "merged_variants": "self esteem"
+    },
+    {
+      "keyword": "elderly",
+      "weight": 0.017065,
+      "weight_raw": 0.125,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.009372,
+      "paper_count": 1067,
+      "merged_variants": "elderly"
+    },
+    {
+      "keyword": "stress",
+      "weight": 0.017065,
+      "weight_raw": 0.125,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.009372,
+      "paper_count": 1067,
+      "merged_variants": "stress"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.017065,
+      "weight_raw": 0.125,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.009372,
+      "paper_count": 1067,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.017065,
+      "weight_raw": 0.125,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.009372,
+      "paper_count": 1067,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.017065,
+      "weight_raw": 0.125,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.009372,
+      "paper_count": 1067,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "ESS",
+      "weight": 0.017065,
+      "weight_raw": 0.125,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.009372,
+      "paper_count": 1067,
+      "merged_variants": "ess"
+    },
+    {
+      "keyword": "resilience",
+      "weight": 0.015358,
+      "weight_raw": 0.1125,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.008435,
+      "paper_count": 1067,
+      "merged_variants": "resilience"
+    },
+    {
+      "keyword": "UAV",
+      "weight": 0.015358,
+      "weight_raw": 0.1125,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.008435,
+      "paper_count": 1067,
+      "merged_variants": "uav"
+    },
+    {
+      "keyword": "r&amplification",
+      "weight": 0.015358,
+      "weight_raw": 0.1125,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.008435,
+      "paper_count": 1067,
+      "merged_variants": "r&amp"
+    },
+    {
+      "keyword": "education",
+      "weight": 0.013652,
+      "weight_raw": 0.1,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007498,
+      "paper_count": 1067,
+      "merged_variants": "education"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.013652,
+      "weight_raw": 0.1,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007498,
+      "paper_count": 1067,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "AI",
+      "weight": 0.011945,
+      "weight_raw": 0.0875,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.00656,
+      "paper_count": 1067,
+      "merged_variants": "ai"
+    },
+    {
+      "keyword": "CFD",
+      "weight": 0.011945,
+      "weight_raw": 0.0875,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.00656,
+      "paper_count": 1067,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "hanwoo",
+      "weight": 0.011945,
+      "weight_raw": 0.0875,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.00656,
+      "paper_count": 1067,
+      "merged_variants": "hanwoo"
+    },
+    {
+      "keyword": "quality management",
+      "weight": 0.011945,
+      "weight_raw": 0.0875,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.00656,
+      "paper_count": 1067,
+      "merged_variants": "quality management"
+    },
+    {
+      "keyword": "weapons system",
+      "weight": 0.011945,
+      "weight_raw": 0.0875,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.00656,
+      "paper_count": 1067,
+      "merged_variants": "weapon system"
+    },
+    {
+      "keyword": "adolescent",
+      "weight": 0.011945,
+      "weight_raw": 0.0875,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.00656,
+      "paper_count": 1067,
+      "merged_variants": "adolescent"
+    },
+    {
+      "keyword": "localization",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "localization"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "service quality",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "service quality"
+    },
+    {
+      "keyword": "security",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "security"
+    },
+    {
+      "keyword": "reinforcement learning",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "reinforcement learning"
+    },
+    {
+      "keyword": "mediating effect",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "mediating effect"
+    },
+    {
+      "keyword": "electric vehicle",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "electric vehicle"
+    },
+    {
+      "keyword": "image processing",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "image processing"
+    },
+    {
+      "keyword": "classification",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "classification"
+    },
+    {
+      "keyword": "antioxidant",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "antioxidant"
+    },
+    {
+      "keyword": "ammunition",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "ammunition"
+    },
+    {
+      "keyword": "IOT",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "iot"
+    },
+    {
+      "keyword": "defense",
+      "weight": 0.010239,
+      "weight_raw": 0.075,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005623,
+      "paper_count": 1067,
+      "merged_variants": "defense"
+    },
+    {
+      "keyword": "moderating effect",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "moderating effect"
+    },
+    {
+      "keyword": "life satisfaction",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "life satisfaction"
+    },
+    {
+      "keyword": "life stress",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "life stress"
+    },
+    {
+      "keyword": "major satisfaction",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "major satisfaction"
+    },
+    {
+      "keyword": "mental health",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "mental health"
+    },
+    {
+      "keyword": "organizational commitment",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "organizational commitment"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "grit",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "grit"
+    },
+    {
+      "keyword": "satisfaction",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "satisfaction"
+    },
+    {
+      "keyword": "smart factory",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "smart factory"
+    },
+    {
+      "keyword": "structural equation",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "structural equation"
+    },
+    {
+      "keyword": "knowledge",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "knowledge"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "early childhood teacher",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "early childhood teachers"
+    },
+    {
+      "keyword": "defense industry",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "defense industry"
+    },
+    {
+      "keyword": "childcare teacher",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "childcare teacher"
+    },
+    {
+      "keyword": "career decision-making self-efficacy",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "career decision making self efficacy"
+    },
+    {
+      "keyword": "burnout",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "burnout"
+    },
+    {
+      "keyword": "attitude",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "attitude"
+    },
+    {
+      "keyword": "anxiety",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "anxiety"
+    },
+    {
+      "keyword": "CNN",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "cnn"
+    },
+    {
+      "keyword": "BIM",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "bim"
+    },
+    {
+      "keyword": "ASRP",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "asrp"
+    },
+    {
+      "keyword": "AHP",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "ahp"
+    },
+    {
+      "keyword": "trend analysis",
+      "weight": 0.008532,
+      "weight_raw": 0.0625,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004686,
+      "paper_count": 1067,
+      "merged_variants": "trend analysis"
+    }
+  ]
+}

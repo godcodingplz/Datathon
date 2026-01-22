@@ -1,0 +1,289 @@
+{
+  "year": 2025,
+  "class_name": "화학공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 28,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.448529,
+      "weight_raw": 0.35,
+      "freq": 61,
+      "burst": 0.0,
+      "share": 0.267544,
+      "paper_count": 228,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "polymer",
+      "weight": 0.117647,
+      "weight_raw": 0.091803,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.070175,
+      "paper_count": 228,
+      "merged_variants": "polymer"
+    },
+    {
+      "keyword": "process design",
+      "weight": 0.029412,
+      "weight_raw": 0.022951,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.017544,
+      "paper_count": 228,
+      "merged_variants": "process design;공정 설계"
+    },
+    {
+      "keyword": "zeolite",
+      "weight": 0.029412,
+      "weight_raw": 0.022951,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.017544,
+      "paper_count": 228,
+      "merged_variants": "zeolite;제올라이트"
+    },
+    {
+      "keyword": "cellulose nanofiber",
+      "weight": 0.022059,
+      "weight_raw": 0.017213,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013158,
+      "paper_count": 228,
+      "merged_variants": "cellulose nanofiber"
+    },
+    {
+      "keyword": "nanocomposite",
+      "weight": 0.022059,
+      "weight_raw": 0.017213,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013158,
+      "paper_count": 228,
+      "merged_variants": "nanocomposite"
+    },
+    {
+      "keyword": "ultra high molecular weight polypropylene",
+      "weight": 0.022059,
+      "weight_raw": 0.017213,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013158,
+      "paper_count": 228,
+      "merged_variants": "ultra high molecular weight polypropylene"
+    },
+    {
+      "keyword": "morphology",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "morphology"
+    },
+    {
+      "keyword": "ionic liquid",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "ionic liquid"
+    },
+    {
+      "keyword": "low density",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "low density"
+    },
+    {
+      "keyword": "microalgae",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "microalgae"
+    },
+    {
+      "keyword": "rheological characterization",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "rheological characterization"
+    },
+    {
+      "keyword": "parsley",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "parsley"
+    },
+    {
+      "keyword": "probiotics",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "probiotics"
+    },
+    {
+      "keyword": "hydrogen peroxide",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "hydrogen peroxide"
+    },
+    {
+      "keyword": "rigid polyurethane foam",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "rigid polyurethane foam"
+    },
+    {
+      "keyword": "hydrolysis",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "hydrolysis"
+    },
+    {
+      "keyword": "epoxy resin",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "epoxy resin"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "수소"
+    },
+    {
+      "keyword": "high strength",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "high strength"
+    },
+    {
+      "keyword": "epoxy",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "epoxy"
+    },
+    {
+      "keyword": "drug delivery",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "drug delivery"
+    },
+    {
+      "keyword": "compatibilizer",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "compatibilizer"
+    },
+    {
+      "keyword": "coconut oil",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "coconut oil"
+    },
+    {
+      "keyword": "carbon quantum dot",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "carbon quantum dot"
+    },
+    {
+      "keyword": "activity coefficient models",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "activity coefficient models"
+    },
+    {
+      "keyword": "activity coefficient",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "활동도 계수"
+    },
+    {
+      "keyword": "thermal decomposition",
+      "weight": 0.014706,
+      "weight_raw": 0.011475,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008772,
+      "paper_count": 228,
+      "merged_variants": "열분해"
+    }
+  ]
+}

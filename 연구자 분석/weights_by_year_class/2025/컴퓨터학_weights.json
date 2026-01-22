@@ -1,0 +1,559 @@
+{
+  "year": 2025,
+  "class_name": "컴퓨터학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 55,
+  "keywords": [
+    {
+      "keyword": "generative artificial intelligence",
+      "weight": 0.110906,
+      "weight_raw": 0.35,
+      "freq": 120,
+      "burst": 0.0,
+      "share": 0.096696,
+      "paper_count": 1241,
+      "merged_variants": "generative ai;generative artificial intelligence;생성형 ai;생성형 인공지능"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.078558,
+      "weight_raw": 0.247917,
+      "freq": 85,
+      "burst": 0.0,
+      "share": 0.068493,
+      "paper_count": 1241,
+      "merged_variants": "deep learning;딥러닝"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.064695,
+      "weight_raw": 0.204167,
+      "freq": 70,
+      "burst": 0.0,
+      "share": 0.056406,
+      "paper_count": 1241,
+      "merged_variants": "ai;artificial intelligence;인공지능"
+    },
+    {
+      "keyword": "large language models",
+      "weight": 0.064695,
+      "weight_raw": 0.204167,
+      "freq": 70,
+      "burst": 0.0,
+      "share": 0.056406,
+      "paper_count": 1241,
+      "merged_variants": "large language model;large language models;llm;대규모 언어 모델;대형 언어 모델"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.053604,
+      "weight_raw": 0.169167,
+      "freq": 58,
+      "burst": 0.0,
+      "share": 0.046737,
+      "paper_count": 1241,
+      "merged_variants": "machine learning;기계 학습;기계학습;머신러닝"
+    },
+    {
+      "keyword": "digital forensics",
+      "weight": 0.050832,
+      "weight_raw": 0.160417,
+      "freq": 55,
+      "burst": 0.0,
+      "share": 0.044319,
+      "paper_count": 1241,
+      "merged_variants": "digital forensics;디지털 포렌식;디지털포렌식"
+    },
+    {
+      "keyword": "user experience",
+      "weight": 0.036044,
+      "weight_raw": 0.11375,
+      "freq": 39,
+      "burst": 0.0,
+      "share": 0.031426,
+      "paper_count": 1241,
+      "merged_variants": "user experience;ux;사용자 경험"
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "weight": 0.034196,
+      "weight_raw": 0.107917,
+      "freq": 37,
+      "burst": 0.0,
+      "share": 0.029815,
+      "paper_count": 1241,
+      "merged_variants": "rag;retrieval augmented generation;검색 증강 생성"
+    },
+    {
+      "keyword": "reinforcement learning",
+      "weight": 0.027726,
+      "weight_raw": 0.0875,
+      "freq": 30,
+      "burst": 0.0,
+      "share": 0.024174,
+      "paper_count": 1241,
+      "merged_variants": "reinforcement learning;강화학습"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.024954,
+      "weight_raw": 0.07875,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.021757,
+      "paper_count": 1241,
+      "merged_variants": "natural language processing;자연어 처리"
+    },
+    {
+      "keyword": "virtual reality",
+      "weight": 0.024954,
+      "weight_raw": 0.07875,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.021757,
+      "paper_count": 1241,
+      "merged_variants": "virtual reality;가상현실"
+    },
+    {
+      "keyword": "blockchain",
+      "weight": 0.022181,
+      "weight_raw": 0.07,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.019339,
+      "paper_count": 1241,
+      "merged_variants": "blockchain;블록체인"
+    },
+    {
+      "keyword": "nursing students",
+      "weight": 0.021257,
+      "weight_raw": 0.067083,
+      "freq": 23,
+      "burst": 0.0,
+      "share": 0.018533,
+      "paper_count": 1241,
+      "merged_variants": "nursing students;간호대학생"
+    },
+    {
+      "keyword": "prompt engineering",
+      "weight": 0.021257,
+      "weight_raw": 0.067083,
+      "freq": 23,
+      "burst": 0.0,
+      "share": 0.018533,
+      "paper_count": 1241,
+      "merged_variants": "prompt engineering;프롬프트 엔지니어링"
+    },
+    {
+      "keyword": "recommender system",
+      "weight": 0.020333,
+      "weight_raw": 0.064167,
+      "freq": 22,
+      "burst": 0.0,
+      "share": 0.017728,
+      "paper_count": 1241,
+      "merged_variants": "recommendation system;recommender system;추천 시스템;추천시스템"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.016636,
+      "weight_raw": 0.0525,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.014504,
+      "paper_count": 1241,
+      "merged_variants": "object detection;객체 탐지"
+    },
+    {
+      "keyword": "data augmentation",
+      "weight": 0.015712,
+      "weight_raw": 0.049583,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.013699,
+      "paper_count": 1241,
+      "merged_variants": "data augmentation;데이터 증강"
+    },
+    {
+      "keyword": "metaverse",
+      "weight": 0.015712,
+      "weight_raw": 0.049583,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.013699,
+      "paper_count": 1241,
+      "merged_variants": "metaverse;메타버스"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.013863,
+      "weight_raw": 0.04375,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.012087,
+      "paper_count": 1241,
+      "merged_variants": "text mining;텍스트 마이닝"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.013863,
+      "weight_raw": 0.04375,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.012087,
+      "paper_count": 1241,
+      "merged_variants": "토픽 모델링;토픽모델링"
+    },
+    {
+      "keyword": "topic 모델링",
+      "weight": 0.013863,
+      "weight_raw": 0.04375,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.012087,
+      "paper_count": 1241,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "augmented reality",
+      "weight": 0.012939,
+      "weight_raw": 0.040833,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.011281,
+      "paper_count": 1241,
+      "merged_variants": "augmented reality;증강현실"
+    },
+    {
+      "keyword": "anomaly detection",
+      "weight": 0.012015,
+      "weight_raw": 0.037917,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.010475,
+      "paper_count": 1241,
+      "merged_variants": "anomaly detection"
+    },
+    {
+      "keyword": "computer vision",
+      "weight": 0.012015,
+      "weight_raw": 0.037917,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.010475,
+      "paper_count": 1241,
+      "merged_variants": "computer vision;컴퓨터 비전"
+    },
+    {
+      "keyword": "mixed reality",
+      "weight": 0.011091,
+      "weight_raw": 0.035,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.00967,
+      "paper_count": 1241,
+      "merged_variants": "mixed reality;혼합현실"
+    },
+    {
+      "keyword": "digital literacy",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "digital literacy;디지털 리터러시"
+    },
+    {
+      "keyword": "technology acceptance model",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "tam;technology acceptance model"
+    },
+    {
+      "keyword": "research trends",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "research trends;연구 동향"
+    },
+    {
+      "keyword": "diffusion model",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "diffusion model;확산 모델"
+    },
+    {
+      "keyword": "digital content",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "digital content;디지털 콘텐츠"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "autonomous driving;자율주행"
+    },
+    {
+      "keyword": "depression",
+      "weight": 0.010166,
+      "weight_raw": 0.032083,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.008864,
+      "paper_count": 1241,
+      "merged_variants": "depression;우울"
+    },
+    {
+      "keyword": "interaction",
+      "weight": 0.009242,
+      "weight_raw": 0.029167,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008058,
+      "paper_count": 1241,
+      "merged_variants": "interaction;상호작용"
+    },
+    {
+      "keyword": "iot",
+      "weight": 0.009242,
+      "weight_raw": 0.029167,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008058,
+      "paper_count": 1241,
+      "merged_variants": "iot"
+    },
+    {
+      "keyword": "multimodal",
+      "weight": 0.009242,
+      "weight_raw": 0.029167,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008058,
+      "paper_count": 1241,
+      "merged_variants": "multimodal;멀티모달"
+    },
+    {
+      "keyword": "federated learning",
+      "weight": 0.008318,
+      "weight_raw": 0.02625,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007252,
+      "paper_count": 1241,
+      "merged_variants": "federated learning"
+    },
+    {
+      "keyword": "cybersecurity",
+      "weight": 0.007394,
+      "weight_raw": 0.023333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006446,
+      "paper_count": 1241,
+      "merged_variants": "cybersecurity"
+    },
+    {
+      "keyword": "fine tuning",
+      "weight": 0.007394,
+      "weight_raw": 0.023333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006446,
+      "paper_count": 1241,
+      "merged_variants": "fine tuning"
+    },
+    {
+      "keyword": "chatgpt",
+      "weight": 0.007394,
+      "weight_raw": 0.023333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006446,
+      "paper_count": 1241,
+      "merged_variants": "chatgpt"
+    },
+    {
+      "keyword": "database",
+      "weight": 0.005545,
+      "weight_raw": 0.0175,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.004835,
+      "paper_count": 1241,
+      "merged_variants": "database"
+    },
+    {
+      "keyword": "perceived usefulness",
+      "weight": 0.005545,
+      "weight_raw": 0.0175,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.004835,
+      "paper_count": 1241,
+      "merged_variants": "perceived usefulness"
+    },
+    {
+      "keyword": "xr",
+      "weight": 0.005545,
+      "weight_raw": 0.0175,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.004835,
+      "paper_count": 1241,
+      "merged_variants": "xr"
+    },
+    {
+      "keyword": "human ai collaboration",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "인간 ai 협업"
+    },
+    {
+      "keyword": "sentiment analysis",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "sentiment analysis"
+    },
+    {
+      "keyword": "semi-supervised learning",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "semi supervised learning"
+    },
+    {
+      "keyword": "lstm",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "kobert",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "kobert"
+    },
+    {
+      "keyword": "interaction design",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "interaction design"
+    },
+    {
+      "keyword": "bert",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "bert"
+    },
+    {
+      "keyword": "hallucination",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "hallucination"
+    },
+    {
+      "keyword": "graph neural network",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "그래프 신경망"
+    },
+    {
+      "keyword": "elderly",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "노인"
+    },
+    {
+      "keyword": "education",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "education"
+    },
+    {
+      "keyword": "drug discovery",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "drug discovery"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.004621,
+      "weight_raw": 0.014583,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004029,
+      "paper_count": 1241,
+      "merged_variants": "시뮬레이션"
+    }
+  ]
+}

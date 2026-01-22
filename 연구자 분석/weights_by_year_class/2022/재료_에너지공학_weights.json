@@ -1,0 +1,889 @@
+{
+  "year": 2022,
+  "class_name": "재료·에너지공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 88,
+  "keywords": [
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.06383,
+      "weight_raw": 0.35,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.060201,
+      "paper_count": 299,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "solar cells",
+      "weight": 0.042553,
+      "weight_raw": 0.233333,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.040134,
+      "paper_count": 299,
+      "merged_variants": "solar cells"
+    },
+    {
+      "keyword": "microstructure",
+      "weight": 0.035461,
+      "weight_raw": 0.194444,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.033445,
+      "paper_count": 299,
+      "merged_variants": "microstructure"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.031915,
+      "weight_raw": 0.175,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.0301,
+      "paper_count": 299,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.028369,
+      "weight_raw": 0.155556,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.026756,
+      "paper_count": 299,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "solar power generation",
+      "weight": 0.028369,
+      "weight_raw": 0.155556,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.026756,
+      "paper_count": 299,
+      "merged_variants": "solar power generation"
+    },
+    {
+      "keyword": "dyeing property",
+      "weight": 0.021277,
+      "weight_raw": 0.116667,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.020067,
+      "paper_count": 299,
+      "merged_variants": "dyeing property"
+    },
+    {
+      "keyword": "silicon",
+      "weight": 0.021277,
+      "weight_raw": 0.116667,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.020067,
+      "paper_count": 299,
+      "merged_variants": "silicon;실리콘"
+    },
+    {
+      "keyword": "aluminum alloy",
+      "weight": 0.021277,
+      "weight_raw": 0.116667,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.020067,
+      "paper_count": 299,
+      "merged_variants": "aluminum alloy;r&amp"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.01773,
+      "weight_raw": 0.097222,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.01773,
+      "weight_raw": 0.097222,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "machine learning;기계학습"
+    },
+    {
+      "keyword": "sector coupling",
+      "weight": 0.01773,
+      "weight_raw": 0.097222,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "sector coupling;섹터커플링"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "optimization;최적화"
+    },
+    {
+      "keyword": "steam turbine",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "steam turbine;증기터빈"
+    },
+    {
+      "keyword": "sensitivity analysis",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "sensitivity analysis;민감도 분석"
+    },
+    {
+      "keyword": "residual stress",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "residual stress"
+    },
+    {
+      "keyword": "recycling",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "recycling;재활용"
+    },
+    {
+      "keyword": "economic analysis",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "economic analysis;경제성분석"
+    },
+    {
+      "keyword": "net-zero energy building",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "제로에너지건물;제로에너지건축물"
+    },
+    {
+      "keyword": "monitoring",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "monitoring;모니터링"
+    },
+    {
+      "keyword": "magnesium alloy",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "magnesium alloy"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.014184,
+      "weight_raw": 0.077778,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "carbon neutrality;탄소중립"
+    },
+    {
+      "keyword": "g seed",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "g seed"
+    },
+    {
+      "keyword": "wood pellet",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "wood pellet"
+    },
+    {
+      "keyword": "solar radiation",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "일사량"
+    },
+    {
+      "keyword": "solar energy",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "태양광"
+    },
+    {
+      "keyword": "perovskite",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "perovskite"
+    },
+    {
+      "keyword": "polypropylene",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "polypropylene"
+    },
+    {
+      "keyword": "energy saving",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "에너지 절감"
+    },
+    {
+      "keyword": "carbon mineralization",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "carbon mineralization"
+    },
+    {
+      "keyword": "dyeing",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "dyeing"
+    },
+    {
+      "keyword": "bioenergy",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "bioenergy"
+    },
+    {
+      "keyword": "additive manufacturing",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "additive manufacturing"
+    },
+    {
+      "keyword": "d investment",
+      "weight": 0.010638,
+      "weight_raw": 0.058333,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "d investment"
+    },
+    {
+      "keyword": "perovskite solar cells",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "perovskite solar cells"
+    },
+    {
+      "keyword": "geometry simulation",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "geometry simulation"
+    },
+    {
+      "keyword": "green hydrogen",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "green hydrogen"
+    },
+    {
+      "keyword": "hardness",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "hardness"
+    },
+    {
+      "keyword": "heat transfer",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "열전달"
+    },
+    {
+      "keyword": "heat transfer performance coefficient",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "열전달 성능계수"
+    },
+    {
+      "keyword": "high-speed extrusion",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "high speed extrusion"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "hydrogen"
+    },
+    {
+      "keyword": "infill pattern",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "infill pattern"
+    },
+    {
+      "keyword": "lightweight",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "lightweight"
+    },
+    {
+      "keyword": "numerical analysis",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "numerical analysis"
+    },
+    {
+      "keyword": "optimal design",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "optimal design"
+    },
+    {
+      "keyword": "photovoltaic module",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "photovoltaic module"
+    },
+    {
+      "keyword": "turbulence intensity",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "turbulence intensity"
+    },
+    {
+      "keyword": "poly",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "poly"
+    },
+    {
+      "keyword": "formaldehyde-free",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "formaldehyde free"
+    },
+    {
+      "keyword": "processing map",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "processing map"
+    },
+    {
+      "keyword": "renewable energy cloud platform",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "재생에너지 클라우드 플랫폼"
+    },
+    {
+      "keyword": "shingled design",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "shingled design"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "solar power generation prediction",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "태양광 발전량 예측"
+    },
+    {
+      "keyword": "solar thermal air water heater",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "태양열 공기 물 가열기"
+    },
+    {
+      "keyword": "standard meteorological year",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "표준기상년"
+    },
+    {
+      "keyword": "strain distribution",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "strain distribution"
+    },
+    {
+      "keyword": "time series analysis",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "시계열 분석"
+    },
+    {
+      "keyword": "frequency regulation",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "frequency regulation"
+    },
+    {
+      "keyword": "RE100",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "re100"
+    },
+    {
+      "keyword": "flame retardant",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "flame retardant"
+    },
+    {
+      "keyword": "anisotropic yield function",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "anisotropic yield function"
+    },
+    {
+      "keyword": "3D printer",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "3d printer"
+    },
+    {
+      "keyword": "BIPV",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "bipv"
+    },
+    {
+      "keyword": "Green Architecture",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "녹색건축"
+    },
+    {
+      "keyword": "Green Building Certification",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "녹색건축 인증제도"
+    },
+    {
+      "keyword": "Green Remodeling",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "그린리모델링"
+    },
+    {
+      "keyword": "LCOE",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "lcoe"
+    },
+    {
+      "keyword": "LNG",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "lng"
+    },
+    {
+      "keyword": "PLA+",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "pla+"
+    },
+    {
+      "keyword": "PV",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "pv"
+    },
+    {
+      "keyword": "PVD coating",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "pvd coating"
+    },
+    {
+      "keyword": "air source heat pump",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "공기열원히트펌프"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "인공지능"
+    },
+    {
+      "keyword": "extrusion",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "extrusion"
+    },
+    {
+      "keyword": "artificial neural network",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "인공신경망"
+    },
+    {
+      "keyword": "asymmetric yield function",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "asymmetric yield function"
+    },
+    {
+      "keyword": "calcium carbonate",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "calcium carbonate"
+    },
+    {
+      "keyword": "cotton",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "cotton"
+    },
+    {
+      "keyword": "cultured meat",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "cultured meat"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "deformation behavior",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "deformation behavior"
+    },
+    {
+      "keyword": "district heating",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "지역난방"
+    },
+    {
+      "keyword": "electrical conductivity",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "electrical conductivity"
+    },
+    {
+      "keyword": "energy consumption",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "에너지사용량"
+    },
+    {
+      "keyword": "energy storage system",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "에너지저장장치"
+    },
+    {
+      "keyword": "ultra-high strength steel",
+      "weight": 0.007092,
+      "weight_raw": 0.038889,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "uhss"
+    }
+  ]
+}

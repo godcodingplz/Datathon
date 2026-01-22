@@ -1,0 +1,929 @@
+{
+  "year": 2022,
+  "class_name": "기계공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 92,
+  "keywords": [
+    {
+      "keyword": "computational fluid dynamics",
+      "weight": 0.110994,
+      "weight_raw": 0.35,
+      "freq": 105,
+      "burst": 0.0,
+      "share": 0.040525,
+      "paper_count": 2591,
+      "merged_variants": "cfd;computational fluid dynamics;전산유체역학"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.044397,
+      "weight_raw": 0.14,
+      "freq": 42,
+      "burst": 0.0,
+      "share": 0.01621,
+      "paper_count": 2591,
+      "merged_variants": "fea;finite element analysis"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.041226,
+      "weight_raw": 0.13,
+      "freq": 39,
+      "burst": 0.0,
+      "share": 0.015052,
+      "paper_count": 2591,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.036998,
+      "weight_raw": 0.116667,
+      "freq": 35,
+      "burst": 0.0,
+      "share": 0.013508,
+      "paper_count": 2591,
+      "merged_variants": "optimal design;optimization"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.029598,
+      "weight_raw": 0.093333,
+      "freq": 28,
+      "burst": 0.0,
+      "share": 0.010807,
+      "paper_count": 2591,
+      "merged_variants": "hydrogen"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.026427,
+      "weight_raw": 0.083333,
+      "freq": 25,
+      "burst": 0.0,
+      "share": 0.009649,
+      "paper_count": 2591,
+      "merged_variants": "autonomous driving;autonomous vehicle"
+    },
+    {
+      "keyword": "finite element method",
+      "weight": 0.02537,
+      "weight_raw": 0.08,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.009263,
+      "paper_count": 2591,
+      "merged_variants": "fem;finite element method"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.024313,
+      "weight_raw": 0.076667,
+      "freq": 23,
+      "burst": 0.0,
+      "share": 0.008877,
+      "paper_count": 2591,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "convolutional neural network",
+      "weight": 0.020085,
+      "weight_raw": 0.063333,
+      "freq": 19,
+      "burst": 0.0,
+      "share": 0.007333,
+      "paper_count": 2591,
+      "merged_variants": "cnn;convolutional neural network"
+    },
+    {
+      "keyword": "structural analysis",
+      "weight": 0.020085,
+      "weight_raw": 0.063333,
+      "freq": 19,
+      "burst": 0.0,
+      "share": 0.007333,
+      "paper_count": 2591,
+      "merged_variants": "structural analysis"
+    },
+    {
+      "keyword": "surface roughness",
+      "weight": 0.016913,
+      "weight_raw": 0.053333,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.006175,
+      "paper_count": 2591,
+      "merged_variants": "surface roughness"
+    },
+    {
+      "keyword": "additive manufacturing",
+      "weight": 0.014799,
+      "weight_raw": 0.046667,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.005403,
+      "paper_count": 2591,
+      "merged_variants": "additive manufacturing"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.014799,
+      "weight_raw": 0.046667,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.005403,
+      "paper_count": 2591,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "electric vehicle",
+      "weight": 0.013742,
+      "weight_raw": 0.043333,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.005017,
+      "paper_count": 2591,
+      "merged_variants": "electric vehicle"
+    },
+    {
+      "keyword": "gas turbine",
+      "weight": 0.013742,
+      "weight_raw": 0.043333,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.005017,
+      "paper_count": 2591,
+      "merged_variants": "gas turbine"
+    },
+    {
+      "keyword": "numerical analysis",
+      "weight": 0.013742,
+      "weight_raw": 0.043333,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.005017,
+      "paper_count": 2591,
+      "merged_variants": "numerical analysis"
+    },
+    {
+      "keyword": "heat transfer",
+      "weight": 0.012685,
+      "weight_raw": 0.04,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.004631,
+      "paper_count": 2591,
+      "merged_variants": "heat transfer"
+    },
+    {
+      "keyword": "image processing",
+      "weight": 0.011628,
+      "weight_raw": 0.036667,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004245,
+      "paper_count": 2591,
+      "merged_variants": "image processing"
+    },
+    {
+      "keyword": "injection molding",
+      "weight": 0.011628,
+      "weight_raw": 0.036667,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004245,
+      "paper_count": 2591,
+      "merged_variants": "injection mold;injection molding"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.011628,
+      "weight_raw": 0.036667,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004245,
+      "paper_count": 2591,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.010571,
+      "weight_raw": 0.033333,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00386,
+      "paper_count": 2591,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.010571,
+      "weight_raw": 0.033333,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00386,
+      "paper_count": 2591,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "genetic algorithm",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "genetic algorithm"
+    },
+    {
+      "keyword": "artificial neural network",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "artificial neural network"
+    },
+    {
+      "keyword": "pressure drop",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "pressure drop"
+    },
+    {
+      "keyword": "methane",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "methane"
+    },
+    {
+      "keyword": "submission",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "sub&gt"
+    },
+    {
+      "keyword": "fuel cell",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "fuel cell"
+    },
+    {
+      "keyword": "economic analysis",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "economic analysis"
+    },
+    {
+      "keyword": "deep neural network",
+      "weight": 0.009514,
+      "weight_raw": 0.03,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003474,
+      "paper_count": 2591,
+      "merged_variants": "deep neural network"
+    },
+    {
+      "keyword": "computer-aided engineering",
+      "weight": 0.008457,
+      "weight_raw": 0.026667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003088,
+      "paper_count": 2591,
+      "merged_variants": "cae"
+    },
+    {
+      "keyword": "liquid rocket engine",
+      "weight": 0.008457,
+      "weight_raw": 0.026667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003088,
+      "paper_count": 2591,
+      "merged_variants": "liquid rocket engine"
+    },
+    {
+      "keyword": "natural frequency",
+      "weight": 0.008457,
+      "weight_raw": 0.026667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003088,
+      "paper_count": 2591,
+      "merged_variants": "natural frequency"
+    },
+    {
+      "keyword": "nitrogen oxides",
+      "weight": 0.008457,
+      "weight_raw": 0.026667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003088,
+      "paper_count": 2591,
+      "merged_variants": "nox"
+    },
+    {
+      "keyword": "vibration",
+      "weight": 0.008457,
+      "weight_raw": 0.026667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003088,
+      "paper_count": 2591,
+      "merged_variants": "vibration"
+    },
+    {
+      "keyword": "laser welding",
+      "weight": 0.008457,
+      "weight_raw": 0.026667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003088,
+      "paper_count": 2591,
+      "merged_variants": "laser welding"
+    },
+    {
+      "keyword": "solid oxide fuel cell",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "solid oxide fuel cell"
+    },
+    {
+      "keyword": "openfoam",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "openfoam"
+    },
+    {
+      "keyword": "ignition delay",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "ignition delay"
+    },
+    {
+      "keyword": "taguchi method",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "taguchi method"
+    },
+    {
+      "keyword": "wear",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "wear"
+    },
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "residual stress",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "residual stress"
+    },
+    {
+      "keyword": "hydrogen production",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "hydrogen production"
+    },
+    {
+      "keyword": "fault diagnosis",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "fault diagnosis"
+    },
+    {
+      "keyword": "digital twin",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "digital twin"
+    },
+    {
+      "keyword": "carbon fiber reinforced polymer",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "cfrp"
+    },
+    {
+      "keyword": "anomaly detection",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "anomaly detection"
+    },
+    {
+      "keyword": "3D printing",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "3d printing"
+    },
+    {
+      "keyword": "heat exchanger",
+      "weight": 0.0074,
+      "weight_raw": 0.023333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002702,
+      "paper_count": 2591,
+      "merged_variants": "heat exchanger"
+    },
+    {
+      "keyword": "long short-term memory",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "urban air mobility",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "urban air mobility"
+    },
+    {
+      "keyword": "thermal analysis",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "thermal analysis"
+    },
+    {
+      "keyword": "smart factory",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "smart factory"
+    },
+    {
+      "keyword": "noise reduction",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "noise reduction"
+    },
+    {
+      "keyword": "transmission",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "transmission"
+    },
+    {
+      "keyword": "internet of things",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "iot"
+    },
+    {
+      "keyword": "catalyst",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "catalyst"
+    },
+    {
+      "keyword": "building information modeling",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "bim"
+    },
+    {
+      "keyword": "centrifugal pump",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "centrifugal pump"
+    },
+    {
+      "keyword": "aluminum alloy",
+      "weight": 0.006342,
+      "weight_raw": 0.02,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002316,
+      "paper_count": 2591,
+      "merged_variants": "aluminum alloy"
+    },
+    {
+      "keyword": "shear strength",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "shear strength"
+    },
+    {
+      "keyword": "plasma electrolytic oxidation",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "plasma electrolytic oxidation"
+    },
+    {
+      "keyword": "propulsion system",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "propulsion system"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "sensor",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "sensor"
+    },
+    {
+      "keyword": "sensor fusion",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "sensor fusion"
+    },
+    {
+      "keyword": "structural health monitoring",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "structural health monitoring"
+    },
+    {
+      "keyword": "topology optimization",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "topology optimization"
+    },
+    {
+      "keyword": "ultrasound",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "ultrasound"
+    },
+    {
+      "keyword": "unmanned aerial vehicle",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "uav"
+    },
+    {
+      "keyword": "vehicle dynamics",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "vehicle dynamics"
+    },
+    {
+      "keyword": "virtual reality",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "virtual reality"
+    },
+    {
+      "keyword": "organic Rankine cycle",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "organic rankine cycle"
+    },
+    {
+      "keyword": "phased array ultrasonic testing",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "phased array ultrasonic testing"
+    },
+    {
+      "keyword": "design of experiments",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "design of experiment"
+    },
+    {
+      "keyword": "motor",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "motor"
+    },
+    {
+      "keyword": "low-cycle fatigue",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "low cycle fatigue"
+    },
+    {
+      "keyword": "lithium-ion battery",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "lithium ion battery"
+    },
+    {
+      "keyword": "lidar",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "lidar"
+    },
+    {
+      "keyword": "inertial measurement unit",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "inertial measurement unit"
+    },
+    {
+      "keyword": "energy efficiency",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "energy efficiency"
+    },
+    {
+      "keyword": "electrochemical impedance spectroscopy",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "electrochemical impedance spectroscopy"
+    },
+    {
+      "keyword": "efficiency",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "efficiency"
+    },
+    {
+      "keyword": "corrosion resistance",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "corrosion resistance"
+    },
+    {
+      "keyword": "compressor",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "compressor"
+    },
+    {
+      "keyword": "anion-exchange membrane",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "anion exchange membrane"
+    },
+    {
+      "keyword": "ammonia",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "ammonia"
+    },
+    {
+      "keyword": "advanced driver-assistance systems",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "adas"
+    },
+    {
+      "keyword": "Reinforcement learning",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "reinforcement learning"
+    },
+    {
+      "keyword": "water electrolysis",
+      "weight": 0.005285,
+      "weight_raw": 0.016667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.00193,
+      "paper_count": 2591,
+      "merged_variants": "water electrolysis"
+    }
+  ]
+}

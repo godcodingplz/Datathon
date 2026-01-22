@@ -1,0 +1,389 @@
+{
+  "year": 2022,
+  "class_name": "조선해양공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 38,
+  "keywords": [
+    {
+      "keyword": "cfd",
+      "weight": 0.083333,
+      "weight_raw": 0.35,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.033195,
+      "paper_count": 241,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "model test",
+      "weight": 0.0625,
+      "weight_raw": 0.2625,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.024896,
+      "paper_count": 241,
+      "merged_variants": "model test"
+    },
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.052083,
+      "weight_raw": 0.21875,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.020747,
+      "paper_count": 241,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.041667,
+      "weight_raw": 0.175,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.016598,
+      "paper_count": 241,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.041667,
+      "weight_raw": 0.175,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.016598,
+      "paper_count": 241,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "wave energy converter",
+      "weight": 0.041667,
+      "weight_raw": 0.175,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.016598,
+      "paper_count": 241,
+      "merged_variants": "wave energy converter"
+    },
+    {
+      "keyword": "prediction",
+      "weight": 0.03125,
+      "weight_raw": 0.13125,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.012448,
+      "paper_count": 241,
+      "merged_variants": "prediction"
+    },
+    {
+      "keyword": "potential flow",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "potential flow"
+    },
+    {
+      "keyword": "microplastics",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "microplastics"
+    },
+    {
+      "keyword": "numerical wave tank",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "numerical wave tank"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "openfoam",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "openfoam"
+    },
+    {
+      "keyword": "oscillating water column",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "oscillating water column"
+    },
+    {
+      "keyword": "residual resistance coefficient",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "residual resistance coefficient"
+    },
+    {
+      "keyword": "pumpjet propulsor",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "pumpjet propulsor"
+    },
+    {
+      "keyword": "regular waves",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "regular waves"
+    },
+    {
+      "keyword": "maneuverability",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "maneuverability"
+    },
+    {
+      "keyword": "sensitivity analysis",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "sensitivity analysis"
+    },
+    {
+      "keyword": "solitary wave",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "solitary wave"
+    },
+    {
+      "keyword": "stator sensor",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "stator sensor"
+    },
+    {
+      "keyword": "submarine",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "submarine"
+    },
+    {
+      "keyword": "marine environments",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "marine environments"
+    },
+    {
+      "keyword": "invertebrate",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "invertebrate"
+    },
+    {
+      "keyword": "large cavitation tunnel",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "large cavitation tunnel"
+    },
+    {
+      "keyword": "kcs",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "kcs"
+    },
+    {
+      "keyword": "hull failure",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "hull failure"
+    },
+    {
+      "keyword": "hns",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "hns"
+    },
+    {
+      "keyword": "genetic algorithm",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "genetic algorithm"
+    },
+    {
+      "keyword": "free running model test",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "free running model test"
+    },
+    {
+      "keyword": "ecological risk assessment",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "ecological risk assessment"
+    },
+    {
+      "keyword": "duct &amp",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "duct &amp"
+    },
+    {
+      "keyword": "deformation",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "deformation"
+    },
+    {
+      "keyword": "convolutional neural network",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "convolutional neural network"
+    },
+    {
+      "keyword": "coastal engineering",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "coastal engineering"
+    },
+    {
+      "keyword": "bb2 submarine",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "bb2 submarine"
+    },
+    {
+      "keyword": "autonomous underwater vehicle",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "autonomous underwater vehicle"
+    },
+    {
+      "keyword": "autonomous surface ship",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "autonomous surface ship"
+    },
+    {
+      "keyword": "suspended solids",
+      "weight": 0.020833,
+      "weight_raw": 0.0875,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "suspended solids"
+    }
+  ]
+}

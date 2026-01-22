@@ -1,0 +1,499 @@
+{
+  "year": 2021,
+  "class_name": "화학공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 49,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.395918,
+      "weight_raw": 0.35,
+      "freq": 97,
+      "burst": 0.0,
+      "share": 0.291291,
+      "paper_count": 333,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "polymer",
+      "weight": 0.134694,
+      "weight_raw": 0.119072,
+      "freq": 33,
+      "burst": 0.0,
+      "share": 0.099099,
+      "paper_count": 333,
+      "merged_variants": "polymer"
+    },
+    {
+      "keyword": "dye adsorption",
+      "weight": 0.02449,
+      "weight_raw": 0.021649,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.018018,
+      "paper_count": 333,
+      "merged_variants": "dye adsorption;염료 흡착"
+    },
+    {
+      "keyword": "nitrogen oxides",
+      "weight": 0.020408,
+      "weight_raw": 0.018041,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015015,
+      "paper_count": 333,
+      "merged_variants": "nox;질소산화물"
+    },
+    {
+      "keyword": "biorenovation",
+      "weight": 0.016327,
+      "weight_raw": 0.014433,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012012,
+      "paper_count": 333,
+      "merged_variants": "biorenovation"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.016327,
+      "weight_raw": 0.014433,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012012,
+      "paper_count": 333,
+      "merged_variants": "carbon neutrality;탄소중립"
+    },
+    {
+      "keyword": "melanin",
+      "weight": 0.016327,
+      "weight_raw": 0.014433,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012012,
+      "paper_count": 333,
+      "merged_variants": "melanin"
+    },
+    {
+      "keyword": "thermodynamic",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "thermodynamic"
+    },
+    {
+      "keyword": "tyrosinase",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "tyrosinase"
+    },
+    {
+      "keyword": "thermodynamics",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "열역학"
+    },
+    {
+      "keyword": "surfactant",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "surfactant"
+    },
+    {
+      "keyword": "lithium ion battery",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "lithium ion battery"
+    },
+    {
+      "keyword": "isothermal adsorption",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "등온흡착"
+    },
+    {
+      "keyword": "graphene",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "graphene"
+    },
+    {
+      "keyword": "adsorption kinetics",
+      "weight": 0.012245,
+      "weight_raw": 0.010825,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009009,
+      "paper_count": 333,
+      "merged_variants": "흡착동력학"
+    },
+    {
+      "keyword": "polyacrylonitrile",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "polyacrylonitrile"
+    },
+    {
+      "keyword": "kinetic",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "kinetic"
+    },
+    {
+      "keyword": "lower critical solution temperature",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "lower critical solution temperature"
+    },
+    {
+      "keyword": "mechanism",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "mechanism"
+    },
+    {
+      "keyword": "microcrystalline cellulose",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "microcrystalline cellulose"
+    },
+    {
+      "keyword": "morphology",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "morphology"
+    },
+    {
+      "keyword": "photoelectrochemical cell",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "photoelectrochemical cell"
+    },
+    {
+      "keyword": "titanium dioxide",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "titanium dioxide"
+    },
+    {
+      "keyword": "polymerization",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "polymerization"
+    },
+    {
+      "keyword": "polysaccharide",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "polysaccharide"
+    },
+    {
+      "keyword": "shinella granuli ck 4",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "shinella granuli ck 4"
+    },
+    {
+      "keyword": "silicone rubber",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "silicone rubber"
+    },
+    {
+      "keyword": "smart windows",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "smart windows"
+    },
+    {
+      "keyword": "thiophene",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "thiophene"
+    },
+    {
+      "keyword": "industrial wastewater",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "industrial wastewater"
+    },
+    {
+      "keyword": "inhibitors",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "inhibitors"
+    },
+    {
+      "keyword": "compatibility",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "compatibility"
+    },
+    {
+      "keyword": "hyaluronic acid",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "hyaluronic acid"
+    },
+    {
+      "keyword": "biodegradability",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "biodegradability"
+    },
+    {
+      "keyword": "4-dioxane",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "4 dioxane"
+    },
+    {
+      "keyword": "adsorption",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "흡착"
+    },
+    {
+      "keyword": "anti-cancer",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "anti cancer"
+    },
+    {
+      "keyword": "automotive",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "automotive"
+    },
+    {
+      "keyword": "b16f10 melanoma cell",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "b16f10 melanoma cell"
+    },
+    {
+      "keyword": "biocompatibility",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "biocompatibility"
+    },
+    {
+      "keyword": "catalyst",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "catalyst"
+    },
+    {
+      "keyword": "glycidyl methacrylate",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "glycidyl methacrylate"
+    },
+    {
+      "keyword": "chemorheology",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "chemorheology"
+    },
+    {
+      "keyword": "cure kinetics",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "cure kinetics"
+    },
+    {
+      "keyword": "dimensional stability",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "dimensional stability"
+    },
+    {
+      "keyword": "dissolution rate",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "dissolution rate"
+    },
+    {
+      "keyword": "esterification",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "esterification"
+    },
+    {
+      "keyword": "fly ash",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "fly ash"
+    },
+    {
+      "keyword": "whitening agent",
+      "weight": 0.008163,
+      "weight_raw": 0.007216,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006006,
+      "paper_count": 333,
+      "merged_variants": "whitening agent"
+    }
+  ]
+}

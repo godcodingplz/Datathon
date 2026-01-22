@@ -1,0 +1,349 @@
+{
+  "year": 2025,
+  "class_name": "조선해양공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 34,
+  "keywords": [
+    {
+      "keyword": "CFD",
+      "weight": 0.130435,
+      "weight_raw": 0.35,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.046875,
+      "paper_count": 256,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "floating offshore wind turbine",
+      "weight": 0.108696,
+      "weight_raw": 0.291667,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.039062,
+      "paper_count": 256,
+      "merged_variants": "floating offshore wind turbine"
+    },
+    {
+      "keyword": "model test",
+      "weight": 0.054348,
+      "weight_raw": 0.145833,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.019531,
+      "paper_count": 256,
+      "merged_variants": "model test"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.032609,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.011719,
+      "paper_count": 256,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "seakeeping",
+      "weight": 0.032609,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.011719,
+      "paper_count": 256,
+      "merged_variants": "seakeeping"
+    },
+    {
+      "keyword": "unmanned surface vehicle",
+      "weight": 0.032609,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.011719,
+      "paper_count": 256,
+      "merged_variants": "unmanned surface vehicle"
+    },
+    {
+      "keyword": "model predictive control",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "model predictive control"
+    },
+    {
+      "keyword": "lazy wave",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "lazy wave"
+    },
+    {
+      "keyword": "maneuvering",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "maneuvering"
+    },
+    {
+      "keyword": "marine ecosystem",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "marine ecosystem"
+    },
+    {
+      "keyword": "marine monitoring",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "marine monitoring"
+    },
+    {
+      "keyword": "refloating",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "refloating"
+    },
+    {
+      "keyword": "propeller open water performance",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "propeller open water performance"
+    },
+    {
+      "keyword": "reduced order model",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "reduced order model"
+    },
+    {
+      "keyword": "heat flow",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "heat flow"
+    },
+    {
+      "keyword": "salinity prediction",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "salinity prediction"
+    },
+    {
+      "keyword": "ultimate limit state",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "ultimate limit state"
+    },
+    {
+      "keyword": "underwater glider",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "underwater glider"
+    },
+    {
+      "keyword": "large cavitation tunnel",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "large cavitation tunnel"
+    },
+    {
+      "keyword": "formation control",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "formation control"
+    },
+    {
+      "keyword": "ground reaction force",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "ground reaction force"
+    },
+    {
+      "keyword": "genetic algorithm",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "genetic algorithm"
+    },
+    {
+      "keyword": "fatigue life",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "fatigue life"
+    },
+    {
+      "keyword": "fairlead chain stopper",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "fairlead chain stopper"
+    },
+    {
+      "keyword": "environmental impact assessment",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "environmental impact assessment"
+    },
+    {
+      "keyword": "electric propulsion smart ship",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "electric propulsion smart ship"
+    },
+    {
+      "keyword": "collision avoidance",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "collision avoidance"
+    },
+    {
+      "keyword": "buoyancy engine",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "buoyancy engine"
+    },
+    {
+      "keyword": "WEC",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "wec"
+    },
+    {
+      "keyword": "Nakdong river estuary",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "nakdong river estuary"
+    },
+    {
+      "keyword": "LSTM",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "KLNG",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "klng"
+    },
+    {
+      "keyword": "3D point cloud",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "3d point cloud"
+    },
+    {
+      "keyword": "vibration",
+      "weight": 0.021739,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007812,
+      "paper_count": 256,
+      "merged_variants": "vibration"
+    }
+  ]
+}

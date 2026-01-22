@@ -1,0 +1,839 @@
+{
+  "year": 2024,
+  "class_name": "기타 공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 83,
+  "keywords": [
+    {
+      "keyword": "high speed railway",
+      "weight": 0.054545,
+      "weight_raw": 0.35,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.037129,
+      "paper_count": 404,
+      "merged_variants": "high speed railway;high speed train"
+    },
+    {
+      "keyword": "esports",
+      "weight": 0.043636,
+      "weight_raw": 0.28,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.029703,
+      "paper_count": 404,
+      "merged_variants": "esports"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.036364,
+      "weight_raw": 0.233333,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.024752,
+      "paper_count": 404,
+      "merged_variants": "autonomous driving;autonomous vehicle;autonomous vehicles"
+    },
+    {
+      "keyword": "urban railway",
+      "weight": 0.032727,
+      "weight_raw": 0.21,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.022277,
+      "paper_count": 404,
+      "merged_variants": "urban railway;도시철도"
+    },
+    {
+      "keyword": "generative ai",
+      "weight": 0.029091,
+      "weight_raw": 0.186667,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.019802,
+      "paper_count": 404,
+      "merged_variants": "generative ai"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.025455,
+      "weight_raw": 0.163333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.017327,
+      "paper_count": 404,
+      "merged_variants": "machine learning;머신러닝"
+    },
+    {
+      "keyword": "safety",
+      "weight": 0.025455,
+      "weight_raw": 0.163333,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.017327,
+      "paper_count": 404,
+      "merged_variants": "safety"
+    },
+    {
+      "keyword": "healthcare",
+      "weight": 0.021818,
+      "weight_raw": 0.14,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.014851,
+      "paper_count": 404,
+      "merged_variants": "healthcare"
+    },
+    {
+      "keyword": "numerical analysis",
+      "weight": 0.021818,
+      "weight_raw": 0.14,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.014851,
+      "paper_count": 404,
+      "merged_variants": "numerical analysis;수치해석"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.021818,
+      "weight_raw": 0.14,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.014851,
+      "paper_count": 404,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "point machine",
+      "weight": 0.018182,
+      "weight_raw": 0.116667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.012376,
+      "paper_count": 404,
+      "merged_variants": "point machine;선로전환기"
+    },
+    {
+      "keyword": "process safety management",
+      "weight": 0.018182,
+      "weight_raw": 0.116667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.012376,
+      "paper_count": 404,
+      "merged_variants": "process safety management;psm"
+    },
+    {
+      "keyword": "railway maintenance",
+      "weight": 0.018182,
+      "weight_raw": 0.116667,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.012376,
+      "paper_count": 404,
+      "merged_variants": "rail maintenance;railway maintenance"
+    },
+    {
+      "keyword": "space syntax",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "space syntax;공간구문론"
+    },
+    {
+      "keyword": "usability evaluation",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "usability evaluation"
+    },
+    {
+      "keyword": "tunnel",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "tunnel;터널"
+    },
+    {
+      "keyword": "train control system",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "train control system"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "text mining;텍스트마이닝"
+    },
+    {
+      "keyword": "stated preference survey",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "stated preference survey;잠재선호 설문조사"
+    },
+    {
+      "keyword": "computational fluid dynamics",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "computational fluid dynamics;전산유체해석"
+    },
+    {
+      "keyword": "railway safety",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "railway safety;철도안전"
+    },
+    {
+      "keyword": "quantities and construction costs",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "quantities and construction costs;물량 및 공사비"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "light rail",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "light rail"
+    },
+    {
+      "keyword": "climate change",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "climate change;기후변화"
+    },
+    {
+      "keyword": "ai",
+      "weight": 0.014545,
+      "weight_raw": 0.093333,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.009901,
+      "paper_count": 404,
+      "merged_variants": "ai"
+    },
+    {
+      "keyword": "railway vehicle",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "railway vehicle"
+    },
+    {
+      "keyword": "virtual reality",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "virtual reality"
+    },
+    {
+      "keyword": "track misalignment",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "궤도틀림"
+    },
+    {
+      "keyword": "semantic structure",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "구조방정식"
+    },
+    {
+      "keyword": "llm",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "llm"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "data analysis",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "data analysis"
+    },
+    {
+      "keyword": "game industry",
+      "weight": 0.010909,
+      "weight_raw": 0.07,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.007426,
+      "paper_count": 404,
+      "merged_variants": "game industry"
+    },
+    {
+      "keyword": "game literacy",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "game literacy"
+    },
+    {
+      "keyword": "rear end crash",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "rear end crash"
+    },
+    {
+      "keyword": "hydrogen fuel cell",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "수소연료전지"
+    },
+    {
+      "keyword": "interaction",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "interaction"
+    },
+    {
+      "keyword": "level design",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "level design"
+    },
+    {
+      "keyword": "lifetime",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "내용연수"
+    },
+    {
+      "keyword": "lithium-ion battery",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "lithium ion battery"
+    },
+    {
+      "keyword": "malmquist productivity index",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "malmquist productivity index"
+    },
+    {
+      "keyword": "mixed logit model",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "mixed logit model"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "public transportation",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "public transportation"
+    },
+    {
+      "keyword": "railway technology",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "railway technology"
+    },
+    {
+      "keyword": "research trend",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "research trend"
+    },
+    {
+      "keyword": "reinforcement learning",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "reinforcement learning"
+    },
+    {
+      "keyword": "safety management",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "safety management"
+    },
+    {
+      "keyword": "smart rollator",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "smart rollator"
+    },
+    {
+      "keyword": "stated preference",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "stated preference"
+    },
+    {
+      "keyword": "statistical analysis",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "statistical analysis"
+    },
+    {
+      "keyword": "survey",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "survey"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "traffic management",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "traffic management"
+    },
+    {
+      "keyword": "tram",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "tram"
+    },
+    {
+      "keyword": "transfer learning",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "transfer learning"
+    },
+    {
+      "keyword": "headway",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "headway"
+    },
+    {
+      "keyword": "LTE R",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "lte r"
+    },
+    {
+      "keyword": "game company",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "game company"
+    },
+    {
+      "keyword": "freight train",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "화물열차"
+    },
+    {
+      "keyword": "BIM 5D",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "bim 5d"
+    },
+    {
+      "keyword": "CFD",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "DRT",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "drt"
+    },
+    {
+      "keyword": "GPS",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "gps"
+    },
+    {
+      "keyword": "HAZOP",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "hazop"
+    },
+    {
+      "keyword": "LCC",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "lcc"
+    },
+    {
+      "keyword": "LOPA",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "lopa"
+    },
+    {
+      "keyword": "NPC",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "npc"
+    },
+    {
+      "keyword": "PSC sleeper",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "psc sleeper"
+    },
+    {
+      "keyword": "accident-prone areas",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "교통사고 잦은 곳"
+    },
+    {
+      "keyword": "actor network theory",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "actor network theory"
+    },
+    {
+      "keyword": "chemical accident",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "chemical accident"
+    },
+    {
+      "keyword": "closed cup",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "closed cup"
+    },
+    {
+      "keyword": "construction industry",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "construction industry"
+    },
+    {
+      "keyword": "data envelopment analysis",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "자료포락분석"
+    },
+    {
+      "keyword": "demand responsive transit",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "demand responsive transit"
+    },
+    {
+      "keyword": "digital piracy",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "digital piracy"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "electric wheelchair",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "electric wheelchair"
+    },
+    {
+      "keyword": "fandom",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "fandom"
+    },
+    {
+      "keyword": "fire",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "fire"
+    },
+    {
+      "keyword": "travel behavior",
+      "weight": 0.007273,
+      "weight_raw": 0.046667,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00495,
+      "paper_count": 404,
+      "merged_variants": "travel behavior"
+    }
+  ]
+}

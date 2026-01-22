@@ -1,0 +1,619 @@
+{
+  "year": 2024,
+  "class_name": "공학 일반",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 61,
+  "keywords": [
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.062827,
+      "weight_raw": 0.35,
+      "freq": 36,
+      "burst": 0.0,
+      "share": 0.031169,
+      "paper_count": 1155,
+      "merged_variants": "ai;artificial intelligence"
+    },
+    {
+      "keyword": "job satisfaction",
+      "weight": 0.041885,
+      "weight_raw": 0.233333,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.020779,
+      "paper_count": 1155,
+      "merged_variants": "job satisfaction;satisfaction"
+    },
+    {
+      "keyword": "elderly",
+      "weight": 0.041885,
+      "weight_raw": 0.233333,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.020779,
+      "paper_count": 1155,
+      "merged_variants": "aged;elderly"
+    },
+    {
+      "keyword": "nursing student",
+      "weight": 0.038394,
+      "weight_raw": 0.213889,
+      "freq": 22,
+      "burst": 0.0,
+      "share": 0.019048,
+      "paper_count": 1155,
+      "merged_variants": "nursing student;nursing students"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.034904,
+      "weight_raw": 0.194444,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.017316,
+      "paper_count": 1155,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.034904,
+      "weight_raw": 0.194444,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.017316,
+      "paper_count": 1155,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "gas sensor",
+      "weight": 0.031414,
+      "weight_raw": 0.175,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.015584,
+      "paper_count": 1155,
+      "merged_variants": "gas sensor;gas sensors"
+    },
+    {
+      "keyword": "mediating effect",
+      "weight": 0.026178,
+      "weight_raw": 0.145833,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 1155,
+      "merged_variants": "mediating effect"
+    },
+    {
+      "keyword": "nursing",
+      "weight": 0.024433,
+      "weight_raw": 0.136111,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.012121,
+      "paper_count": 1155,
+      "merged_variants": "nurses;nursing"
+    },
+    {
+      "keyword": "social support",
+      "weight": 0.024433,
+      "weight_raw": 0.136111,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.012121,
+      "paper_count": 1155,
+      "merged_variants": "social support"
+    },
+    {
+      "keyword": "covid 19",
+      "weight": 0.020942,
+      "weight_raw": 0.116667,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.01039,
+      "paper_count": 1155,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "depression",
+      "weight": 0.020942,
+      "weight_raw": 0.116667,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.01039,
+      "paper_count": 1155,
+      "merged_variants": "depression"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.020942,
+      "weight_raw": 0.116667,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.01039,
+      "paper_count": 1155,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "uav",
+      "weight": 0.019197,
+      "weight_raw": 0.106944,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009524,
+      "paper_count": 1155,
+      "merged_variants": "drone;uav"
+    },
+    {
+      "keyword": "weapon system",
+      "weight": 0.019197,
+      "weight_raw": 0.106944,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009524,
+      "paper_count": 1155,
+      "merged_variants": "weapon system"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.019197,
+      "weight_raw": 0.106944,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009524,
+      "paper_count": 1155,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "defense industry",
+      "weight": 0.019197,
+      "weight_raw": 0.106944,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009524,
+      "paper_count": 1155,
+      "merged_variants": "defense industry"
+    },
+    {
+      "keyword": "turnover intention",
+      "weight": 0.019197,
+      "weight_raw": 0.106944,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009524,
+      "paper_count": 1155,
+      "merged_variants": "turnover intention"
+    },
+    {
+      "keyword": "college students",
+      "weight": 0.017452,
+      "weight_raw": 0.097222,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008658,
+      "paper_count": 1155,
+      "merged_variants": "college students;students"
+    },
+    {
+      "keyword": "self efficacy",
+      "weight": 0.017452,
+      "weight_raw": 0.097222,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008658,
+      "paper_count": 1155,
+      "merged_variants": "self efficacy"
+    },
+    {
+      "keyword": "adolescents",
+      "weight": 0.015707,
+      "weight_raw": 0.0875,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007792,
+      "paper_count": 1155,
+      "merged_variants": "adolescents"
+    },
+    {
+      "keyword": "radar",
+      "weight": 0.015707,
+      "weight_raw": 0.0875,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007792,
+      "paper_count": 1155,
+      "merged_variants": "radar"
+    },
+    {
+      "keyword": "antioxidant",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "antioxidant"
+    },
+    {
+      "keyword": "education",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "education"
+    },
+    {
+      "keyword": "grit",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "grit"
+    },
+    {
+      "keyword": "knowledge",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "knowledge"
+    },
+    {
+      "keyword": "life satisfaction",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "life satisfaction"
+    },
+    {
+      "keyword": "r&amp",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "r&amp"
+    },
+    {
+      "keyword": "self esteem",
+      "weight": 0.013962,
+      "weight_raw": 0.077778,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.006926,
+      "paper_count": 1155,
+      "merged_variants": "self esteem"
+    },
+    {
+      "keyword": "oxide semiconductors",
+      "weight": 0.012216,
+      "weight_raw": 0.068056,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006061,
+      "paper_count": 1155,
+      "merged_variants": "oxide semiconductors"
+    },
+    {
+      "keyword": "quality of life",
+      "weight": 0.012216,
+      "weight_raw": 0.068056,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006061,
+      "paper_count": 1155,
+      "merged_variants": "quality of life"
+    },
+    {
+      "keyword": "bim",
+      "weight": 0.012216,
+      "weight_raw": 0.068056,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006061,
+      "paper_count": 1155,
+      "merged_variants": "bim"
+    },
+    {
+      "keyword": "computer vision",
+      "weight": 0.012216,
+      "weight_raw": 0.068056,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006061,
+      "paper_count": 1155,
+      "merged_variants": "computer vision"
+    },
+    {
+      "keyword": "ahp",
+      "weight": 0.012216,
+      "weight_raw": 0.068056,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006061,
+      "paper_count": 1155,
+      "merged_variants": "ahp"
+    },
+    {
+      "keyword": "early childhood teacher",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "early childhood teacher"
+    },
+    {
+      "keyword": "딥러닝",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "딥러닝"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "mental health",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "mental health"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "defense",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "defense"
+    },
+    {
+      "keyword": "communication",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "communication"
+    },
+    {
+      "keyword": "cnn",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "cnn"
+    },
+    {
+      "keyword": "burnout",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "burnout"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.010471,
+      "weight_raw": 0.058333,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005195,
+      "paper_count": 1155,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "k pop",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "k pop"
+    },
+    {
+      "keyword": "stress",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "stress"
+    },
+    {
+      "keyword": "positive psychological capital",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "positive psychological capital"
+    },
+    {
+      "keyword": "organizational commitment",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "organizational commitment"
+    },
+    {
+      "keyword": "monitoring",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "monitoring"
+    },
+    {
+      "keyword": "major satisfaction",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "major satisfaction"
+    },
+    {
+      "keyword": "lstm",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "correlation",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "correlation"
+    },
+    {
+      "keyword": "health behavior",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "health behavior"
+    },
+    {
+      "keyword": "hanwoo",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "hanwoo"
+    },
+    {
+      "keyword": "ess",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "ess"
+    },
+    {
+      "keyword": "esg",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "esg"
+    },
+    {
+      "keyword": "electric vehicle",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "electric vehicle"
+    },
+    {
+      "keyword": "efficiency",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "efficiency"
+    },
+    {
+      "keyword": "battery",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "battery"
+    },
+    {
+      "keyword": "stroke",
+      "weight": 0.008726,
+      "weight_raw": 0.048611,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004329,
+      "paper_count": 1155,
+      "merged_variants": "stroke"
+    }
+  ]
+}

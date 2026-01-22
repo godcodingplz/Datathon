@@ -1,0 +1,669 @@
+{
+  "year": 2024,
+  "class_name": "건축공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 66,
+  "keywords": [
+    {
+      "keyword": "machine learning",
+      "weight": 0.095967,
+      "weight_raw": 0.35,
+      "freq": 69,
+      "burst": 0.0,
+      "share": 0.029424,
+      "paper_count": 2345,
+      "merged_variants": "machine learning;기계학습;머신러닝"
+    },
+    {
+      "keyword": "compressive strength",
+      "weight": 0.058414,
+      "weight_raw": 0.213043,
+      "freq": 42,
+      "burst": 0.0,
+      "share": 0.01791,
+      "paper_count": 2345,
+      "merged_variants": "compressive strength;압축강도"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.040334,
+      "weight_raw": 0.147101,
+      "freq": 29,
+      "burst": 0.0,
+      "share": 0.012367,
+      "paper_count": 2345,
+      "merged_variants": "carbon neutrality;탄소중립"
+    },
+    {
+      "keyword": "concrete",
+      "weight": 0.037552,
+      "weight_raw": 0.136957,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.011514,
+      "paper_count": 2345,
+      "merged_variants": "concrete;콘크리트"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.036161,
+      "weight_raw": 0.131884,
+      "freq": 26,
+      "burst": 0.0,
+      "share": 0.011087,
+      "paper_count": 2345,
+      "merged_variants": "deep learning;딥러닝"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.034771,
+      "weight_raw": 0.126812,
+      "freq": 25,
+      "burst": 0.0,
+      "share": 0.010661,
+      "paper_count": 2345,
+      "merged_variants": "finite element analysis;유한요소해석"
+    },
+    {
+      "keyword": "green remodeling",
+      "weight": 0.031989,
+      "weight_raw": 0.116667,
+      "freq": 23,
+      "burst": 0.0,
+      "share": 0.009808,
+      "paper_count": 2345,
+      "merged_variants": "green remodeling;그린리모델링"
+    },
+    {
+      "keyword": "numerical analysis",
+      "weight": 0.029207,
+      "weight_raw": 0.106522,
+      "freq": 21,
+      "burst": 0.0,
+      "share": 0.008955,
+      "paper_count": 2345,
+      "merged_variants": "numerical analysis;수치해석"
+    },
+    {
+      "keyword": "sustainability",
+      "weight": 0.025035,
+      "weight_raw": 0.091304,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.007676,
+      "paper_count": 2345,
+      "merged_variants": "sustainability;지속가능성"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.023644,
+      "weight_raw": 0.086232,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.007249,
+      "paper_count": 2345,
+      "merged_variants": "artificial intelligence;인공지능"
+    },
+    {
+      "keyword": "apartment complex",
+      "weight": 0.020862,
+      "weight_raw": 0.076087,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.006397,
+      "paper_count": 2345,
+      "merged_variants": "apartment complex;공동주택"
+    },
+    {
+      "keyword": "accessibility",
+      "weight": 0.019471,
+      "weight_raw": 0.071014,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.00597,
+      "paper_count": 2345,
+      "merged_variants": "accessibility;접근성"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.019471,
+      "weight_raw": 0.071014,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.00597,
+      "paper_count": 2345,
+      "merged_variants": "big data;빅데이터"
+    },
+    {
+      "keyword": "corrosion",
+      "weight": 0.019471,
+      "weight_raw": 0.071014,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.00597,
+      "paper_count": 2345,
+      "merged_variants": "corrosion;부식"
+    },
+    {
+      "keyword": "covid 19",
+      "weight": 0.019471,
+      "weight_raw": 0.071014,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.00597,
+      "paper_count": 2345,
+      "merged_variants": "covid 19;코로나19"
+    },
+    {
+      "keyword": "energy consumption",
+      "weight": 0.019471,
+      "weight_raw": 0.071014,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.00597,
+      "paper_count": 2345,
+      "merged_variants": "energy consumption;energy saving"
+    },
+    {
+      "keyword": "greenhouse gas",
+      "weight": 0.018081,
+      "weight_raw": 0.065942,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.005544,
+      "paper_count": 2345,
+      "merged_variants": "greenhouse gas;온실가스"
+    },
+    {
+      "keyword": "life cycle assessment",
+      "weight": 0.018081,
+      "weight_raw": 0.065942,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.005544,
+      "paper_count": 2345,
+      "merged_variants": "life cycle assessment;전과정평가"
+    },
+    {
+      "keyword": "remodeling",
+      "weight": 0.01669,
+      "weight_raw": 0.06087,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.005117,
+      "paper_count": 2345,
+      "merged_variants": "remodeling;리모델링"
+    },
+    {
+      "keyword": "adsorption",
+      "weight": 0.015299,
+      "weight_raw": 0.055797,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004691,
+      "paper_count": 2345,
+      "merged_variants": "adsorption"
+    },
+    {
+      "keyword": "joseon",
+      "weight": 0.015299,
+      "weight_raw": 0.055797,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004691,
+      "paper_count": 2345,
+      "merged_variants": "joseon;조선"
+    },
+    {
+      "keyword": "particulate matter",
+      "weight": 0.015299,
+      "weight_raw": 0.055797,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004691,
+      "paper_count": 2345,
+      "merged_variants": "particulate matter;미세먼지"
+    },
+    {
+      "keyword": "precast concrete",
+      "weight": 0.015299,
+      "weight_raw": 0.055797,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004691,
+      "paper_count": 2345,
+      "merged_variants": "precast concrete;프리캐스트 콘크리트"
+    },
+    {
+      "keyword": "risk assessment",
+      "weight": 0.015299,
+      "weight_raw": 0.055797,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004691,
+      "paper_count": 2345,
+      "merged_variants": "risk assessment"
+    },
+    {
+      "keyword": "high level radioactive waste",
+      "weight": 0.015299,
+      "weight_raw": 0.055797,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004691,
+      "paper_count": 2345,
+      "merged_variants": "high level radioactive waste;고준위방사성폐기물"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.012517,
+      "weight_raw": 0.045652,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003838,
+      "paper_count": 2345,
+      "merged_variants": "hydrogen"
+    },
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.012517,
+      "weight_raw": 0.045652,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003838,
+      "paper_count": 2345,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "fly ash",
+      "weight": 0.012517,
+      "weight_raw": 0.045652,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003838,
+      "paper_count": 2345,
+      "merged_variants": "fly ash"
+    },
+    {
+      "keyword": "crack",
+      "weight": 0.009736,
+      "weight_raw": 0.035507,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002985,
+      "paper_count": 2345,
+      "merged_variants": "균열"
+    },
+    {
+      "keyword": "durability",
+      "weight": 0.009736,
+      "weight_raw": 0.035507,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002985,
+      "paper_count": 2345,
+      "merged_variants": "durability"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.009736,
+      "weight_raw": 0.035507,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002985,
+      "paper_count": 2345,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.009736,
+      "weight_raw": 0.035507,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002985,
+      "paper_count": 2345,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "smart city",
+      "weight": 0.009736,
+      "weight_raw": 0.035507,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.002985,
+      "paper_count": 2345,
+      "merged_variants": "smart city"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.008345,
+      "weight_raw": 0.030435,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002559,
+      "paper_count": 2345,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "shear strength",
+      "weight": 0.008345,
+      "weight_raw": 0.030435,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002559,
+      "paper_count": 2345,
+      "merged_variants": "shear strength"
+    },
+    {
+      "keyword": "mortar",
+      "weight": 0.008345,
+      "weight_raw": 0.030435,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002559,
+      "paper_count": 2345,
+      "merged_variants": "mortar"
+    },
+    {
+      "keyword": "artificial neural network",
+      "weight": 0.008345,
+      "weight_raw": 0.030435,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002559,
+      "paper_count": 2345,
+      "merged_variants": "artificial neural network"
+    },
+    {
+      "keyword": "biochar",
+      "weight": 0.008345,
+      "weight_raw": 0.030435,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002559,
+      "paper_count": 2345,
+      "merged_variants": "biochar"
+    },
+    {
+      "keyword": "bim",
+      "weight": 0.008345,
+      "weight_raw": 0.030435,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.002559,
+      "paper_count": 2345,
+      "merged_variants": "bim"
+    },
+    {
+      "keyword": "importance performance analysis",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "importance performance analysis"
+    },
+    {
+      "keyword": "ultra-high performance concrete",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "uhpc"
+    },
+    {
+      "keyword": "spatial composition",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "공간구성"
+    },
+    {
+      "keyword": "spatial autocorrelation",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "spatial autocorrelation"
+    },
+    {
+      "keyword": "spatial analysis",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "spatial analysis"
+    },
+    {
+      "keyword": "self-healing",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "자기치유"
+    },
+    {
+      "keyword": "reinforcement bar",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "철근"
+    },
+    {
+      "keyword": "reinforced concrete",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "reinforced concrete"
+    },
+    {
+      "keyword": "quantitative risk assessment",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "quantitative risk assessment"
+    },
+    {
+      "keyword": "public building",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "public building"
+    },
+    {
+      "keyword": "prediction",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "prediction"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "indoor air quality",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "indoor air quality"
+    },
+    {
+      "keyword": "housing policy",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "housing policy"
+    },
+    {
+      "keyword": "gnss",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "gnss"
+    },
+    {
+      "keyword": "gis",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "gis"
+    },
+    {
+      "keyword": "geospatial information",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "공간정보"
+    },
+    {
+      "keyword": "flexural behavior",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "flexural behavior"
+    },
+    {
+      "keyword": "esg",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "esg"
+    },
+    {
+      "keyword": "convolutional neural network",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "convolutional neural network"
+    },
+    {
+      "keyword": "composite beam",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "composite beam"
+    },
+    {
+      "keyword": "circular economy",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "circular economy"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "cement mortar",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "cement mortar"
+    },
+    {
+      "keyword": "carbon dioxide",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "carbon dioxide"
+    },
+    {
+      "keyword": "architectural design",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "architectural design"
+    },
+    {
+      "keyword": "uniaxial compressive strength",
+      "weight": 0.006954,
+      "weight_raw": 0.025362,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002132,
+      "paper_count": 2345,
+      "merged_variants": "uniaxial compressive strength"
+    }
+  ]
+}

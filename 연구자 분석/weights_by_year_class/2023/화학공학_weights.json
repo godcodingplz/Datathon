@@ -1,0 +1,309 @@
+{
+  "year": 2023,
+  "class_name": "화학공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 30,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.506579,
+      "weight_raw": 0.35,
+      "freq": 77,
+      "burst": 0.0,
+      "share": 0.255814,
+      "paper_count": 301,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "polymer",
+      "weight": 0.105263,
+      "weight_raw": 0.072727,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.053156,
+      "paper_count": 301,
+      "merged_variants": "polymer"
+    },
+    {
+      "keyword": "ethylene propylene diene monomer",
+      "weight": 0.019737,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "ethylene propylene diene monomer"
+    },
+    {
+      "keyword": "heat resistance",
+      "weight": 0.019737,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "heat resistance"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.019737,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "수소"
+    },
+    {
+      "keyword": "quench body",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "quenchbody"
+    },
+    {
+      "keyword": "microfluidic device",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "microfluidic device"
+    },
+    {
+      "keyword": "molecular dynamics",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "molecular dynamics"
+    },
+    {
+      "keyword": "organic solar cells",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "organic solar cells"
+    },
+    {
+      "keyword": "polyphenylene sulfide",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "polyphenylene sulfide"
+    },
+    {
+      "keyword": "rheological properties",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "rheological properties"
+    },
+    {
+      "keyword": "recycling",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "재활용"
+    },
+    {
+      "keyword": "lignin",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "lignin"
+    },
+    {
+      "keyword": "sewage sludge",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "sewage sludge"
+    },
+    {
+      "keyword": "silicon carbide",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "silicon carbide"
+    },
+    {
+      "keyword": "swelling resistance",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "swelling resistance"
+    },
+    {
+      "keyword": "microalgae",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "microalgae"
+    },
+    {
+      "keyword": "hexanoyl glycol chitosan",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "hexanoyl glycol chitosan"
+    },
+    {
+      "keyword": "in situ compatibilization",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "in situ compatibilization"
+    },
+    {
+      "keyword": "halloysite nanotube",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "halloysite nanotubes"
+    },
+    {
+      "keyword": "fused deposition modeling",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "fused deposition modeling"
+    },
+    {
+      "keyword": "fuel cell",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "fuel cell"
+    },
+    {
+      "keyword": "emulsion",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "emulsion"
+    },
+    {
+      "keyword": "coating agent",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "coating agent"
+    },
+    {
+      "keyword": "carbon fiber",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "carbon fibers"
+    },
+    {
+      "keyword": "air pollution",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "대기오염"
+    },
+    {
+      "keyword": "adhesive",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "adhesive"
+    },
+    {
+      "keyword": "acrylonitrile butadiene rubber",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "acrylonitrile butadiene rubber"
+    },
+    {
+      "keyword": "3D cell culture",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "3d cell culture"
+    },
+    {
+      "keyword": "tannic acid",
+      "weight": 0.013158,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "tannic acid"
+    }
+  ]
+}

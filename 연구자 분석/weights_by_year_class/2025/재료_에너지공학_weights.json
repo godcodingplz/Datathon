@@ -1,0 +1,549 @@
+{
+  "year": 2025,
+  "class_name": "재료·에너지공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 54,
+  "keywords": [
+    {
+      "keyword": "renewable energy",
+      "weight": 0.071856,
+      "weight_raw": 0.35,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.054299,
+      "paper_count": 221,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.05988,
+      "weight_raw": 0.291667,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.045249,
+      "paper_count": 221,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.047904,
+      "weight_raw": 0.233333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.036199,
+      "paper_count": 221,
+      "merged_variants": "hydrogen;수소"
+    },
+    {
+      "keyword": "additive manufacturing",
+      "weight": 0.041916,
+      "weight_raw": 0.204167,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.031674,
+      "paper_count": 221,
+      "merged_variants": "additive manufacturing"
+    },
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.035928,
+      "weight_raw": 0.175,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.027149,
+      "paper_count": 221,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.035928,
+      "weight_raw": 0.175,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.027149,
+      "paper_count": 221,
+      "merged_variants": "simulation;시뮬레이션"
+    },
+    {
+      "keyword": "solar cells",
+      "weight": 0.02994,
+      "weight_raw": 0.145833,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.022624,
+      "paper_count": 221,
+      "merged_variants": "solar cells"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.023952,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.0181,
+      "paper_count": 221,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "ess",
+      "weight": 0.023952,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.0181,
+      "paper_count": 221,
+      "merged_variants": "ess"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.023952,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.0181,
+      "paper_count": 221,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "microstructure",
+      "weight": 0.023952,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.0181,
+      "paper_count": 221,
+      "merged_variants": "microstructure"
+    },
+    {
+      "keyword": "recycling",
+      "weight": 0.023952,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.0181,
+      "paper_count": 221,
+      "merged_variants": "recycling;재활용"
+    },
+    {
+      "keyword": "severe accident",
+      "weight": 0.023952,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.0181,
+      "paper_count": 221,
+      "merged_variants": "severe accident;중대사고"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "pyrolysis",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "pyrolysis"
+    },
+    {
+      "keyword": "perovskite",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "perovskite"
+    },
+    {
+      "keyword": "perovskite solar cells",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "perovskite solar cells"
+    },
+    {
+      "keyword": "digital image correlation",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "digital image correlation"
+    },
+    {
+      "keyword": "bipv",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "bipv"
+    },
+    {
+      "keyword": "dic",
+      "weight": 0.017964,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013575,
+      "paper_count": 221,
+      "merged_variants": "dic"
+    },
+    {
+      "keyword": "led",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "led"
+    },
+    {
+      "keyword": "magnesium alloys",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "magnesium alloys"
+    },
+    {
+      "keyword": "neuber method",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "neuber method"
+    },
+    {
+      "keyword": "plasticity correction",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "plasticity correction"
+    },
+    {
+      "keyword": "processing map",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "processing map"
+    },
+    {
+      "keyword": "re100",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "re100"
+    },
+    {
+      "keyword": "reflectivity",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "반사율"
+    },
+    {
+      "keyword": "simplified elastic plastic correction factor",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "simplified elastic plastic correction factor"
+    },
+    {
+      "keyword": "hatch distance",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "hatch distance"
+    },
+    {
+      "keyword": "solar energy",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "태양에너지"
+    },
+    {
+      "keyword": "solar module",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "solar module"
+    },
+    {
+      "keyword": "solar power",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "태양광"
+    },
+    {
+      "keyword": "solar power plant",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "태양광 발전소"
+    },
+    {
+      "keyword": "tensile properties",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "tensile properties"
+    },
+    {
+      "keyword": "transparent solar cell",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "투명태양전지"
+    },
+    {
+      "keyword": "hole transport layer",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "hole transport layer"
+    },
+    {
+      "keyword": "damage",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "damage"
+    },
+    {
+      "keyword": "glinka method",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "glinka method"
+    },
+    {
+      "keyword": "crystallographic texture",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "crystallographic texture"
+    },
+    {
+      "keyword": "AI-based quality control",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "ai based quality control"
+    },
+    {
+      "keyword": "autonomous manufacturing",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "autonomous manufacturing"
+    },
+    {
+      "keyword": "blade",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "blade"
+    },
+    {
+      "keyword": "bolting process",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "bolting process"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "탄소중립"
+    },
+    {
+      "keyword": "cold forging equipment",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "cold forging equipment"
+    },
+    {
+      "keyword": "defect diagnosis",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "defect diagnosis"
+    },
+    {
+      "keyword": "generation",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "발전량"
+    },
+    {
+      "keyword": "directed energy deposition",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "directed energy deposition"
+    },
+    {
+      "keyword": "electron beam welding",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "electron beam welding"
+    },
+    {
+      "keyword": "energy efficiency",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "energy efficiency"
+    },
+    {
+      "keyword": "environmental fatigue",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "environmental fatigue"
+    },
+    {
+      "keyword": "extrusion",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "extrusion"
+    },
+    {
+      "keyword": "fog reduction",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "백연 저감"
+    },
+    {
+      "keyword": "wind turbine",
+      "weight": 0.011976,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00905,
+      "paper_count": 221,
+      "merged_variants": "wind turbine"
+    }
+  ]
+}

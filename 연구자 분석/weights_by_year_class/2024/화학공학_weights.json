@@ -1,0 +1,299 @@
+{
+  "year": 2024,
+  "class_name": "화학공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 29,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.419118,
+      "weight_raw": 0.35,
+      "freq": 57,
+      "burst": 0.0,
+      "share": 0.207273,
+      "paper_count": 275,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "polymer",
+      "weight": 0.154412,
+      "weight_raw": 0.128947,
+      "freq": 21,
+      "burst": 0.0,
+      "share": 0.076364,
+      "paper_count": 275,
+      "merged_variants": "poly:poly;polymer"
+    },
+    {
+      "keyword": "methane",
+      "weight": 0.029412,
+      "weight_raw": 0.024561,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014545,
+      "paper_count": 275,
+      "merged_variants": "methane;메탄"
+    },
+    {
+      "keyword": "plastic",
+      "weight": 0.022059,
+      "weight_raw": 0.018421,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010909,
+      "paper_count": 275,
+      "merged_variants": "plastic"
+    },
+    {
+      "keyword": "thermal decomposition",
+      "weight": 0.022059,
+      "weight_raw": 0.018421,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010909,
+      "paper_count": 275,
+      "merged_variants": "열분해"
+    },
+    {
+      "keyword": "fuel cell",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "fuel cell"
+    },
+    {
+      "keyword": "thermal stability",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "thermal stability"
+    },
+    {
+      "keyword": "rechargeable li sno₂ batteries",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "rechargeable li sno₂ batteries"
+    },
+    {
+      "keyword": "rebamipide",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "rebamipide"
+    },
+    {
+      "keyword": "polyimide",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "polyimide"
+    },
+    {
+      "keyword": "polydimethylsiloxane",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "polydimethylsiloxane"
+    },
+    {
+      "keyword": "organic semiconductor",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "organic semiconductor"
+    },
+    {
+      "keyword": "masterbatch",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "master batch"
+    },
+    {
+      "keyword": "ionic liquid",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "ionic liquid"
+    },
+    {
+      "keyword": "high frequency",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "high frequency"
+    },
+    {
+      "keyword": "graphene nanoplate",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "graphene nanoplate"
+    },
+    {
+      "keyword": "compatibility",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "compatibility"
+    },
+    {
+      "keyword": "enzyme",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "enzyme"
+    },
+    {
+      "keyword": "crystallization",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "crystallization"
+    },
+    {
+      "keyword": "ccus",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "ccus"
+    },
+    {
+      "keyword": "catalyst",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "촉매"
+    },
+    {
+      "keyword": "carbon dioxide",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "이산화탄소"
+    },
+    {
+      "keyword": "boron nitride",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "boron nitride"
+    },
+    {
+      "keyword": "aqueous zinc ion battery",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "aqueous zinc ion battery"
+    },
+    {
+      "keyword": "antioxidant activity",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "antioxidant activity"
+    },
+    {
+      "keyword": "aminoacyl tRNA synthetase",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "aminoacyl trna synthetase"
+    },
+    {
+      "keyword": "adsorption",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "흡착"
+    },
+    {
+      "keyword": "activation energy",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "activation energy"
+    },
+    {
+      "keyword": "zwitterion",
+      "weight": 0.014706,
+      "weight_raw": 0.012281,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007273,
+      "paper_count": 275,
+      "merged_variants": "zwitterion"
+    }
+  ]
+}

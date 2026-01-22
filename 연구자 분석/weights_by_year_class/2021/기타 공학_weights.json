@@ -1,0 +1,819 @@
+{
+  "year": 2021,
+  "class_name": "기타 공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 81,
+  "keywords": [
+    {
+      "keyword": "railway vehicle",
+      "weight": 0.048951,
+      "weight_raw": 0.35,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.03132,
+      "paper_count": 447,
+      "merged_variants": "railway vehicle;철도 차량"
+    },
+    {
+      "keyword": "AI",
+      "weight": 0.038462,
+      "weight_raw": 0.275,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.024609,
+      "paper_count": 447,
+      "merged_variants": "ai"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.031469,
+      "weight_raw": 0.225,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.020134,
+      "paper_count": 447,
+      "merged_variants": "autonomous driving"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.031469,
+      "weight_raw": 0.225,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.020134,
+      "paper_count": 447,
+      "merged_variants": "machine learning;머신러닝"
+    },
+    {
+      "keyword": "high speed railway",
+      "weight": 0.024476,
+      "weight_raw": 0.175,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.01566,
+      "paper_count": 447,
+      "merged_variants": "high speed railway"
+    },
+    {
+      "keyword": "waiting time",
+      "weight": 0.024476,
+      "weight_raw": 0.175,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.01566,
+      "paper_count": 447,
+      "merged_variants": "waiting time;대기시간;통행시간"
+    },
+    {
+      "keyword": "maintenance",
+      "weight": 0.020979,
+      "weight_raw": 0.15,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.013423,
+      "paper_count": 447,
+      "merged_variants": "maintenance;유지보수"
+    },
+    {
+      "keyword": "multinomial logit model",
+      "weight": 0.020979,
+      "weight_raw": 0.15,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.013423,
+      "paper_count": 447,
+      "merged_variants": "multinomial logit model;다항로짓모형"
+    },
+    {
+      "keyword": "train control system",
+      "weight": 0.020979,
+      "weight_raw": 0.15,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.013423,
+      "paper_count": 447,
+      "merged_variants": "train control system"
+    },
+    {
+      "keyword": "healthcare",
+      "weight": 0.020979,
+      "weight_raw": 0.15,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.013423,
+      "paper_count": 447,
+      "merged_variants": "healthcare"
+    },
+    {
+      "keyword": "driving simulator",
+      "weight": 0.020979,
+      "weight_raw": 0.15,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.013423,
+      "paper_count": 447,
+      "merged_variants": "driving simulator;주행 시뮬레이터"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.020979,
+      "weight_raw": 0.15,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.013423,
+      "paper_count": 447,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "game",
+      "weight": 0.017483,
+      "weight_raw": 0.125,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.011186,
+      "paper_count": 447,
+      "merged_variants": "game"
+    },
+    {
+      "keyword": "mobility",
+      "weight": 0.017483,
+      "weight_raw": 0.125,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.011186,
+      "paper_count": 447,
+      "merged_variants": "mobility"
+    },
+    {
+      "keyword": "public transportation",
+      "weight": 0.017483,
+      "weight_raw": 0.125,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.011186,
+      "paper_count": 447,
+      "merged_variants": "public transportation"
+    },
+    {
+      "keyword": "traffic safety",
+      "weight": 0.017483,
+      "weight_raw": 0.125,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.011186,
+      "paper_count": 447,
+      "merged_variants": "traffic safety;교통안전"
+    },
+    {
+      "keyword": "game culture",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "game culture"
+    },
+    {
+      "keyword": "urban railway",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "urban railway;도시철도"
+    },
+    {
+      "keyword": "solid state transformer",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "solid state transformer;반도체 변압기"
+    },
+    {
+      "keyword": "signaling",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "signaling;신호"
+    },
+    {
+      "keyword": "settlement",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "settlement;침하"
+    },
+    {
+      "keyword": "risk assessment",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "risk assessment"
+    },
+    {
+      "keyword": "game design",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "game design"
+    },
+    {
+      "keyword": "concrete tube",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "concrete tube;콘크리트 튜브"
+    },
+    {
+      "keyword": "expressway",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "expressway;고속도로"
+    },
+    {
+      "keyword": "esports",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "esports"
+    },
+    {
+      "keyword": "emergency vehicle",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "emergency vehicle;긴급차량"
+    },
+    {
+      "keyword": "electric multiple unit",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "electric multiple unit;전동차"
+    },
+    {
+      "keyword": "degradation model",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "degradation model;열화모델"
+    },
+    {
+      "keyword": "camera",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "camera;카메라"
+    },
+    {
+      "keyword": "COVID-19",
+      "weight": 0.013986,
+      "weight_raw": 0.1,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.008949,
+      "paper_count": 447,
+      "merged_variants": "covid 19;코로나19"
+    },
+    {
+      "keyword": "communication",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "communication"
+    },
+    {
+      "keyword": "virtual reality",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "virtual reality"
+    },
+    {
+      "keyword": "usability evaluation",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "usability evaluation"
+    },
+    {
+      "keyword": "railway technology",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "railway technology"
+    },
+    {
+      "keyword": "metaverse",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "metaverse"
+    },
+    {
+      "keyword": "gaming disorder",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "gaming disorder"
+    },
+    {
+      "keyword": "motivation",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "motivation"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "augmented reality",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "augmented reality"
+    },
+    {
+      "keyword": "accessibility",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "accessibility"
+    },
+    {
+      "keyword": "VR",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "vr"
+    },
+    {
+      "keyword": "DEA",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "dea"
+    },
+    {
+      "keyword": "autonomous vehicle",
+      "weight": 0.01049,
+      "weight_raw": 0.075,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.006711,
+      "paper_count": 447,
+      "merged_variants": "autonomous vehicle"
+    },
+    {
+      "keyword": "propulsion system",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "추진시스템"
+    },
+    {
+      "keyword": "inductive heating",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "유도가열"
+    },
+    {
+      "keyword": "intermediate coupling",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "중간연결기"
+    },
+    {
+      "keyword": "lifetime prediction",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "수명예측"
+    },
+    {
+      "keyword": "mobility big data",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "모빌리티 빅데이터"
+    },
+    {
+      "keyword": "mode choice model",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "수단선택모형"
+    },
+    {
+      "keyword": "platform screen door",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "승강장 안전문"
+    },
+    {
+      "keyword": "pressure vessel test",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "pressure vessel test"
+    },
+    {
+      "keyword": "railway industry",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "철도산업"
+    },
+    {
+      "keyword": "railway",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "철도"
+    },
+    {
+      "keyword": "fire",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "fire"
+    },
+    {
+      "keyword": "sandwich composite",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "샌드위치 복합재"
+    },
+    {
+      "keyword": "signaling device",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "연동장치"
+    },
+    {
+      "keyword": "support vector machine",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "support vector machine"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "traffic assignment",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "통행배정"
+    },
+    {
+      "keyword": "traffic operation",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "traffic operation"
+    },
+    {
+      "keyword": "hydrogen fuel cell",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "수소연료전지"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "electric scooter",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "전동킥보드"
+    },
+    {
+      "keyword": "C-ITS",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "c its"
+    },
+    {
+      "keyword": "CBTC",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "cbtc"
+    },
+    {
+      "keyword": "CNN",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "cnn"
+    },
+    {
+      "keyword": "EEG",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "eeg"
+    },
+    {
+      "keyword": "ETCS",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "etcs"
+    },
+    {
+      "keyword": "PM2.5",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "미세먼지"
+    },
+    {
+      "keyword": "VISSIM",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "vissim"
+    },
+    {
+      "keyword": "autonomous cooperative driving",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "자율협력주행"
+    },
+    {
+      "keyword": "chemical accident",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "chemical accident"
+    },
+    {
+      "keyword": "chemical protective clothing",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "chemical protective clothing"
+    },
+    {
+      "keyword": "crashworthiness",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "crashworthiness"
+    },
+    {
+      "keyword": "density",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "고밀도"
+    },
+    {
+      "keyword": "device",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "device"
+    },
+    {
+      "keyword": "disability",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "disability"
+    },
+    {
+      "keyword": "driving behavior",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "driving behavior"
+    },
+    {
+      "keyword": "transfer learning",
+      "weight": 0.006993,
+      "weight_raw": 0.05,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.004474,
+      "paper_count": 447,
+      "merged_variants": "transfer learning"
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "year": 2024,
+  "class_name": "산업공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 61,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.250737,
+      "weight_raw": 0.35,
+      "freq": 85,
+      "burst": 0.0,
+      "share": 0.304659,
+      "paper_count": 279,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.20649,
+      "weight_raw": 0.288235,
+      "freq": 70,
+      "burst": 0.0,
+      "share": 0.250896,
+      "paper_count": 279,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.073746,
+      "weight_raw": 0.102941,
+      "freq": 25,
+      "burst": 0.0,
+      "share": 0.089606,
+      "paper_count": 279,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.029499,
+      "weight_raw": 0.041176,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.035842,
+      "paper_count": 279,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "user experience",
+      "weight": 0.020649,
+      "weight_raw": 0.028824,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.02509,
+      "paper_count": 279,
+      "merged_variants": "user experience"
+    },
+    {
+      "keyword": "large language model",
+      "weight": 0.017699,
+      "weight_raw": 0.024706,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.021505,
+      "paper_count": 279,
+      "merged_variants": "large language model;large language models;대형 언어 모델"
+    },
+    {
+      "keyword": "contrastive learning",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "contrastive learning;대조학습"
+    },
+    {
+      "keyword": "fitness",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "fitness;피트니스"
+    },
+    {
+      "keyword": "job crafting",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "job crafting;잡크래프팅"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "recommender system",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "recommender system"
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "retrieval augmented generation"
+    },
+    {
+      "keyword": "sentiment analysis",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "sentiment analysis"
+    },
+    {
+      "keyword": "supply chain",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "supply chain"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "turnover intention",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "turnover intention;이직의도"
+    },
+    {
+      "keyword": "knowledge graph question answering",
+      "weight": 0.011799,
+      "weight_raw": 0.016471,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.014337,
+      "paper_count": 279,
+      "merged_variants": "knowledge graph question answering;지식 그래프 질의 응답"
+    },
+    {
+      "keyword": "rula",
+      "weight": 0.00885,
+      "weight_raw": 0.012353,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010753,
+      "paper_count": 279,
+      "merged_variants": "rula"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.00885,
+      "weight_raw": 0.012353,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010753,
+      "paper_count": 279,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "ram c",
+      "weight": 0.00885,
+      "weight_raw": 0.012353,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010753,
+      "paper_count": 279,
+      "merged_variants": "ram c"
+    },
+    {
+      "keyword": "nhpp",
+      "weight": 0.00885,
+      "weight_raw": 0.012353,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010753,
+      "paper_count": 279,
+      "merged_variants": "nhpp"
+    },
+    {
+      "keyword": "mixed-integer linear programming",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "mixed integer linear programming"
+    },
+    {
+      "keyword": "muscle activity",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "muscle activity"
+    },
+    {
+      "keyword": "particle swarm optimization",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "particle swarm optimization"
+    },
+    {
+      "keyword": "quality control",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "quality control"
+    },
+    {
+      "keyword": "quantum computing",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "quantum computing"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "reliability engineering",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "reliability engineering"
+    },
+    {
+      "keyword": "retailing",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "retailing"
+    },
+    {
+      "keyword": "satisfaction",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "satisfaction"
+    },
+    {
+      "keyword": "machine translation",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "기계번역"
+    },
+    {
+      "keyword": "semiconductor manufacturing process",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "semiconductor manufacturing process"
+    },
+    {
+      "keyword": "similar groups",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "similar groups"
+    },
+    {
+      "keyword": "srgm",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "srgm"
+    },
+    {
+      "keyword": "text analytics",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "text analytics"
+    },
+    {
+      "keyword": "text classification",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "text classification"
+    },
+    {
+      "keyword": "time series",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "time series"
+    },
+    {
+      "keyword": "tourism",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "관광"
+    },
+    {
+      "keyword": "ui",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "ui"
+    },
+    {
+      "keyword": "mh algorithm",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "m h algorithm"
+    },
+    {
+      "keyword": "e-commerce",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "전자상거래"
+    },
+    {
+      "keyword": "llm",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "llm"
+    },
+    {
+      "keyword": "kobert",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "kobert"
+    },
+    {
+      "keyword": "ERP",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "erp"
+    },
+    {
+      "keyword": "Markov chain",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "markov chain"
+    },
+    {
+      "keyword": "OWAS",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "owas"
+    },
+    {
+      "keyword": "action recognition",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "동작 인식"
+    },
+    {
+      "keyword": "algorithms",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "algorithms"
+    },
+    {
+      "keyword": "apple",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "apple"
+    },
+    {
+      "keyword": "availability",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "availability"
+    },
+    {
+      "keyword": "cbm",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "cbm"
+    },
+    {
+      "keyword": "convolutional neural network",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "convolution neural network"
+    },
+    {
+      "keyword": "electromyography",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "electromyography"
+    },
+    {
+      "keyword": "evaluation",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "evaluation"
+    },
+    {
+      "keyword": "factor analysis",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "factor analysis"
+    },
+    {
+      "keyword": "farmer",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "farmer"
+    },
+    {
+      "keyword": "importance-performance analysis",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "importance performance analysis"
+    },
+    {
+      "keyword": "job autonomy",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "job autonomy"
+    },
+    {
+      "keyword": "job performance",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "job performance"
+    },
+    {
+      "keyword": "job satisfaction",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "직무만족"
+    },
+    {
+      "keyword": "vision transformer",
+      "weight": 0.0059,
+      "weight_raw": 0.008235,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.007168,
+      "paper_count": 279,
+      "merged_variants": "vision transformer"
+    }
+  ]
+}

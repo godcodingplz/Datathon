@@ -1,0 +1,779 @@
+{
+  "year": 2025,
+  "class_name": "기타 공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 77,
+  "keywords": [
+    {
+      "keyword": "public transportation",
+      "weight": 0.041825,
+      "weight_raw": 0.35,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.033435,
+      "paper_count": 329,
+      "merged_variants": "public transportation"
+    },
+    {
+      "keyword": "railway bridge",
+      "weight": 0.030418,
+      "weight_raw": 0.254545,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.024316,
+      "paper_count": 329,
+      "merged_variants": "railway bridge;장대레일;철도교량"
+    },
+    {
+      "keyword": "AI",
+      "weight": 0.026616,
+      "weight_raw": 0.222727,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.021277,
+      "paper_count": 329,
+      "merged_variants": "ai"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.026616,
+      "weight_raw": 0.222727,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.021277,
+      "paper_count": 329,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "efficiency",
+      "weight": 0.026616,
+      "weight_raw": 0.222727,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.021277,
+      "paper_count": 329,
+      "merged_variants": "efficiency;효율성"
+    },
+    {
+      "keyword": "mobility",
+      "weight": 0.026616,
+      "weight_raw": 0.222727,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.021277,
+      "paper_count": 329,
+      "merged_variants": "mobility;도심항공교통"
+    },
+    {
+      "keyword": "clustering analysis",
+      "weight": 0.022814,
+      "weight_raw": 0.190909,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.018237,
+      "paper_count": 329,
+      "merged_variants": "clustering analysis;군집분석;다항로짓모형"
+    },
+    {
+      "keyword": "data analysis",
+      "weight": 0.022814,
+      "weight_raw": 0.190909,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.018237,
+      "paper_count": 329,
+      "merged_variants": "data analysis;자료포락분석"
+    },
+    {
+      "keyword": "travel behavior",
+      "weight": 0.022814,
+      "weight_raw": 0.190909,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.018237,
+      "paper_count": 329,
+      "merged_variants": "travel behavior;통행행태"
+    },
+    {
+      "keyword": "waiting time",
+      "weight": 0.022814,
+      "weight_raw": 0.190909,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.018237,
+      "paper_count": 329,
+      "merged_variants": "waiting time;대기시간;통행시간"
+    },
+    {
+      "keyword": "railway",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "railway;철도"
+    },
+    {
+      "keyword": "tram",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "tram;트램"
+    },
+    {
+      "keyword": "risk assessment",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "risk assessment"
+    },
+    {
+      "keyword": "urban railway",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "urban railway;도시철도"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "healthcare",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "healthcare"
+    },
+    {
+      "keyword": "generative AI",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "generative ai"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.019011,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.015198,
+      "paper_count": 329,
+      "merged_variants": "autonomous driving"
+    },
+    {
+      "keyword": "tunnel",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "tunnel;터널"
+    },
+    {
+      "keyword": "track",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "track;궤도"
+    },
+    {
+      "keyword": "time series analysis",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "time series analysis;시계열 분석"
+    },
+    {
+      "keyword": "safety",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "safety;혼잡 완화"
+    },
+    {
+      "keyword": "railway technology",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "railway technology"
+    },
+    {
+      "keyword": "rail surface defects",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "rail surface defects;궤도틀림"
+    },
+    {
+      "keyword": "game",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "game"
+    },
+    {
+      "keyword": "finite element",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "finite element;유한요소"
+    },
+    {
+      "keyword": "esports",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "e sports;esports"
+    },
+    {
+      "keyword": "contact model",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "contact model;접촉 모델"
+    },
+    {
+      "keyword": "contact force",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "contact force;접촉력"
+    },
+    {
+      "keyword": "community detection",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "community detection;커뮤니티 디텍션"
+    },
+    {
+      "keyword": "assistive technology",
+      "weight": 0.015209,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012158,
+      "paper_count": 329,
+      "merged_variants": "assistive technology"
+    },
+    {
+      "keyword": "signalized intersection",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "signalized intersection"
+    },
+    {
+      "keyword": "usability evaluation",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "usability evaluation"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "virtual reality",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "virtual reality"
+    },
+    {
+      "keyword": "rolling stock",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "rolling stock"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "powered wheelchair",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "powered wheelchair"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.011407,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009119,
+      "paper_count": 329,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "railway maintenance",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "railway maintenance"
+    },
+    {
+      "keyword": "game design",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "game design"
+    },
+    {
+      "keyword": "game difficulty",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "game difficulty"
+    },
+    {
+      "keyword": "network analysis",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "네트워크 분석"
+    },
+    {
+      "keyword": "pose estimation",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "pose estimation"
+    },
+    {
+      "keyword": "public transit",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "public transit"
+    },
+    {
+      "keyword": "rail maintenance",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "rail maintenance"
+    },
+    {
+      "keyword": "railway capacity",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "선로용량"
+    },
+    {
+      "keyword": "railway network",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "철도 네트워크"
+    },
+    {
+      "keyword": "value of travel time",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "value of travel time"
+    },
+    {
+      "keyword": "gait performance",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "gait performance"
+    },
+    {
+      "keyword": "signal system",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "신호시스템"
+    },
+    {
+      "keyword": "skip stop",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "skip stop"
+    },
+    {
+      "keyword": "standards",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "standards"
+    },
+    {
+      "keyword": "track bridge interaction",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "track bridge interaction"
+    },
+    {
+      "keyword": "train control system",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "train control system"
+    },
+    {
+      "keyword": "urban planning",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "urban planning"
+    },
+    {
+      "keyword": "semantic segmentation",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "semantic segmentation"
+    },
+    {
+      "keyword": "field measurement",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "field measurement"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "affect",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "affect"
+    },
+    {
+      "keyword": "COMSAR",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "comsar"
+    },
+    {
+      "keyword": "COVID-19",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "CWR",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "cwr"
+    },
+    {
+      "keyword": "PSM",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "psm"
+    },
+    {
+      "keyword": "TBI",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "tbi"
+    },
+    {
+      "keyword": "Yolo",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "yolo"
+    },
+    {
+      "keyword": "accessibility",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "accessibility"
+    },
+    {
+      "keyword": "ammonia",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "ammonia"
+    },
+    {
+      "keyword": "ergonomics",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "ergonomics"
+    },
+    {
+      "keyword": "assistive device",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "assistive device"
+    },
+    {
+      "keyword": "ballasted track",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "ballasted track"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "built environment",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "built environment"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "carbon neutrality"
+    },
+    {
+      "keyword": "channel estimation",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "channel estimation"
+    },
+    {
+      "keyword": "demand forecasting model",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "demand forecasting model"
+    },
+    {
+      "keyword": "wheel flat",
+      "weight": 0.007605,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006079,
+      "paper_count": 329,
+      "merged_variants": "wheel flat"
+    }
+  ]
+}

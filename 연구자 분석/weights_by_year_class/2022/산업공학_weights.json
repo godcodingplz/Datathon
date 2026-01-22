@@ -1,0 +1,699 @@
+{
+  "year": 2022,
+  "class_name": "산업공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 69,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.307305,
+      "weight_raw": 0.35,
+      "freq": 122,
+      "burst": 0.0,
+      "share": 0.405316,
+      "paper_count": 301,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.141058,
+      "weight_raw": 0.160656,
+      "freq": 56,
+      "burst": 0.0,
+      "share": 0.186047,
+      "paper_count": 301,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.09068,
+      "weight_raw": 0.103279,
+      "freq": 36,
+      "burst": 0.0,
+      "share": 0.119601,
+      "paper_count": 301,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.025189,
+      "weight_raw": 0.028689,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.033223,
+      "paper_count": 301,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "recommender system",
+      "weight": 0.02267,
+      "weight_raw": 0.02582,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.0299,
+      "paper_count": 301,
+      "merged_variants": "recommender system"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.015113,
+      "weight_raw": 0.017213,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.019934,
+      "paper_count": 301,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.012594,
+      "weight_raw": 0.014344,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016611,
+      "paper_count": 301,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "supply chain",
+      "weight": 0.012594,
+      "weight_raw": 0.014344,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016611,
+      "paper_count": 301,
+      "merged_variants": "supply chain"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.012594,
+      "weight_raw": 0.014344,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016611,
+      "paper_count": 301,
+      "merged_variants": "text mining;텍스트마이닝"
+    },
+    {
+      "keyword": "user experience",
+      "weight": 0.012594,
+      "weight_raw": 0.014344,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016611,
+      "paper_count": 301,
+      "merged_variants": "user experience"
+    },
+    {
+      "keyword": "computer vision",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "computer vision"
+    },
+    {
+      "keyword": "data imbalance",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "data imbalance;데이터 불균형"
+    },
+    {
+      "keyword": "covid-19",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "word embedding",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "word embedding;워드 임베딩"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "auxiliary classifier",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "auxiliary classifier;보조 분류기"
+    },
+    {
+      "keyword": "pre-trained language model",
+      "weight": 0.010076,
+      "weight_raw": 0.011475,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013289,
+      "paper_count": 301,
+      "merged_variants": "pre trained language model;사전학습 언어모델"
+    },
+    {
+      "keyword": "economic growth",
+      "weight": 0.007557,
+      "weight_raw": 0.008607,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "economic growth"
+    },
+    {
+      "keyword": "field data analysis",
+      "weight": 0.007557,
+      "weight_raw": 0.008607,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "field data analysis"
+    },
+    {
+      "keyword": "occupational health",
+      "weight": 0.007557,
+      "weight_raw": 0.008607,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "occupational health"
+    },
+    {
+      "keyword": "online reviews",
+      "weight": 0.007557,
+      "weight_raw": 0.008607,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009967,
+      "paper_count": 301,
+      "merged_variants": "online reviews"
+    },
+    {
+      "keyword": "kano",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "kano"
+    },
+    {
+      "keyword": "predictive model",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "predictive model"
+    },
+    {
+      "keyword": "mathematical modeling",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "mathematical modeling"
+    },
+    {
+      "keyword": "moderate regression",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "moderate regression"
+    },
+    {
+      "keyword": "multi-criteria decision making",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "multi criteria decision making"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "optimal inspection interval",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "optimal inspection interval"
+    },
+    {
+      "keyword": "performance evaluation",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "performance evaluation"
+    },
+    {
+      "keyword": "power law process",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "power law process"
+    },
+    {
+      "keyword": "manufacturing",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "manufacturing"
+    },
+    {
+      "keyword": "weapons system",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "weapons system"
+    },
+    {
+      "keyword": "qfd",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "qfd"
+    },
+    {
+      "keyword": "reporting guideline",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "reporting guideline"
+    },
+    {
+      "keyword": "robust design",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "robust design"
+    },
+    {
+      "keyword": "semiconductor",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "semiconductor"
+    },
+    {
+      "keyword": "survey",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "survey"
+    },
+    {
+      "keyword": "topsis",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "topsis"
+    },
+    {
+      "keyword": "transfer entropy",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "transfer entropy"
+    },
+    {
+      "keyword": "ui",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "ui"
+    },
+    {
+      "keyword": "usability test",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "usability test"
+    },
+    {
+      "keyword": "wafer bin map",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "wafer bin map"
+    },
+    {
+      "keyword": "indonesia",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "indonesia"
+    },
+    {
+      "keyword": "information flow",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "information flow"
+    },
+    {
+      "keyword": "distribution",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "distribution"
+    },
+    {
+      "keyword": "index",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "index"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "딥 러닝"
+    },
+    {
+      "keyword": "active senior",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "active senior"
+    },
+    {
+      "keyword": "analytic hierarchy process",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "analytic hierarchy process"
+    },
+    {
+      "keyword": "anomaly detection",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "이상 탐지"
+    },
+    {
+      "keyword": "artificial neural network",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "artificial neural network"
+    },
+    {
+      "keyword": "benchmarking",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "benchmarking"
+    },
+    {
+      "keyword": "cbm",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "cbm"
+    },
+    {
+      "keyword": "cbm+",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "cbm+"
+    },
+    {
+      "keyword": "class imbalance",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "class imbalance"
+    },
+    {
+      "keyword": "comment",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "댓글"
+    },
+    {
+      "keyword": "defect prediction",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "defect prediction"
+    },
+    {
+      "keyword": "heterogeneity",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "heterogeneity"
+    },
+    {
+      "keyword": "digital supply chain management",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "digital supply chain management"
+    },
+    {
+      "keyword": "electric power steering",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "electric power steering"
+    },
+    {
+      "keyword": "electromyography",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "electromyography"
+    },
+    {
+      "keyword": "ergonomic assessment",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "ergonomic assessment"
+    },
+    {
+      "keyword": "financial market",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "financial market"
+    },
+    {
+      "keyword": "framework",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "framework"
+    },
+    {
+      "keyword": "geographic information system",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "geographic information system"
+    },
+    {
+      "keyword": "gis",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "gis"
+    },
+    {
+      "keyword": "hazard analysis",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "hazard analysis"
+    },
+    {
+      "keyword": "work-life balance",
+      "weight": 0.005038,
+      "weight_raw": 0.005738,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006645,
+      "paper_count": 301,
+      "merged_variants": "work life balance"
+    }
+  ]
+}

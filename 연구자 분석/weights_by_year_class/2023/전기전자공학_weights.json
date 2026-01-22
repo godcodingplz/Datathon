@@ -1,0 +1,879 @@
+{
+  "year": 2023,
+  "class_name": "전기전자공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 87,
+  "keywords": [
+    {
+      "keyword": "deep learning",
+      "weight": 0.14528,
+      "weight_raw": 0.35,
+      "freq": 257,
+      "burst": 0.0,
+      "share": 0.070936,
+      "paper_count": 3623,
+      "merged_variants": "deep learning;딥러닝"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.061051,
+      "weight_raw": 0.147082,
+      "freq": 108,
+      "burst": 0.0,
+      "share": 0.02981,
+      "paper_count": 3623,
+      "merged_variants": "ai;artificial intelligence;인공지능"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.04918,
+      "weight_raw": 0.118482,
+      "freq": 87,
+      "burst": 0.0,
+      "share": 0.024013,
+      "paper_count": 3623,
+      "merged_variants": "machine learning;기계학습"
+    },
+    {
+      "keyword": "convolutional neural network",
+      "weight": 0.046919,
+      "weight_raw": 0.113035,
+      "freq": 83,
+      "burst": 0.0,
+      "share": 0.022909,
+      "paper_count": 3623,
+      "merged_variants": "cnn;convolutional neural network"
+    },
+    {
+      "keyword": "internet of things",
+      "weight": 0.02883,
+      "weight_raw": 0.069455,
+      "freq": 51,
+      "burst": 0.0,
+      "share": 0.014077,
+      "paper_count": 3623,
+      "merged_variants": "internet of things;iot"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.028265,
+      "weight_raw": 0.068093,
+      "freq": 50,
+      "burst": 0.0,
+      "share": 0.013801,
+      "paper_count": 3623,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "reinforcement learning",
+      "weight": 0.022612,
+      "weight_raw": 0.054475,
+      "freq": 40,
+      "burst": 0.0,
+      "share": 0.011041,
+      "paper_count": 3623,
+      "merged_variants": "reinforcement learning;강화학습"
+    },
+    {
+      "keyword": "deep neural network",
+      "weight": 0.01922,
+      "weight_raw": 0.046304,
+      "freq": 34,
+      "burst": 0.0,
+      "share": 0.009384,
+      "paper_count": 3623,
+      "merged_variants": "deep neural network;dnn"
+    },
+    {
+      "keyword": "lstm",
+      "weight": 0.018089,
+      "weight_raw": 0.04358,
+      "freq": 32,
+      "burst": 0.0,
+      "share": 0.008832,
+      "paper_count": 3623,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "metaverse",
+      "weight": 0.016959,
+      "weight_raw": 0.040856,
+      "freq": 30,
+      "burst": 0.0,
+      "share": 0.00828,
+      "paper_count": 3623,
+      "merged_variants": "metaverse"
+    },
+    {
+      "keyword": "data augmentation",
+      "weight": 0.016393,
+      "weight_raw": 0.039494,
+      "freq": 29,
+      "burst": 0.0,
+      "share": 0.008004,
+      "paper_count": 3623,
+      "merged_variants": "data augmentation;데이터 증강"
+    },
+    {
+      "keyword": "energy storage system",
+      "weight": 0.015263,
+      "weight_raw": 0.03677,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.007452,
+      "paper_count": 3623,
+      "merged_variants": "energy storage system;ess"
+    },
+    {
+      "keyword": "unmanned aerial vehicle",
+      "weight": 0.015263,
+      "weight_raw": 0.03677,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.007452,
+      "paper_count": 3623,
+      "merged_variants": "uav;unmanned aerial vehicle"
+    },
+    {
+      "keyword": "yolo",
+      "weight": 0.014132,
+      "weight_raw": 0.034047,
+      "freq": 25,
+      "burst": 0.0,
+      "share": 0.0069,
+      "paper_count": 3623,
+      "merged_variants": "yolo;yolov5"
+    },
+    {
+      "keyword": "blockchain",
+      "weight": 0.012436,
+      "weight_raw": 0.029961,
+      "freq": 22,
+      "burst": 0.0,
+      "share": 0.006072,
+      "paper_count": 3623,
+      "merged_variants": "blockchain"
+    },
+    {
+      "keyword": "computer vision",
+      "weight": 0.012436,
+      "weight_raw": 0.029961,
+      "freq": 22,
+      "burst": 0.0,
+      "share": 0.006072,
+      "paper_count": 3623,
+      "merged_variants": "computer vision"
+    },
+    {
+      "keyword": "transformer",
+      "weight": 0.012436,
+      "weight_raw": 0.029961,
+      "freq": 22,
+      "burst": 0.0,
+      "share": 0.006072,
+      "paper_count": 3623,
+      "merged_variants": "transformer"
+    },
+    {
+      "keyword": "lithium ion battery",
+      "weight": 0.011871,
+      "weight_raw": 0.028599,
+      "freq": 21,
+      "burst": 0.0,
+      "share": 0.005796,
+      "paper_count": 3623,
+      "merged_variants": "lithium ion battery"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.011306,
+      "weight_raw": 0.027237,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.00552,
+      "paper_count": 3623,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "wireless power transfer",
+      "weight": 0.011306,
+      "weight_raw": 0.027237,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.00552,
+      "paper_count": 3623,
+      "merged_variants": "wireless power transfer;wpt"
+    },
+    {
+      "keyword": "neural network",
+      "weight": 0.011306,
+      "weight_raw": 0.027237,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.00552,
+      "paper_count": 3623,
+      "merged_variants": "neural network"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.011306,
+      "weight_raw": 0.027237,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.00552,
+      "paper_count": 3623,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "deep reinforcement learning",
+      "weight": 0.010741,
+      "weight_raw": 0.025875,
+      "freq": 19,
+      "burst": 0.0,
+      "share": 0.005244,
+      "paper_count": 3623,
+      "merged_variants": "deep reinforcement learning"
+    },
+    {
+      "keyword": "classification",
+      "weight": 0.010175,
+      "weight_raw": 0.024514,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.004968,
+      "paper_count": 3623,
+      "merged_variants": "classification"
+    },
+    {
+      "keyword": "image processing",
+      "weight": 0.010175,
+      "weight_raw": 0.024514,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.004968,
+      "paper_count": 3623,
+      "merged_variants": "image processing"
+    },
+    {
+      "keyword": "virtual reality",
+      "weight": 0.010175,
+      "weight_raw": 0.024514,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.004968,
+      "paper_count": 3623,
+      "merged_variants": "virtual reality"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.009045,
+      "weight_raw": 0.02179,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.004416,
+      "paper_count": 3623,
+      "merged_variants": "autonomous driving"
+    },
+    {
+      "keyword": "digital twin",
+      "weight": 0.009045,
+      "weight_raw": 0.02179,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.004416,
+      "paper_count": 3623,
+      "merged_variants": "digital twin"
+    },
+    {
+      "keyword": "gps",
+      "weight": 0.009045,
+      "weight_raw": 0.02179,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.004416,
+      "paper_count": 3623,
+      "merged_variants": "gps"
+    },
+    {
+      "keyword": "transfer learning",
+      "weight": 0.008479,
+      "weight_raw": 0.020428,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.00414,
+      "paper_count": 3623,
+      "merged_variants": "transfer learning"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.008479,
+      "weight_raw": 0.020428,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.00414,
+      "paper_count": 3623,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.008479,
+      "weight_raw": 0.020428,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.00414,
+      "paper_count": 3623,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "covid 19",
+      "weight": 0.008479,
+      "weight_raw": 0.020428,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.00414,
+      "paper_count": 3623,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "augmented reality",
+      "weight": 0.008479,
+      "weight_raw": 0.020428,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.00414,
+      "paper_count": 3623,
+      "merged_variants": "augmented reality"
+    },
+    {
+      "keyword": "anomaly detection",
+      "weight": 0.007914,
+      "weight_raw": 0.019066,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.003864,
+      "paper_count": 3623,
+      "merged_variants": "anomaly detection"
+    },
+    {
+      "keyword": "cmos",
+      "weight": 0.007914,
+      "weight_raw": 0.019066,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.003864,
+      "paper_count": 3623,
+      "merged_variants": "cmos"
+    },
+    {
+      "keyword": "mobile robot",
+      "weight": 0.007914,
+      "weight_raw": 0.019066,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.003864,
+      "paper_count": 3623,
+      "merged_variants": "mobile robot"
+    },
+    {
+      "keyword": "radar",
+      "weight": 0.007914,
+      "weight_raw": 0.019066,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.003864,
+      "paper_count": 3623,
+      "merged_variants": "radar"
+    },
+    {
+      "keyword": "semantic segmentation",
+      "weight": 0.007914,
+      "weight_raw": 0.019066,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.003864,
+      "paper_count": 3623,
+      "merged_variants": "semantic segmentation"
+    },
+    {
+      "keyword": "artificial neural network",
+      "weight": 0.007349,
+      "weight_raw": 0.017704,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.003588,
+      "paper_count": 3623,
+      "merged_variants": "artificial neural network"
+    },
+    {
+      "keyword": "electric vehicle",
+      "weight": 0.007349,
+      "weight_raw": 0.017704,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.003588,
+      "paper_count": 3623,
+      "merged_variants": "electric vehicle"
+    },
+    {
+      "keyword": "federated learning",
+      "weight": 0.007349,
+      "weight_raw": 0.017704,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.003588,
+      "paper_count": 3623,
+      "merged_variants": "federated learning"
+    },
+    {
+      "keyword": "u net",
+      "weight": 0.006783,
+      "weight_raw": 0.016342,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.003312,
+      "paper_count": 3623,
+      "merged_variants": "u net"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.006783,
+      "weight_raw": 0.016342,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.003312,
+      "paper_count": 3623,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "super resolution",
+      "weight": 0.006783,
+      "weight_raw": 0.016342,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.003312,
+      "paper_count": 3623,
+      "merged_variants": "super resolution"
+    },
+    {
+      "keyword": "mimo",
+      "weight": 0.006218,
+      "weight_raw": 0.014981,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.003036,
+      "paper_count": 3623,
+      "merged_variants": "mimo"
+    },
+    {
+      "keyword": "sar",
+      "weight": 0.006218,
+      "weight_raw": 0.014981,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.003036,
+      "paper_count": 3623,
+      "merged_variants": "sar"
+    },
+    {
+      "keyword": "smart farm",
+      "weight": 0.006218,
+      "weight_raw": 0.014981,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.003036,
+      "paper_count": 3623,
+      "merged_variants": "smart farm"
+    },
+    {
+      "keyword": "w band",
+      "weight": 0.006218,
+      "weight_raw": 0.014981,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.003036,
+      "paper_count": 3623,
+      "merged_variants": "w band"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.006218,
+      "weight_raw": 0.014981,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.003036,
+      "paper_count": 3623,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "point cloud",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "point cloud"
+    },
+    {
+      "keyword": "svm",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "svm"
+    },
+    {
+      "keyword": "safety",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "safety"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "real time",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "real time"
+    },
+    {
+      "keyword": "path planning",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "path planning"
+    },
+    {
+      "keyword": "information security",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "information security"
+    },
+    {
+      "keyword": "induction motor",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "induction motor"
+    },
+    {
+      "keyword": "image classification",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "image classification"
+    },
+    {
+      "keyword": "gan",
+      "weight": 0.005653,
+      "weight_raw": 0.013619,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.00276,
+      "paper_count": 3623,
+      "merged_variants": "gan"
+    },
+    {
+      "keyword": "smart factory",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "smart factory"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "noma",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "noma"
+    },
+    {
+      "keyword": "fpga",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "fpga"
+    },
+    {
+      "keyword": "fft",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "fft"
+    },
+    {
+      "keyword": "feature extraction",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "feature extraction"
+    },
+    {
+      "keyword": "attention mechanism",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "attention mechanism"
+    },
+    {
+      "keyword": "arduino",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "arduino"
+    },
+    {
+      "keyword": "5g",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "5g"
+    },
+    {
+      "keyword": "cctv",
+      "weight": 0.005088,
+      "weight_raw": 0.012257,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.002484,
+      "paper_count": 3623,
+      "merged_variants": "cctv"
+    },
+    {
+      "keyword": "face recognition",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "face recognition"
+    },
+    {
+      "keyword": "signal processing",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "signal processing"
+    },
+    {
+      "keyword": "reactive power",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "reactive power"
+    },
+    {
+      "keyword": "random forest",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "random forest"
+    },
+    {
+      "keyword": "power factor",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "power factor"
+    },
+    {
+      "keyword": "mqtt",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "mqtt"
+    },
+    {
+      "keyword": "interaction",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "interaction"
+    },
+    {
+      "keyword": "game",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "game"
+    },
+    {
+      "keyword": "detection",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "detection"
+    },
+    {
+      "keyword": "edge computing",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "edge computing"
+    },
+    {
+      "keyword": "deep q network",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "deep q network"
+    },
+    {
+      "keyword": "data analysis",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "data analysis"
+    },
+    {
+      "keyword": "big data analysis",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "big data analysis"
+    },
+    {
+      "keyword": "bert",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "bert"
+    },
+    {
+      "keyword": "beamforming",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "beamforming"
+    },
+    {
+      "keyword": "android",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "android"
+    },
+    {
+      "keyword": "vision transformer",
+      "weight": 0.004522,
+      "weight_raw": 0.010895,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 3623,
+      "merged_variants": "vision transformer"
+    }
+  ]
+}

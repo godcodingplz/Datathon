@@ -1,0 +1,419 @@
+{
+  "year": 2025,
+  "class_name": "산업공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 41,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.23913,
+      "weight_raw": 0.35,
+      "freq": 66,
+      "burst": 0.0,
+      "share": 0.294643,
+      "paper_count": 224,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.228261,
+      "weight_raw": 0.334091,
+      "freq": 63,
+      "burst": 0.0,
+      "share": 0.28125,
+      "paper_count": 224,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.072464,
+      "weight_raw": 0.106061,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.089286,
+      "paper_count": 224,
+      "merged_variants": "natural language processing;nlp"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.047101,
+      "weight_raw": 0.068939,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.058036,
+      "paper_count": 224,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "large language model",
+      "weight": 0.032609,
+      "weight_raw": 0.047727,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.040179,
+      "paper_count": 224,
+      "merged_variants": "large language model;large language models"
+    },
+    {
+      "keyword": "recommender system",
+      "weight": 0.025362,
+      "weight_raw": 0.037121,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.03125,
+      "paper_count": 224,
+      "merged_variants": "recommender system"
+    },
+    {
+      "keyword": "review helpfulness prediction",
+      "weight": 0.021739,
+      "weight_raw": 0.031818,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.026786,
+      "paper_count": 224,
+      "merged_variants": "review helpfulness prediction;리뷰 유용성 예측"
+    },
+    {
+      "keyword": "user experience",
+      "weight": 0.021739,
+      "weight_raw": 0.031818,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.026786,
+      "paper_count": 224,
+      "merged_variants": "user experience"
+    },
+    {
+      "keyword": "time series forecasting",
+      "weight": 0.018116,
+      "weight_raw": 0.026515,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.022321,
+      "paper_count": 224,
+      "merged_variants": "time series forecasting;시계열 예측"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.018116,
+      "weight_raw": 0.026515,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.022321,
+      "paper_count": 224,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "aspect based sentiment analysis",
+      "weight": 0.014493,
+      "weight_raw": 0.021212,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.017857,
+      "paper_count": 224,
+      "merged_variants": "aspect based sentiment analysis"
+    },
+    {
+      "keyword": "generative ai",
+      "weight": 0.014493,
+      "weight_raw": 0.021212,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.017857,
+      "paper_count": 224,
+      "merged_variants": "생성형 ai"
+    },
+    {
+      "keyword": "hedonic motivation",
+      "weight": 0.014493,
+      "weight_raw": 0.021212,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.017857,
+      "paper_count": 224,
+      "merged_variants": "hedonic motivation;쾌락적 동기"
+    },
+    {
+      "keyword": "multi agent system",
+      "weight": 0.014493,
+      "weight_raw": 0.021212,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.017857,
+      "paper_count": 224,
+      "merged_variants": "multi agent system;멀티 에이전트"
+    },
+    {
+      "keyword": "supply chain",
+      "weight": 0.01087,
+      "weight_raw": 0.015909,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013393,
+      "paper_count": 224,
+      "merged_variants": "supply chain"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.01087,
+      "weight_raw": 0.015909,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013393,
+      "paper_count": 224,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.01087,
+      "weight_raw": 0.015909,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013393,
+      "paper_count": 224,
+      "merged_variants": "텍스트마이닝"
+    },
+    {
+      "keyword": "neural network",
+      "weight": 0.01087,
+      "weight_raw": 0.015909,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013393,
+      "paper_count": 224,
+      "merged_variants": "neural network"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.01087,
+      "weight_raw": 0.015909,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013393,
+      "paper_count": 224,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "chatbot",
+      "weight": 0.01087,
+      "weight_raw": 0.015909,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.013393,
+      "paper_count": 224,
+      "merged_variants": "chatbot"
+    },
+    {
+      "keyword": "lifetime distribution",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "lifetime distribution"
+    },
+    {
+      "keyword": "survival analysis",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "survival analysis"
+    },
+    {
+      "keyword": "recommendation",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "recommendation"
+    },
+    {
+      "keyword": "reba",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "reba"
+    },
+    {
+      "keyword": "purchase intention",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "purchase intention"
+    },
+    {
+      "keyword": "psm",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "psm"
+    },
+    {
+      "keyword": "musculoskeletal pain",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "musculoskeletal pain"
+    },
+    {
+      "keyword": "missing data imputation",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "missing data imputation"
+    },
+    {
+      "keyword": "mil hdbk 217f",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "mil hdbk 217f"
+    },
+    {
+      "keyword": "makespan",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "makespan"
+    },
+    {
+      "keyword": "accident",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "accident"
+    },
+    {
+      "keyword": "job stress",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "job stress"
+    },
+    {
+      "keyword": "information retrieval",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "information retrieval"
+    },
+    {
+      "keyword": "ewom",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "ewom"
+    },
+    {
+      "keyword": "ergonomic design",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "ergonomic design"
+    },
+    {
+      "keyword": "defect classification",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "defect classification"
+    },
+    {
+      "keyword": "constraint programming",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "constraint programming"
+    },
+    {
+      "keyword": "case study",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "case study"
+    },
+    {
+      "keyword": "average run length",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "average run length"
+    },
+    {
+      "keyword": "asrp",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "asrp"
+    },
+    {
+      "keyword": "work procedure",
+      "weight": 0.007246,
+      "weight_raw": 0.010606,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008929,
+      "paper_count": 224,
+      "merged_variants": "work procedure"
+    }
+  ]
+}

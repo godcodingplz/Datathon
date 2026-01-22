@@ -1,0 +1,509 @@
+{
+  "year": 2022,
+  "class_name": "화학공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 50,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.354839,
+      "weight_raw": 0.35,
+      "freq": 77,
+      "burst": 0.0,
+      "share": 0.250814,
+      "paper_count": 307,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "polymer",
+      "weight": 0.138249,
+      "weight_raw": 0.136364,
+      "freq": 30,
+      "burst": 0.0,
+      "share": 0.09772,
+      "paper_count": 307,
+      "merged_variants": "polymer"
+    },
+    {
+      "keyword": "rheological property",
+      "weight": 0.023041,
+      "weight_raw": 0.022727,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016287,
+      "paper_count": 307,
+      "merged_variants": "rheological properties;rheological property"
+    },
+    {
+      "keyword": "additive",
+      "weight": 0.018433,
+      "weight_raw": 0.018182,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013029,
+      "paper_count": 307,
+      "merged_variants": "additive;additives"
+    },
+    {
+      "keyword": "life cycle assessment",
+      "weight": 0.018433,
+      "weight_raw": 0.018182,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013029,
+      "paper_count": 307,
+      "merged_variants": "life cycle assessment;전과정평가"
+    },
+    {
+      "keyword": "water digital twin",
+      "weight": 0.018433,
+      "weight_raw": 0.018182,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013029,
+      "paper_count": 307,
+      "merged_variants": "water digital twin;워터 디지털 트윈"
+    },
+    {
+      "keyword": "gold nanoparticle",
+      "weight": 0.013825,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009772,
+      "paper_count": 307,
+      "merged_variants": "gold nanoparticle"
+    },
+    {
+      "keyword": "바이오매스",
+      "weight": 0.013825,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009772,
+      "paper_count": 307,
+      "merged_variants": "바이오매스"
+    },
+    {
+      "keyword": "oil resistance",
+      "weight": 0.013825,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009772,
+      "paper_count": 307,
+      "merged_variants": "oil resistance"
+    },
+    {
+      "keyword": "contact lens",
+      "weight": 0.013825,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009772,
+      "paper_count": 307,
+      "merged_variants": "contact lens"
+    },
+    {
+      "keyword": "cho",
+      "weight": 0.013825,
+      "weight_raw": 0.013636,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.009772,
+      "paper_count": 307,
+      "merged_variants": "cho"
+    },
+    {
+      "keyword": "self-assembly",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "self assembly"
+    },
+    {
+      "keyword": "nylon 6",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "nylon 6"
+    },
+    {
+      "keyword": "orientation",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "orientation"
+    },
+    {
+      "keyword": "photo-crosslinking",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "photo crosslinking"
+    },
+    {
+      "keyword": "physical properties",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "physical properties"
+    },
+    {
+      "keyword": "polyphenol",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "polyphenol"
+    },
+    {
+      "keyword": "porous membrane",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "porous membrane"
+    },
+    {
+      "keyword": "processing",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "processing"
+    },
+    {
+      "keyword": "sustainability",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "지속가능성"
+    },
+    {
+      "keyword": "self-healing",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "self healing"
+    },
+    {
+      "keyword": "shake flask",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "shake flask"
+    },
+    {
+      "keyword": "strain sensor",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "strain sensor"
+    },
+    {
+      "keyword": "sub&gt",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "sub&gt"
+    },
+    {
+      "keyword": "nanoparticle",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "nanoparticles"
+    },
+    {
+      "keyword": "sustained release",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "sustained release"
+    },
+    {
+      "keyword": "thermal property",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "thermal properties"
+    },
+    {
+      "keyword": "thermal resistance",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "thermal resistance"
+    },
+    {
+      "keyword": "tissue regeneration",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "tissue regeneration"
+    },
+    {
+      "keyword": "natural cosmetic materials",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "natural cosmetic materials"
+    },
+    {
+      "keyword": "glucose",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "glucose"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "biosensor",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "biosensor"
+    },
+    {
+      "keyword": "ABS",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "acrylonitrile butadiene styrene"
+    },
+    {
+      "keyword": "HPLC Analysis",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "hplc analysis"
+    },
+    {
+      "keyword": "adhesion",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "adhesion"
+    },
+    {
+      "keyword": "antibacterial film",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "antibacterial films"
+    },
+    {
+      "keyword": "antibacterial property",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "antibacterial property"
+    },
+    {
+      "keyword": "antioxidant activity",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "antioxidant activity"
+    },
+    {
+      "keyword": "bioethanol",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "bioethanol"
+    },
+    {
+      "keyword": "carbon fiber",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "carbon fiber"
+    },
+    {
+      "keyword": "hydrogen bond",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "hydrogen bond"
+    },
+    {
+      "keyword": "cardanol",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "cardanol"
+    },
+    {
+      "keyword": "catalyst",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "촉매"
+    },
+    {
+      "keyword": "crosslinking agent",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "crosslinking agent"
+    },
+    {
+      "keyword": "ethylene vinyl acetate",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "ethylene vinyl acetate"
+    },
+    {
+      "keyword": "flavonoid",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "flavonoid"
+    },
+    {
+      "keyword": "glycidyl methacrylate",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "glycidyl methacrylate"
+    },
+    {
+      "keyword": "graphene",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "graphene"
+    },
+    {
+      "keyword": "wet granulation",
+      "weight": 0.009217,
+      "weight_raw": 0.009091,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006515,
+      "paper_count": 307,
+      "merged_variants": "wet granulation"
+    }
+  ]
+}

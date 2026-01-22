@@ -1,0 +1,309 @@
+{
+  "year": 2021,
+  "class_name": "조선해양공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 30,
+  "keywords": [
+    {
+      "keyword": "model test",
+      "weight": 0.125,
+      "weight_raw": 0.35,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.052885,
+      "paper_count": 208,
+      "merged_variants": "model test"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.090909,
+      "weight_raw": 0.254545,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.038462,
+      "paper_count": 208,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "wave energy converter",
+      "weight": 0.079545,
+      "weight_raw": 0.222727,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.033654,
+      "paper_count": 208,
+      "merged_variants": "wave energy converter"
+    },
+    {
+      "keyword": "cavitation inception speed",
+      "weight": 0.045455,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.019231,
+      "paper_count": 208,
+      "merged_variants": "cavitation inception speed"
+    },
+    {
+      "keyword": "manoeuvrability",
+      "weight": 0.034091,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.014423,
+      "paper_count": 208,
+      "merged_variants": "manoeuvrability"
+    },
+    {
+      "keyword": "offshore wind farm",
+      "weight": 0.034091,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.014423,
+      "paper_count": 208,
+      "merged_variants": "offshore wind farm"
+    },
+    {
+      "keyword": "oscillating water column",
+      "weight": 0.034091,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.014423,
+      "paper_count": 208,
+      "merged_variants": "oscillating water column"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.034091,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.014423,
+      "paper_count": 208,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "large cavitation tunnel",
+      "weight": 0.034091,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.014423,
+      "paper_count": 208,
+      "merged_variants": "large cavitation tunnel"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.034091,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.014423,
+      "paper_count": 208,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "numerical wave tank",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "numerical wave tank"
+    },
+    {
+      "keyword": "unmanned surface vehicle",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "unmanned surface vehicle"
+    },
+    {
+      "keyword": "suspended sediment",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "suspended sediment"
+    },
+    {
+      "keyword": "submerged body",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "submerged body"
+    },
+    {
+      "keyword": "secondary barrier",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "secondary barrier"
+    },
+    {
+      "keyword": "sea trial",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "sea trial"
+    },
+    {
+      "keyword": "rudder cavitation",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "rudder cavitation"
+    },
+    {
+      "keyword": "prediction",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "prediction"
+    },
+    {
+      "keyword": "openfoam",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "openfoam"
+    },
+    {
+      "keyword": "frmt",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "frmt"
+    },
+    {
+      "keyword": "numerical analysis",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "numerical analysis"
+    },
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "kcs",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "kcs"
+    },
+    {
+      "keyword": "jet flow",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "jet flow"
+    },
+    {
+      "keyword": "floating offshore wind turbine",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "floating offshore wind turbine"
+    },
+    {
+      "keyword": "field observation",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "field observation"
+    },
+    {
+      "keyword": "do",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "do"
+    },
+    {
+      "keyword": "current generator",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "current generator"
+    },
+    {
+      "keyword": "calibration",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "calibration"
+    },
+    {
+      "keyword": "water quality",
+      "weight": 0.022727,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.009615,
+      "paper_count": 208,
+      "merged_variants": "water quality"
+    }
+  ]
+}

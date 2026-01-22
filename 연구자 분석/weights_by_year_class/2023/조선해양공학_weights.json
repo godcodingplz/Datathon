@@ -1,0 +1,389 @@
+{
+  "year": 2023,
+  "class_name": "조선해양공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 38,
+  "keywords": [
+    {
+      "keyword": "model test",
+      "weight": 0.076087,
+      "weight_raw": 0.35,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.029046,
+      "paper_count": 241,
+      "merged_variants": "model test"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.054348,
+      "weight_raw": 0.25,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.020747,
+      "paper_count": 241,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "biofouling",
+      "weight": 0.043478,
+      "weight_raw": 0.2,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.016598,
+      "paper_count": 241,
+      "merged_variants": "biofouling"
+    },
+    {
+      "keyword": "covid-19",
+      "weight": 0.043478,
+      "weight_raw": 0.2,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.016598,
+      "paper_count": 241,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "IMO",
+      "weight": 0.032609,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.012448,
+      "paper_count": 241,
+      "merged_variants": "imo"
+    },
+    {
+      "keyword": "coastal protection",
+      "weight": 0.032609,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.012448,
+      "paper_count": 241,
+      "merged_variants": "coastal protection"
+    },
+    {
+      "keyword": "marine environment",
+      "weight": 0.032609,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.012448,
+      "paper_count": 241,
+      "merged_variants": "marine environment"
+    },
+    {
+      "keyword": "pitch motion",
+      "weight": 0.032609,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.012448,
+      "paper_count": 241,
+      "merged_variants": "pitch motion"
+    },
+    {
+      "keyword": "prediction",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "prediction"
+    },
+    {
+      "keyword": "life cycle assessment",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "life cycle assessment"
+    },
+    {
+      "keyword": "marine fish cage farm",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "marine fish cage farm"
+    },
+    {
+      "keyword": "marine monitoring",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "marine monitoring"
+    },
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "net zero",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "net zero"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "probabilistic data association filter",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "probabilistic data association filter"
+    },
+    {
+      "keyword": "propeller cavitation",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "propeller cavitation"
+    },
+    {
+      "keyword": "in-water cleaning",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "in water cleaning"
+    },
+    {
+      "keyword": "resistance performance",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "resistance performance"
+    },
+    {
+      "keyword": "survivability",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "survivability"
+    },
+    {
+      "keyword": "total organic carbon",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "total organic carbon"
+    },
+    {
+      "keyword": "large cavitation tunnel",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "large cavitation tunnel"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "image processing technique",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "image processing technique"
+    },
+    {
+      "keyword": "fluid-structure interaction",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "fluid structure interaction"
+    },
+    {
+      "keyword": "floating offshore wind turbine",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "floating offshore wind turbine"
+    },
+    {
+      "keyword": "electric propulsion ship",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "electric propulsion ship"
+    },
+    {
+      "keyword": "cavitation tunnel",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "cavitation tunnel"
+    },
+    {
+      "keyword": "cavitation inception speed",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "cavitation inception speed"
+    },
+    {
+      "keyword": "aquaculture farm management",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "aquaculture farm management"
+    },
+    {
+      "keyword": "appendage modification",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "appendage modification"
+    },
+    {
+      "keyword": "alternative energy",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "alternative energy"
+    },
+    {
+      "keyword": "V-strut",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "v strut"
+    },
+    {
+      "keyword": "Fourier approximation",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "fourier approximation"
+    },
+    {
+      "keyword": "Fenton's method",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "fenton’s method"
+    },
+    {
+      "keyword": "CCS",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "ccs"
+    },
+    {
+      "keyword": "AIS data",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "ais data"
+    },
+    {
+      "keyword": "typhoon hinnamnor",
+      "weight": 0.021739,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008299,
+      "paper_count": 241,
+      "merged_variants": "typhoon hinnamnor"
+    }
+  ]
+}

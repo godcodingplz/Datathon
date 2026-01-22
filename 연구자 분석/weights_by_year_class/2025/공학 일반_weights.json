@@ -1,0 +1,659 @@
+{
+  "year": 2025,
+  "class_name": "공학 일반",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 65,
+  "keywords": [
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.046099,
+      "weight_raw": 0.35,
+      "freq": 26,
+      "burst": 0.0,
+      "share": 0.023029,
+      "paper_count": 1129,
+      "merged_variants": "ai;artificial intelligence"
+    },
+    {
+      "keyword": "nursing students",
+      "weight": 0.042553,
+      "weight_raw": 0.323077,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.021258,
+      "paper_count": 1129,
+      "merged_variants": "nursing students"
+    },
+    {
+      "keyword": "depression",
+      "weight": 0.04078,
+      "weight_raw": 0.309615,
+      "freq": 23,
+      "burst": 0.0,
+      "share": 0.020372,
+      "paper_count": 1129,
+      "merged_variants": "depression"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.037234,
+      "weight_raw": 0.282692,
+      "freq": 21,
+      "burst": 0.0,
+      "share": 0.018601,
+      "paper_count": 1129,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.035461,
+      "weight_raw": 0.269231,
+      "freq": 20,
+      "burst": 0.0,
+      "share": 0.017715,
+      "paper_count": 1129,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "nurse",
+      "weight": 0.028369,
+      "weight_raw": 0.215385,
+      "freq": 16,
+      "burst": 0.0,
+      "share": 0.014172,
+      "paper_count": 1129,
+      "merged_variants": "nurse;nurses"
+    },
+    {
+      "keyword": "mediating effect",
+      "weight": 0.026596,
+      "weight_raw": 0.201923,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.013286,
+      "paper_count": 1129,
+      "merged_variants": "mediating effect"
+    },
+    {
+      "keyword": "quality of life",
+      "weight": 0.026596,
+      "weight_raw": 0.201923,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.013286,
+      "paper_count": 1129,
+      "merged_variants": "life satisfaction;quality of life"
+    },
+    {
+      "keyword": "ahp",
+      "weight": 0.024823,
+      "weight_raw": 0.188462,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.0124,
+      "paper_count": 1129,
+      "merged_variants": "ahp"
+    },
+    {
+      "keyword": "weapon system",
+      "weight": 0.024823,
+      "weight_raw": 0.188462,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.0124,
+      "paper_count": 1129,
+      "merged_variants": "weapon system"
+    },
+    {
+      "keyword": "job satisfaction",
+      "weight": 0.02305,
+      "weight_raw": 0.175,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.011515,
+      "paper_count": 1129,
+      "merged_variants": "job satisfaction"
+    },
+    {
+      "keyword": "Education",
+      "weight": 0.021277,
+      "weight_raw": 0.161538,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.010629,
+      "paper_count": 1129,
+      "merged_variants": "education"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.021277,
+      "weight_raw": 0.161538,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.010629,
+      "paper_count": 1129,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "self efficacy",
+      "weight": 0.019504,
+      "weight_raw": 0.148077,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009743,
+      "paper_count": 1129,
+      "merged_variants": "self efficacy"
+    },
+    {
+      "keyword": "mental health",
+      "weight": 0.019504,
+      "weight_raw": 0.148077,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009743,
+      "paper_count": 1129,
+      "merged_variants": "mental health"
+    },
+    {
+      "keyword": "cybersecurity",
+      "weight": 0.01773,
+      "weight_raw": 0.134615,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008857,
+      "paper_count": 1129,
+      "merged_variants": "cyber security;cybersecurity"
+    },
+    {
+      "keyword": "grit",
+      "weight": 0.01773,
+      "weight_raw": 0.134615,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008857,
+      "paper_count": 1129,
+      "merged_variants": "grit"
+    },
+    {
+      "keyword": "stress",
+      "weight": 0.01773,
+      "weight_raw": 0.134615,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008857,
+      "paper_count": 1129,
+      "merged_variants": "stress"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.01773,
+      "weight_raw": 0.134615,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008857,
+      "paper_count": 1129,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.015957,
+      "weight_raw": 0.121154,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007972,
+      "paper_count": 1129,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "self esteem",
+      "weight": 0.015957,
+      "weight_raw": 0.121154,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007972,
+      "paper_count": 1129,
+      "merged_variants": "self esteem"
+    },
+    {
+      "keyword": "antioxidant activity",
+      "weight": 0.014184,
+      "weight_raw": 0.107692,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007086,
+      "paper_count": 1129,
+      "merged_variants": "antioxidant activity"
+    },
+    {
+      "keyword": "elderly",
+      "weight": 0.014184,
+      "weight_raw": 0.107692,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007086,
+      "paper_count": 1129,
+      "merged_variants": "elderly"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.014184,
+      "weight_raw": 0.107692,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007086,
+      "paper_count": 1129,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "generative ai",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "generative ai"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "quality",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "quality"
+    },
+    {
+      "keyword": "metaverse",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "metaverse"
+    },
+    {
+      "keyword": "social support",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "social support"
+    },
+    {
+      "keyword": "defense industry",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "defense industry"
+    },
+    {
+      "keyword": "LSTM",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "ABTS",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "abts"
+    },
+    {
+      "keyword": "communication",
+      "weight": 0.012411,
+      "weight_raw": 0.094231,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.0062,
+      "paper_count": 1129,
+      "merged_variants": "communication"
+    },
+    {
+      "keyword": "lithium-ion battery",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "lithium ion battery"
+    },
+    {
+      "keyword": "university students",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "university students"
+    },
+    {
+      "keyword": "systematic review",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "systematic review"
+    },
+    {
+      "keyword": "students",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "students"
+    },
+    {
+      "keyword": "nursing",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "nursing"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "defense technology",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "defense technology"
+    },
+    {
+      "keyword": "college students",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "college students"
+    },
+    {
+      "keyword": "anomaly detection",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "anomaly detection"
+    },
+    {
+      "keyword": "IOT",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "iot"
+    },
+    {
+      "keyword": "DPPH",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "dpph"
+    },
+    {
+      "keyword": "CFD",
+      "weight": 0.010638,
+      "weight_raw": 0.080769,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005314,
+      "paper_count": 1129,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "metacognition",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "metacognition"
+    },
+    {
+      "keyword": "technology level",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "technology level"
+    },
+    {
+      "keyword": "suicidal ideation",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "suicidal ideation"
+    },
+    {
+      "keyword": "self leadership",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "self leadership"
+    },
+    {
+      "keyword": "resilience",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "resilience"
+    },
+    {
+      "keyword": "research trend",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "research trend"
+    },
+    {
+      "keyword": "positive psychological capital",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "positive psychological capital"
+    },
+    {
+      "keyword": "pen bread",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "pen bread"
+    },
+    {
+      "keyword": "organizational commitment",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "organizational commitment"
+    },
+    {
+      "keyword": "SMEs",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "smes"
+    },
+    {
+      "keyword": "meta-analysis",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "meta analysis"
+    },
+    {
+      "keyword": "flavonoid",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "flavonoid"
+    },
+    {
+      "keyword": "fatigue",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "fatigue"
+    },
+    {
+      "keyword": "emotional labor",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "emotional labor"
+    },
+    {
+      "keyword": "diabetes",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "diabetes"
+    },
+    {
+      "keyword": "computational fluid dynamics",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "computational fluid dynamics"
+    },
+    {
+      "keyword": "antioxidant",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "antioxidant"
+    },
+    {
+      "keyword": "ESS",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "ess"
+    },
+    {
+      "keyword": "ESG",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "esg"
+    },
+    {
+      "keyword": "turnover intention",
+      "weight": 0.008865,
+      "weight_raw": 0.067308,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004429,
+      "paper_count": 1129,
+      "merged_variants": "turnover intention"
+    }
+  ]
+}

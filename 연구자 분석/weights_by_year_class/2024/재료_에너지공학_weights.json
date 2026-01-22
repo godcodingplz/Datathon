@@ -1,0 +1,679 @@
+{
+  "year": 2024,
+  "class_name": "재료·에너지공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 67,
+  "keywords": [
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.057292,
+      "weight_raw": 0.35,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.039711,
+      "paper_count": 277,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.046875,
+      "weight_raw": 0.286364,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.032491,
+      "paper_count": 277,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.041667,
+      "weight_raw": 0.254545,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.028881,
+      "paper_count": 277,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.036458,
+      "weight_raw": 0.222727,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.025271,
+      "paper_count": 277,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "microstructure",
+      "weight": 0.03125,
+      "weight_raw": 0.190909,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.021661,
+      "paper_count": 277,
+      "merged_variants": "microstructure;microstructures"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.026042,
+      "weight_raw": 0.159091,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.018051,
+      "paper_count": 277,
+      "merged_variants": "carbon neutrality;탄소중립"
+    },
+    {
+      "keyword": "passivation",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "passivation"
+    },
+    {
+      "keyword": "solar power generation",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "solar power generation"
+    },
+    {
+      "keyword": "solar cells",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "solar cells"
+    },
+    {
+      "keyword": "hydraulic performance",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "hydraulic performance;수력학적 성능"
+    },
+    {
+      "keyword": "least squares method",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "least squares method;최소자승법"
+    },
+    {
+      "keyword": "francis turbine",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "francis turbine;프란시스 수차"
+    },
+    {
+      "keyword": "economic analysis",
+      "weight": 0.020833,
+      "weight_raw": 0.127273,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.01444,
+      "paper_count": 277,
+      "merged_variants": "economic analysis"
+    },
+    {
+      "keyword": "residual stress",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "residual stress"
+    },
+    {
+      "keyword": "solar module",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "solar module"
+    },
+    {
+      "keyword": "solar heat",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "태양열"
+    },
+    {
+      "keyword": "sensitivity analysis",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "sensitivity analysis"
+    },
+    {
+      "keyword": "triply periodic minimal surface",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "triply periodic minimal surface"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "hydrogen"
+    },
+    {
+      "keyword": "aluminum alloy",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "aluminum alloy"
+    },
+    {
+      "keyword": "digital image correlation",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "digital image correlation"
+    },
+    {
+      "keyword": "bipv",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "bipv"
+    },
+    {
+      "keyword": "green remodeling",
+      "weight": 0.015625,
+      "weight_raw": 0.095455,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.01083,
+      "paper_count": 277,
+      "merged_variants": "그린리모델링"
+    },
+    {
+      "keyword": "plasma arc welding",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "plasma arc weld"
+    },
+    {
+      "keyword": "plastic deformation",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "plastic deformation"
+    },
+    {
+      "keyword": "severe accident",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "severe accident"
+    },
+    {
+      "keyword": "small modular reactor",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "small modular reactor"
+    },
+    {
+      "keyword": "solar power",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "태양광"
+    },
+    {
+      "keyword": "solar thermal",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "solar thermal"
+    },
+    {
+      "keyword": "spent nuclear fuel",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "사용후핵연료"
+    },
+    {
+      "keyword": "steam generator tube",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "steam generator tube"
+    },
+    {
+      "keyword": "sub>",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "sub&gt"
+    },
+    {
+      "keyword": "ta 10w",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "ta 10w"
+    },
+    {
+      "keyword": "surplus power",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "surplus power"
+    },
+    {
+      "keyword": "tensile properties",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "tensile properties"
+    },
+    {
+      "keyword": "thermal embrittlement",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "thermal embrittlement"
+    },
+    {
+      "keyword": "thermal supply",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "열공급"
+    },
+    {
+      "keyword": "transmission electron microscopy",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "transmission electron microscopy"
+    },
+    {
+      "keyword": "typical meteorological year",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "typical meteorological year"
+    },
+    {
+      "keyword": "utilization rate",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "이용률"
+    },
+    {
+      "keyword": "virtual sensor",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "가상센서"
+    },
+    {
+      "keyword": "wind power generation",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "풍력발전"
+    },
+    {
+      "keyword": "perovskite solar cells",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "perovskite solar cells"
+    },
+    {
+      "keyword": "photovoltaics",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "photovoltaics"
+    },
+    {
+      "keyword": "flexible",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "flexible"
+    },
+    {
+      "keyword": "performance",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "성능"
+    },
+    {
+      "keyword": "particle size",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "particle size"
+    },
+    {
+      "keyword": "ITO",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "ito"
+    },
+    {
+      "keyword": "OMO structures",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "omo 구조"
+    },
+    {
+      "keyword": "agrivoltaics",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "agrivoltaics"
+    },
+    {
+      "keyword": "bioenergy",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "bioenergy"
+    },
+    {
+      "keyword": "coal ash",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "coal ash"
+    },
+    {
+      "keyword": "collector efficiency",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "집열기 효율"
+    },
+    {
+      "keyword": "database",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "데이터베이스"
+    },
+    {
+      "keyword": "experiment",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "experiment"
+    },
+    {
+      "keyword": "extrusion",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "extrusion"
+    },
+    {
+      "keyword": "flat plate collector",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "평판형 집열기"
+    },
+    {
+      "keyword": "floating offshore wind turbine",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "floating offshore wind turbine"
+    },
+    {
+      "keyword": "ground source heat pump",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "ground source heat pump"
+    },
+    {
+      "keyword": "hardening behavior",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "hardening behavior"
+    },
+    {
+      "keyword": "heat pump",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "히트펌프"
+    },
+    {
+      "keyword": "heat transfer",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "열전달"
+    },
+    {
+      "keyword": "hot rolled steel",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "hot rolled steel"
+    },
+    {
+      "keyword": "industrial process",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "산업공정"
+    },
+    {
+      "keyword": "irradiance",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "irradiance"
+    },
+    {
+      "keyword": "offshore wind",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "offshore wind"
+    },
+    {
+      "keyword": "zero energy building",
+      "weight": 0.010417,
+      "weight_raw": 0.063636,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00722,
+      "paper_count": 277,
+      "merged_variants": "제로에너지건축물"
+    }
+  ]
+}

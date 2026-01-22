@@ -1,0 +1,729 @@
+{
+  "year": 2021,
+  "class_name": "공학 일반",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 72,
+  "keywords": [
+    {
+      "keyword": "covid-19",
+      "weight": 0.0375,
+      "weight_raw": 0.35,
+      "freq": 21,
+      "burst": 0.0,
+      "share": 0.018617,
+      "paper_count": 1128,
+      "merged_variants": "covid 19"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.033929,
+      "weight_raw": 0.316667,
+      "freq": 19,
+      "burst": 0.0,
+      "share": 0.016844,
+      "paper_count": 1128,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "social support",
+      "weight": 0.030357,
+      "weight_raw": 0.283333,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.015071,
+      "paper_count": 1128,
+      "merged_variants": "social support"
+    },
+    {
+      "keyword": "nursing",
+      "weight": 0.025,
+      "weight_raw": 0.233333,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.012411,
+      "paper_count": 1128,
+      "merged_variants": "nursing"
+    },
+    {
+      "keyword": "stress",
+      "weight": 0.025,
+      "weight_raw": 0.233333,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.012411,
+      "paper_count": 1128,
+      "merged_variants": "stress"
+    },
+    {
+      "keyword": "job satisfaction",
+      "weight": 0.025,
+      "weight_raw": 0.233333,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.012411,
+      "paper_count": 1128,
+      "merged_variants": "job satisfaction"
+    },
+    {
+      "keyword": "life satisfaction",
+      "weight": 0.023214,
+      "weight_raw": 0.216667,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.011525,
+      "paper_count": 1128,
+      "merged_variants": "life satisfaction"
+    },
+    {
+      "keyword": "mediating effect",
+      "weight": 0.023214,
+      "weight_raw": 0.216667,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.011525,
+      "paper_count": 1128,
+      "merged_variants": "mediating effect"
+    },
+    {
+      "keyword": "self-efficacy",
+      "weight": 0.023214,
+      "weight_raw": 0.216667,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.011525,
+      "paper_count": 1128,
+      "merged_variants": "self efficacy"
+    },
+    {
+      "keyword": "elderly",
+      "weight": 0.023214,
+      "weight_raw": 0.216667,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.011525,
+      "paper_count": 1128,
+      "merged_variants": "elderly"
+    },
+    {
+      "keyword": "depression",
+      "weight": 0.023214,
+      "weight_raw": 0.216667,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.011525,
+      "paper_count": 1128,
+      "merged_variants": "depression"
+    },
+    {
+      "keyword": "analytic hierarchy process",
+      "weight": 0.021429,
+      "weight_raw": 0.2,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.010638,
+      "paper_count": 1128,
+      "merged_variants": "ahp;analytic hierarchy process"
+    },
+    {
+      "keyword": "nursing student",
+      "weight": 0.019643,
+      "weight_raw": 0.183333,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009752,
+      "paper_count": 1128,
+      "merged_variants": "nursing student"
+    },
+    {
+      "keyword": "nursing students",
+      "weight": 0.019643,
+      "weight_raw": 0.183333,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009752,
+      "paper_count": 1128,
+      "merged_variants": "nursing students"
+    },
+    {
+      "keyword": "quality of life",
+      "weight": 0.019643,
+      "weight_raw": 0.183333,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009752,
+      "paper_count": 1128,
+      "merged_variants": "quality of life"
+    },
+    {
+      "keyword": "self-esteem",
+      "weight": 0.019643,
+      "weight_raw": 0.183333,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.009752,
+      "paper_count": 1128,
+      "merged_variants": "self esteem"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.017857,
+      "weight_raw": 0.166667,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.008865,
+      "paper_count": 1128,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "empathy",
+      "weight": 0.016071,
+      "weight_raw": 0.15,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007979,
+      "paper_count": 1128,
+      "merged_variants": "empathy"
+    },
+    {
+      "keyword": "resilience",
+      "weight": 0.016071,
+      "weight_raw": 0.15,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.007979,
+      "paper_count": 1128,
+      "merged_variants": "resilience"
+    },
+    {
+      "keyword": "students",
+      "weight": 0.014286,
+      "weight_raw": 0.133333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007092,
+      "paper_count": 1128,
+      "merged_variants": "students"
+    },
+    {
+      "keyword": "student",
+      "weight": 0.014286,
+      "weight_raw": 0.133333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007092,
+      "paper_count": 1128,
+      "merged_variants": "student"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.014286,
+      "weight_raw": 0.133333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.007092,
+      "paper_count": 1128,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "r&ampl;",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "r&amp"
+    },
+    {
+      "keyword": "attitude",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "attitude"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "childcare teacher",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "childcare teacher"
+    },
+    {
+      "keyword": "gas sensors",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "gas sensors"
+    },
+    {
+      "keyword": "happiness",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "happiness"
+    },
+    {
+      "keyword": "knowledge",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "knowledge"
+    },
+    {
+      "keyword": "meta-analysis",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "meta analysis"
+    },
+    {
+      "keyword": "nurse",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "nurse"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "satisfaction",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "satisfaction"
+    },
+    {
+      "keyword": "smart farm",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "smart farm"
+    },
+    {
+      "keyword": "weapon system",
+      "weight": 0.0125,
+      "weight_raw": 0.116667,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.006206,
+      "paper_count": 1128,
+      "merged_variants": "weapon system"
+    },
+    {
+      "keyword": "software",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "software"
+    },
+    {
+      "keyword": "risk assessment",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "risk assessment"
+    },
+    {
+      "keyword": "nurses",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "nurses"
+    },
+    {
+      "keyword": "validation",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "validation"
+    },
+    {
+      "keyword": "workplace spirituality",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "workplace spirituality"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "job stress",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "job stress"
+    },
+    {
+      "keyword": "emotional intelligence",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "emotional intelligence"
+    },
+    {
+      "keyword": "education",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "education"
+    },
+    {
+      "keyword": "carbon dioxide",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "carbon dioxide"
+    },
+    {
+      "keyword": "emotional labor",
+      "weight": 0.010714,
+      "weight_raw": 0.1,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.005319,
+      "paper_count": 1128,
+      "merged_variants": "emotional labor"
+    },
+    {
+      "keyword": "pscad",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "pscad"
+    },
+    {
+      "keyword": "lstm",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "lstm"
+    },
+    {
+      "keyword": "mental health",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "mental health"
+    },
+    {
+      "keyword": "online",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "online"
+    },
+    {
+      "keyword": "organizational commitment",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "organizational commitment"
+    },
+    {
+      "keyword": "random forest",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "random forest"
+    },
+    {
+      "keyword": "psychological well-being",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "psychological well being"
+    },
+    {
+      "keyword": "iot",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "iot"
+    },
+    {
+      "keyword": "self-directed learning",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "self directed learning"
+    },
+    {
+      "keyword": "submarine",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "submarine"
+    },
+    {
+      "keyword": "trust",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "trust"
+    },
+    {
+      "keyword": "learning",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "learning"
+    },
+    {
+      "keyword": "ict",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "ict"
+    },
+    {
+      "keyword": "image processing",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "image processing"
+    },
+    {
+      "keyword": "health",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "health"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "exercise",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "exercise"
+    },
+    {
+      "keyword": "dementia",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "dementia"
+    },
+    {
+      "keyword": "customer satisfaction",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "customer satisfaction"
+    },
+    {
+      "keyword": "communication",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "communication"
+    },
+    {
+      "keyword": "cnn",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "cnn"
+    },
+    {
+      "keyword": "behavior",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "behavior"
+    },
+    {
+      "keyword": "anxiety",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "anxiety"
+    },
+    {
+      "keyword": "3d printing",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "3d printing"
+    },
+    {
+      "keyword": "university students",
+      "weight": 0.008929,
+      "weight_raw": 0.083333,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.004433,
+      "paper_count": 1128,
+      "merged_variants": "university students"
+    }
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "year": 2023,
+  "class_name": "산업공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 79,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.279121,
+      "weight_raw": 0.35,
+      "freq": 127,
+      "burst": 0.0,
+      "share": 0.424749,
+      "paper_count": 299,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.182418,
+      "weight_raw": 0.22874,
+      "freq": 83,
+      "burst": 0.0,
+      "share": 0.277592,
+      "paper_count": 299,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.052747,
+      "weight_raw": 0.066142,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.080268,
+      "paper_count": 299,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "recommender system",
+      "weight": 0.032967,
+      "weight_raw": 0.041339,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.050167,
+      "paper_count": 299,
+      "merged_variants": "recommender system"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.030769,
+      "weight_raw": 0.038583,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.046823,
+      "paper_count": 299,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "computer vision",
+      "weight": 0.013187,
+      "weight_raw": 0.016535,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.020067,
+      "paper_count": 299,
+      "merged_variants": "computer vision"
+    },
+    {
+      "keyword": "user experience",
+      "weight": 0.013187,
+      "weight_raw": 0.016535,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.020067,
+      "paper_count": 299,
+      "merged_variants": "user experience"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.010989,
+      "weight_raw": 0.01378,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "big data;빅데이터"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.010989,
+      "weight_raw": 0.01378,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "social media",
+      "weight": 0.010989,
+      "weight_raw": 0.01378,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "social media;소셜미디어"
+    },
+    {
+      "keyword": "supply chain",
+      "weight": 0.010989,
+      "weight_raw": 0.01378,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016722,
+      "paper_count": 299,
+      "merged_variants": "supply chain"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "youtube",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "youtube;유튜브"
+    },
+    {
+      "keyword": "topic modeling",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "topic modeling"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "text mining"
+    },
+    {
+      "keyword": "pre-training",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "pre training;사전학습"
+    },
+    {
+      "keyword": "process mining",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "process mining;프로세스 마이닝"
+    },
+    {
+      "keyword": "musculoskeletal pains",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "musculoskeletal pains"
+    },
+    {
+      "keyword": "motion recognition",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "motion recognition;동작 인식"
+    },
+    {
+      "keyword": "language model",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "language model;언어모델"
+    },
+    {
+      "keyword": "esg rating",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "esg rating;esg 등급"
+    },
+    {
+      "keyword": "discrimination",
+      "weight": 0.008791,
+      "weight_raw": 0.011024,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013378,
+      "paper_count": 299,
+      "merged_variants": "discrimination;차별"
+    },
+    {
+      "keyword": "big language model",
+      "weight": 0.006593,
+      "weight_raw": 0.008268,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "거대언어모델"
+    },
+    {
+      "keyword": "hazard exposure level",
+      "weight": 0.006593,
+      "weight_raw": 0.008268,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010033,
+      "paper_count": 299,
+      "merged_variants": "hazard exposure level"
+    },
+    {
+      "keyword": "logistic regression",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "logistic regression"
+    },
+    {
+      "keyword": "nursing workers",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "nursing workers"
+    },
+    {
+      "keyword": "msds",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "msds"
+    },
+    {
+      "keyword": "missing value imputation",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "missing value imputation"
+    },
+    {
+      "keyword": "mechanical property",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "mechanical property"
+    },
+    {
+      "keyword": "human-robot interaction",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "human robot interaction"
+    },
+    {
+      "keyword": "lifetime",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "lifetime"
+    },
+    {
+      "keyword": "item2vec",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "item2vec"
+    },
+    {
+      "keyword": "outlier",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "outlier"
+    },
+    {
+      "keyword": "gis",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "gis"
+    },
+    {
+      "keyword": "field data ram analysis",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "field data ram analysis"
+    },
+    {
+      "keyword": "online community",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "online community"
+    },
+    {
+      "keyword": "trend analysis",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "trend analysis"
+    },
+    {
+      "keyword": "prediction accuracy",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "prediction accuracy"
+    },
+    {
+      "keyword": "productivity",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "productivity"
+    },
+    {
+      "keyword": "robot assembly planning",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "robot assembly planning"
+    },
+    {
+      "keyword": "satisfaction",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "satisfaction"
+    },
+    {
+      "keyword": "self-supervised learning",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "self supervised learning"
+    },
+    {
+      "keyword": "small and medium enterprises",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "smes"
+    },
+    {
+      "keyword": "social robot",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "소셜 로봇"
+    },
+    {
+      "keyword": "spinal function assessment",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "spinal function assessment"
+    },
+    {
+      "keyword": "supply chain disruption",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "supply chain disruption"
+    },
+    {
+      "keyword": "sustainable management",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "지속가능경영"
+    },
+    {
+      "keyword": "time series data",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "time series data"
+    },
+    {
+      "keyword": "evaluation index",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "evaluation index"
+    },
+    {
+      "keyword": "wearable device",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "웨어러블 기기"
+    },
+    {
+      "keyword": "face mask",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "face mask"
+    },
+    {
+      "keyword": "correlation",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "correlation"
+    },
+    {
+      "keyword": "esg performance",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "esg performance"
+    },
+    {
+      "keyword": "collaborative filtering",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "collaborative filtering"
+    },
+    {
+      "keyword": "6th kwcs",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "6th kwcs"
+    },
+    {
+      "keyword": "accelerated life test",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "accelerated life test"
+    },
+    {
+      "keyword": "association rule mining",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "association rule mining"
+    },
+    {
+      "keyword": "autoencoder",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "autoencoder"
+    },
+    {
+      "keyword": "automl",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "automl"
+    },
+    {
+      "keyword": "bbq",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "bbq"
+    },
+    {
+      "keyword": "blockchain",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "blockchain"
+    },
+    {
+      "keyword": "bom database",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "bom database"
+    },
+    {
+      "keyword": "cad database",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "cad database"
+    },
+    {
+      "keyword": "chatgpt",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "chatgpt"
+    },
+    {
+      "keyword": "cmf design",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "cmf design"
+    },
+    {
+      "keyword": "communication",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "communication"
+    },
+    {
+      "keyword": "esg",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "esg"
+    },
+    {
+      "keyword": "construction worker",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "construction worker"
+    },
+    {
+      "keyword": "corporate social responsibility",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "corporate social responsibility"
+    },
+    {
+      "keyword": "cryptocurrency",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "암호화폐"
+    },
+    {
+      "keyword": "data bias",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "data bias"
+    },
+    {
+      "keyword": "data-driven model",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "data driven model"
+    },
+    {
+      "keyword": "dea",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "dea"
+    },
+    {
+      "keyword": "depression",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "depression"
+    },
+    {
+      "keyword": "digital human modeling",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "digital human modeling"
+    },
+    {
+      "keyword": "document similarity",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "document similarity"
+    },
+    {
+      "keyword": "earnings management",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "earnings management"
+    },
+    {
+      "keyword": "emg",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "emg"
+    },
+    {
+      "keyword": "wearable robot",
+      "weight": 0.004396,
+      "weight_raw": 0.005512,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006689,
+      "paper_count": 299,
+      "merged_variants": "wearable robot"
+    }
+  ]
+}

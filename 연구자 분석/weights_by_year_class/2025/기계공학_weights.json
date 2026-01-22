@@ -1,0 +1,779 @@
+{
+  "year": 2025,
+  "class_name": "기계공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 77,
+  "keywords": [
+    {
+      "keyword": "computational fluid dynamics",
+      "weight": 0.107807,
+      "weight_raw": 0.35,
+      "freq": 87,
+      "burst": 0.0,
+      "share": 0.038428,
+      "paper_count": 2264,
+      "merged_variants": "cfd;computational fluid dynamics;전산유체역학"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.069393,
+      "weight_raw": 0.225287,
+      "freq": 56,
+      "burst": 0.0,
+      "share": 0.024735,
+      "paper_count": 2264,
+      "merged_variants": "fea;finite element analysis;finite element method"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.043371,
+      "weight_raw": 0.140805,
+      "freq": 35,
+      "burst": 0.0,
+      "share": 0.015459,
+      "paper_count": 2264,
+      "merged_variants": "deep learning;deep reinforcement learning"
+    },
+    {
+      "keyword": "liquid hydrogen",
+      "weight": 0.033457,
+      "weight_raw": 0.108621,
+      "freq": 27,
+      "burst": 0.0,
+      "share": 0.011926,
+      "paper_count": 2264,
+      "merged_variants": "hydrogen;liquid hydrogen"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.02974,
+      "weight_raw": 0.096552,
+      "freq": 24,
+      "burst": 0.0,
+      "share": 0.010601,
+      "paper_count": 2264,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "additive manufacturing",
+      "weight": 0.022305,
+      "weight_raw": 0.072414,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.007951,
+      "paper_count": 2264,
+      "merged_variants": "additive manufacturing"
+    },
+    {
+      "keyword": "autonomous driving",
+      "weight": 0.022305,
+      "weight_raw": 0.072414,
+      "freq": 18,
+      "burst": 0.0,
+      "share": 0.007951,
+      "paper_count": 2264,
+      "merged_variants": "autonomous driving;autonomous vehicle"
+    },
+    {
+      "keyword": "microstructure",
+      "weight": 0.021066,
+      "weight_raw": 0.068391,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.007509,
+      "paper_count": 2264,
+      "merged_variants": "microstructure"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.021066,
+      "weight_raw": 0.068391,
+      "freq": 17,
+      "burst": 0.0,
+      "share": 0.007509,
+      "paper_count": 2264,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "path planning",
+      "weight": 0.018587,
+      "weight_raw": 0.060345,
+      "freq": 15,
+      "burst": 0.0,
+      "share": 0.006625,
+      "paper_count": 2264,
+      "merged_variants": "path planning"
+    },
+    {
+      "keyword": "unmanned aerial vehicle",
+      "weight": 0.017348,
+      "weight_raw": 0.056322,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.006184,
+      "paper_count": 2264,
+      "merged_variants": "uav;unmanned aerial vehicle"
+    },
+    {
+      "keyword": "surface modification",
+      "weight": 0.017348,
+      "weight_raw": 0.056322,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.006184,
+      "paper_count": 2264,
+      "merged_variants": "surface modification;surface roughness"
+    },
+    {
+      "keyword": "structural analysis",
+      "weight": 0.017348,
+      "weight_raw": 0.056322,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.006184,
+      "paper_count": 2264,
+      "merged_variants": "structural analysis"
+    },
+    {
+      "keyword": "3d printing",
+      "weight": 0.017348,
+      "weight_raw": 0.056322,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.006184,
+      "paper_count": 2264,
+      "merged_variants": "3d printing"
+    },
+    {
+      "keyword": "gas turbine",
+      "weight": 0.017348,
+      "weight_raw": 0.056322,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.006184,
+      "paper_count": 2264,
+      "merged_variants": "gas turbine"
+    },
+    {
+      "keyword": "electric vehicle",
+      "weight": 0.016109,
+      "weight_raw": 0.052299,
+      "freq": 13,
+      "burst": 0.0,
+      "share": 0.005742,
+      "paper_count": 2264,
+      "merged_variants": "electric vehicle"
+    },
+    {
+      "keyword": "bayesian optimization",
+      "weight": 0.01487,
+      "weight_raw": 0.048276,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.0053,
+      "paper_count": 2264,
+      "merged_variants": "bayesian optimization;bim"
+    },
+    {
+      "keyword": "efficiency",
+      "weight": 0.01487,
+      "weight_raw": 0.048276,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.0053,
+      "paper_count": 2264,
+      "merged_variants": "efficiency;energy efficiency"
+    },
+    {
+      "keyword": "numerical analysis",
+      "weight": 0.01487,
+      "weight_raw": 0.048276,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.0053,
+      "paper_count": 2264,
+      "merged_variants": "numerical analysis"
+    },
+    {
+      "keyword": "heat exchanger",
+      "weight": 0.013631,
+      "weight_raw": 0.044253,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004859,
+      "paper_count": 2264,
+      "merged_variants": "heat exchanger"
+    },
+    {
+      "keyword": "heat transfer",
+      "weight": 0.013631,
+      "weight_raw": 0.044253,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.004859,
+      "paper_count": 2264,
+      "merged_variants": "heat transfer"
+    },
+    {
+      "keyword": "object detection",
+      "weight": 0.012392,
+      "weight_raw": 0.04023,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.004417,
+      "paper_count": 2264,
+      "merged_variants": "object detection"
+    },
+    {
+      "keyword": "numerical simulation",
+      "weight": 0.012392,
+      "weight_raw": 0.04023,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.004417,
+      "paper_count": 2264,
+      "merged_variants": "numerical simulation"
+    },
+    {
+      "keyword": "digital twin",
+      "weight": 0.012392,
+      "weight_raw": 0.04023,
+      "freq": 10,
+      "burst": 0.0,
+      "share": 0.004417,
+      "paper_count": 2264,
+      "merged_variants": "digital twin"
+    },
+    {
+      "keyword": "fatigue life",
+      "weight": 0.011152,
+      "weight_raw": 0.036207,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003975,
+      "paper_count": 2264,
+      "merged_variants": "fatigue life"
+    },
+    {
+      "keyword": "risk assessment",
+      "weight": 0.011152,
+      "weight_raw": 0.036207,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003975,
+      "paper_count": 2264,
+      "merged_variants": "risk assessment"
+    },
+    {
+      "keyword": "urban air mobility",
+      "weight": 0.011152,
+      "weight_raw": 0.036207,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003975,
+      "paper_count": 2264,
+      "merged_variants": "urban air mobility"
+    },
+    {
+      "keyword": "artificial intelligence",
+      "weight": 0.011152,
+      "weight_raw": 0.036207,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.003975,
+      "paper_count": 2264,
+      "merged_variants": "artificial intelligence"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "simulation"
+    },
+    {
+      "keyword": "image processing",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "image processing"
+    },
+    {
+      "keyword": "sensitivity analysis",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "sensitivity analysis"
+    },
+    {
+      "keyword": "optimal design",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "optimal design"
+    },
+    {
+      "keyword": "drone",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "drone"
+    },
+    {
+      "keyword": "convolutional neural network",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "convolutional neural network"
+    },
+    {
+      "keyword": "ammonia",
+      "weight": 0.009913,
+      "weight_raw": 0.032184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.003534,
+      "paper_count": 2264,
+      "merged_variants": "ammonia"
+    },
+    {
+      "keyword": "injection molding",
+      "weight": 0.008674,
+      "weight_raw": 0.028161,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.003092,
+      "paper_count": 2264,
+      "merged_variants": "injection molding"
+    },
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.008674,
+      "weight_raw": 0.028161,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.003092,
+      "paper_count": 2264,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "nitrogen oxides",
+      "weight": 0.008674,
+      "weight_raw": 0.028161,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.003092,
+      "paper_count": 2264,
+      "merged_variants": "nox"
+    },
+    {
+      "keyword": "research trends",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "research trends"
+    },
+    {
+      "keyword": "polymer electrolyte membrane fuel cell",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "polymer electrolyte membrane fuel cell"
+    },
+    {
+      "keyword": "radar cross section",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "radar cross section"
+    },
+    {
+      "keyword": "lithium-ion battery",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "lithium ion battery"
+    },
+    {
+      "keyword": "residual stress",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "residual stress"
+    },
+    {
+      "keyword": "thermal management",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "thermal management"
+    },
+    {
+      "keyword": "modal analysis",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "modal analysis"
+    },
+    {
+      "keyword": "battery",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "battery"
+    },
+    {
+      "keyword": "laser welding",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "laser welding"
+    },
+    {
+      "keyword": "design optimization",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "design optimization"
+    },
+    {
+      "keyword": "composite",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "composite"
+    },
+    {
+      "keyword": "catalyst",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "catalyst"
+    },
+    {
+      "keyword": "carbon neutrality",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "carbon neutrality"
+    },
+    {
+      "keyword": "hardness",
+      "weight": 0.007435,
+      "weight_raw": 0.024138,
+      "freq": 6,
+      "burst": 0.0,
+      "share": 0.00265,
+      "paper_count": 2264,
+      "merged_variants": "hardness"
+    },
+    {
+      "keyword": "structural health monitoring",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "structural health monitoring"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "response surface methodology",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "response surface methodology"
+    },
+    {
+      "keyword": "sensor fusion",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "sensor fusion"
+    },
+    {
+      "keyword": "stainless steel",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "stainless steel"
+    },
+    {
+      "keyword": "topology optimization",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "topology optimization"
+    },
+    {
+      "keyword": "taguchi method",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "taguchi method"
+    },
+    {
+      "keyword": "pressure drop",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "pressure drop"
+    },
+    {
+      "keyword": "uam",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "uam"
+    },
+    {
+      "keyword": "wear",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "wear"
+    },
+    {
+      "keyword": "welding",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "welding"
+    },
+    {
+      "keyword": "pyrolysis",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "pyrolysis"
+    },
+    {
+      "keyword": "methane",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "methane"
+    },
+    {
+      "keyword": "performance analysis",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "performance analysis"
+    },
+    {
+      "keyword": "multi objective optimization",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "multi objective optimization"
+    },
+    {
+      "keyword": "launch vehicle",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "launch vehicle"
+    },
+    {
+      "keyword": "hydraulic system",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "hydraulic system"
+    },
+    {
+      "keyword": "heat treatment",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "heat treatment"
+    },
+    {
+      "keyword": "heat transfer coefficient",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "heat transfer coefficient"
+    },
+    {
+      "keyword": "heat affected zone",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "heat affected zone"
+    },
+    {
+      "keyword": "flow characteristics",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "flow characteristics"
+    },
+    {
+      "keyword": "energy harvesting",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "energy harvesting"
+    },
+    {
+      "keyword": "directed energy deposition",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "directed energy deposition"
+    },
+    {
+      "keyword": "corrosion resistance",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "corrosion resistance"
+    },
+    {
+      "keyword": "비파괴검사",
+      "weight": 0.006196,
+      "weight_raw": 0.020115,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.002208,
+      "paper_count": 2264,
+      "merged_variants": "비파괴검사"
+    }
+  ]
+}

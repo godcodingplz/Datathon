@@ -1,0 +1,549 @@
+{
+  "year": 2021,
+  "class_name": "산업공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 54,
+  "keywords": [
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.329073,
+      "weight_raw": 0.35,
+      "freq": 103,
+      "burst": 0.0,
+      "share": 0.356401,
+      "paper_count": 289,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.159744,
+      "weight_raw": 0.169903,
+      "freq": 50,
+      "burst": 0.0,
+      "share": 0.17301,
+      "paper_count": 289,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "natural language processing",
+      "weight": 0.060703,
+      "weight_raw": 0.064563,
+      "freq": 19,
+      "burst": 0.0,
+      "share": 0.065744,
+      "paper_count": 289,
+      "merged_variants": "natural language processing"
+    },
+    {
+      "keyword": "optimization",
+      "weight": 0.044728,
+      "weight_raw": 0.047573,
+      "freq": 14,
+      "burst": 0.0,
+      "share": 0.048443,
+      "paper_count": 289,
+      "merged_variants": "optimization"
+    },
+    {
+      "keyword": "supply chain",
+      "weight": 0.038339,
+      "weight_raw": 0.040777,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.041522,
+      "paper_count": 289,
+      "merged_variants": "supply chain"
+    },
+    {
+      "keyword": "recommender system",
+      "weight": 0.025559,
+      "weight_raw": 0.027184,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.027682,
+      "paper_count": 289,
+      "merged_variants": "recommender system"
+    },
+    {
+      "keyword": "reliability",
+      "weight": 0.01278,
+      "weight_raw": 0.013592,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013841,
+      "paper_count": 289,
+      "merged_variants": "reliability"
+    },
+    {
+      "keyword": "text mining",
+      "weight": 0.01278,
+      "weight_raw": 0.013592,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013841,
+      "paper_count": 289,
+      "merged_variants": "text mining;텍스트마이닝"
+    },
+    {
+      "keyword": "user experience",
+      "weight": 0.01278,
+      "weight_raw": 0.013592,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.013841,
+      "paper_count": 289,
+      "merged_variants": "user experience"
+    },
+    {
+      "keyword": "multi objective optimization",
+      "weight": 0.009585,
+      "weight_raw": 0.010194,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010381,
+      "paper_count": 289,
+      "merged_variants": "multi objective optimization"
+    },
+    {
+      "keyword": "vehicle routing",
+      "weight": 0.009585,
+      "weight_raw": 0.010194,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010381,
+      "paper_count": 289,
+      "merged_variants": "vehicle routing"
+    },
+    {
+      "keyword": "mathematical model",
+      "weight": 0.009585,
+      "weight_raw": 0.010194,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010381,
+      "paper_count": 289,
+      "merged_variants": "mathematical model"
+    },
+    {
+      "keyword": "flow shop",
+      "weight": 0.009585,
+      "weight_raw": 0.010194,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010381,
+      "paper_count": 289,
+      "merged_variants": "flow shop"
+    },
+    {
+      "keyword": "clustering",
+      "weight": 0.009585,
+      "weight_raw": 0.010194,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.010381,
+      "paper_count": 289,
+      "merged_variants": "clustering"
+    },
+    {
+      "keyword": "self interruption",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "self interruption"
+    },
+    {
+      "keyword": "multi label classification",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "multi label classification"
+    },
+    {
+      "keyword": "multi objective mathematical model",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "multi objective mathematical model"
+    },
+    {
+      "keyword": "naval ship engine data",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "naval ship engine data"
+    },
+    {
+      "keyword": "particle swarm optimization algorithm",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "particle swarm optimization algorithm"
+    },
+    {
+      "keyword": "perishable products",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "perishable products"
+    },
+    {
+      "keyword": "profit",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "profit"
+    },
+    {
+      "keyword": "regression",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "regression"
+    },
+    {
+      "keyword": "tailoring",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "tailoring"
+    },
+    {
+      "keyword": "semantic network analysis",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "semantic network analysis"
+    },
+    {
+      "keyword": "sharing economy",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "sharing economy"
+    },
+    {
+      "keyword": "spare parts",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "spare parts"
+    },
+    {
+      "keyword": "supplier selection",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "supplier selection"
+    },
+    {
+      "keyword": "sustainable supply chain",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "sustainable supply chain"
+    },
+    {
+      "keyword": "taguchi method",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "taguchi method"
+    },
+    {
+      "keyword": "latent class model",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "latent class model"
+    },
+    {
+      "keyword": "takeover performance",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "takeover performance"
+    },
+    {
+      "keyword": "volatility",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "volatility"
+    },
+    {
+      "keyword": "logistics",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "logistics"
+    },
+    {
+      "keyword": "environmental aspect",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "environmental aspect"
+    },
+    {
+      "keyword": "lap joint",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "lap joint"
+    },
+    {
+      "keyword": "integer programming",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "integer programming"
+    },
+    {
+      "keyword": "ARDL",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "ardl"
+    },
+    {
+      "keyword": "GAN",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "gan"
+    },
+    {
+      "keyword": "GARCH",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "garch"
+    },
+    {
+      "keyword": "ant colony optimization algorithm",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "ant colony optimization algorithm"
+    },
+    {
+      "keyword": "arch",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "arch"
+    },
+    {
+      "keyword": "aspect extraction",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "aspect extraction"
+    },
+    {
+      "keyword": "autoencoder",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "autoencoder"
+    },
+    {
+      "keyword": "big data",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "big data"
+    },
+    {
+      "keyword": "call center",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "call center"
+    },
+    {
+      "keyword": "collaborative filtering",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "collaborative filtering"
+    },
+    {
+      "keyword": "corona 19",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "코로나 19"
+    },
+    {
+      "keyword": "design thinking",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "design thinking"
+    },
+    {
+      "keyword": "energy consumption",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "energy consumption"
+    },
+    {
+      "keyword": "failure mode",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "failure mode"
+    },
+    {
+      "keyword": "forecasting",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "forecasting"
+    },
+    {
+      "keyword": "formal concept analysis",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "formal concept analysis"
+    },
+    {
+      "keyword": "goal programming",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "goal programming"
+    },
+    {
+      "keyword": "weapon system",
+      "weight": 0.00639,
+      "weight_raw": 0.006796,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.00692,
+      "paper_count": 289,
+      "merged_variants": "weapon system"
+    }
+  ]
+}

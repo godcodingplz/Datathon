@@ -1,0 +1,279 @@
+{
+  "year": 2024,
+  "class_name": "조선해양공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 27,
+  "keywords": [
+    {
+      "keyword": "cfd",
+      "weight": 0.094595,
+      "weight_raw": 0.35,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.029167,
+      "paper_count": 240,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.094595,
+      "weight_raw": 0.35,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.029167,
+      "paper_count": 240,
+      "merged_variants": "machine learning"
+    },
+    {
+      "keyword": "model test",
+      "weight": 0.067568,
+      "weight_raw": 0.25,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.020833,
+      "paper_count": 240,
+      "merged_variants": "model test"
+    },
+    {
+      "keyword": "submarine",
+      "weight": 0.054054,
+      "weight_raw": 0.2,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.016667,
+      "paper_count": 240,
+      "merged_variants": "submarine"
+    },
+    {
+      "keyword": "floating offshore wind turbine",
+      "weight": 0.040541,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.0125,
+      "paper_count": 240,
+      "merged_variants": "floating offshore wind turbine"
+    },
+    {
+      "keyword": "light aircraft carrier",
+      "weight": 0.040541,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.0125,
+      "paper_count": 240,
+      "merged_variants": "light aircraft carrier"
+    },
+    {
+      "keyword": "simulator",
+      "weight": 0.040541,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.0125,
+      "paper_count": 240,
+      "merged_variants": "simulator"
+    },
+    {
+      "keyword": "deep learning",
+      "weight": 0.040541,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.0125,
+      "paper_count": 240,
+      "merged_variants": "deep learning"
+    },
+    {
+      "keyword": "automation",
+      "weight": 0.040541,
+      "weight_raw": 0.15,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.0125,
+      "paper_count": 240,
+      "merged_variants": "automation"
+    },
+    {
+      "keyword": "miscellaneous",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "miscellaneous"
+    },
+    {
+      "keyword": "sortie generation rate",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "sortie generation rate"
+    },
+    {
+      "keyword": "ship maneuverability",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "ship maneuverability"
+    },
+    {
+      "keyword": "seakeeping",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "seakeeping"
+    },
+    {
+      "keyword": "safe operating envelop",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "safe operating envelop"
+    },
+    {
+      "keyword": "neural network",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "neural network"
+    },
+    {
+      "keyword": "motion feeling",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "motion feeling"
+    },
+    {
+      "keyword": "motion base",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "motion base"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "maneuvering",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "maneuvering"
+    },
+    {
+      "keyword": "lidar",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "lidar"
+    },
+    {
+      "keyword": "green ship",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "green ship"
+    },
+    {
+      "keyword": "free running model test",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "free running model test"
+    },
+    {
+      "keyword": "disturbance observer",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "disturbance observer"
+    },
+    {
+      "keyword": "coastal erosion",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "coastal erosion"
+    },
+    {
+      "keyword": "boil off rate",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "boil off rate"
+    },
+    {
+      "keyword": "autonomous underwater vehicle",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "autonomous underwater vehicle"
+    },
+    {
+      "keyword": "washout filter",
+      "weight": 0.027027,
+      "weight_raw": 0.1,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.008333,
+      "paper_count": 240,
+      "merged_variants": "washout filter"
+    }
+  ]
+}

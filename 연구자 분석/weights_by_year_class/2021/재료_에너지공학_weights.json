@@ -1,0 +1,709 @@
+{
+  "year": 2021,
+  "class_name": "재료·에너지공학",
+  "alpha": 0.35,
+  "beta": 0.65,
+  "count": 70,
+  "keywords": [
+    {
+      "keyword": "decomposition",
+      "weight": 0.053571,
+      "weight_raw": 0.35,
+      "freq": 12,
+      "burst": 0.0,
+      "share": 0.038961,
+      "paper_count": 308,
+      "merged_variants": "decomposition;분해분석;온실가스"
+    },
+    {
+      "keyword": "finite element analysis",
+      "weight": 0.049107,
+      "weight_raw": 0.320833,
+      "freq": 11,
+      "burst": 0.0,
+      "share": 0.035714,
+      "paper_count": 308,
+      "merged_variants": "finite element analysis"
+    },
+    {
+      "keyword": "renewable energy",
+      "weight": 0.040179,
+      "weight_raw": 0.2625,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.029221,
+      "paper_count": 308,
+      "merged_variants": "renewable energy"
+    },
+    {
+      "keyword": "solar cells",
+      "weight": 0.040179,
+      "weight_raw": 0.2625,
+      "freq": 9,
+      "burst": 0.0,
+      "share": 0.029221,
+      "paper_count": 308,
+      "merged_variants": "solar cells"
+    },
+    {
+      "keyword": "simulation",
+      "weight": 0.035714,
+      "weight_raw": 0.233333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.025974,
+      "paper_count": 308,
+      "merged_variants": "simulation;시뮬레이션"
+    },
+    {
+      "keyword": "solar power generation",
+      "weight": 0.035714,
+      "weight_raw": 0.233333,
+      "freq": 8,
+      "burst": 0.0,
+      "share": 0.025974,
+      "paper_count": 308,
+      "merged_variants": "solar power generation;태양광발전;태양의존율"
+    },
+    {
+      "keyword": "cfd",
+      "weight": 0.03125,
+      "weight_raw": 0.204167,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.022727,
+      "paper_count": 308,
+      "merged_variants": "cfd"
+    },
+    {
+      "keyword": "efficiency",
+      "weight": 0.03125,
+      "weight_raw": 0.204167,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.022727,
+      "paper_count": 308,
+      "merged_variants": "efficiency;열효율;효율"
+    },
+    {
+      "keyword": "mechanical properties",
+      "weight": 0.03125,
+      "weight_raw": 0.204167,
+      "freq": 7,
+      "burst": 0.0,
+      "share": 0.022727,
+      "paper_count": 308,
+      "merged_variants": "mechanical properties"
+    },
+    {
+      "keyword": "microstructure",
+      "weight": 0.022321,
+      "weight_raw": 0.145833,
+      "freq": 5,
+      "burst": 0.0,
+      "share": 0.016234,
+      "paper_count": 308,
+      "merged_variants": "microstructure"
+    },
+    {
+      "keyword": "recovery",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "recovery;회수"
+    },
+    {
+      "keyword": "zero-energy building",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "제로에너지건축물;제로에너지빌딩"
+    },
+    {
+      "keyword": "sustainable",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "sustainable;에너지 자립률"
+    },
+    {
+      "keyword": "boiler",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "boiler;보일러"
+    },
+    {
+      "keyword": "greenhouse gas emission",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "greenhouse gas emission;온실가스 배출량"
+    },
+    {
+      "keyword": "greenhouse",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "greenhouse;온실"
+    },
+    {
+      "keyword": "energy transition",
+      "weight": 0.017857,
+      "weight_raw": 0.116667,
+      "freq": 4,
+      "burst": 0.0,
+      "share": 0.012987,
+      "paper_count": 308,
+      "merged_variants": "energy transition;에너지 사용량"
+    },
+    {
+      "keyword": "methane",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "methane"
+    },
+    {
+      "keyword": "poly",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "poly"
+    },
+    {
+      "keyword": "photovoltaics",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "photovoltaics"
+    },
+    {
+      "keyword": "sensitivity analysis",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "sensitivity analysis"
+    },
+    {
+      "keyword": "hydrogen",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "hydrogen"
+    },
+    {
+      "keyword": "additive manufacturing",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "additive manufacturing"
+    },
+    {
+      "keyword": "flame retardant",
+      "weight": 0.013393,
+      "weight_raw": 0.0875,
+      "freq": 3,
+      "burst": 0.0,
+      "share": 0.00974,
+      "paper_count": 308,
+      "merged_variants": "flame retardant"
+    },
+    {
+      "keyword": "response surface method",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "response surface method"
+    },
+    {
+      "keyword": "metal induced recombination",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "metal induced recombination"
+    },
+    {
+      "keyword": "monitoring",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "monitoring"
+    },
+    {
+      "keyword": "natural dye",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "natural dye"
+    },
+    {
+      "keyword": "numerical simulation",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "numerical simulation"
+    },
+    {
+      "keyword": "photovoltaic",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "photovoltaic"
+    },
+    {
+      "keyword": "photovoltaic modules",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "photovoltaic modules"
+    },
+    {
+      "keyword": "plastic",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "plastic"
+    },
+    {
+      "keyword": "pv module",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "pv module"
+    },
+    {
+      "keyword": "reactor",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "reactor"
+    },
+    {
+      "keyword": "solar energy",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "태양열"
+    },
+    {
+      "keyword": "solar modules",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "건물일체형 태양광"
+    },
+    {
+      "keyword": "spring back",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "spring back"
+    },
+    {
+      "keyword": "sputtering",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "sputtering"
+    },
+    {
+      "keyword": "stress intensity factor",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "stress intensity factor"
+    },
+    {
+      "keyword": "structure",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "structure"
+    },
+    {
+      "keyword": "supercritical fluid",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "supercritical fluid"
+    },
+    {
+      "keyword": "thermal analysis",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "thermal analysis"
+    },
+    {
+      "keyword": "ultra high strength steel",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "ultra high strength steel"
+    },
+    {
+      "keyword": "wall thinning",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "wall thinning"
+    },
+    {
+      "keyword": "local economy",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "local economy"
+    },
+    {
+      "keyword": "machine learning",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "기계학습"
+    },
+    {
+      "keyword": "digital textile printing",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "digital textile printing"
+    },
+    {
+      "keyword": "incremental sheet forming",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "incremental sheet forming"
+    },
+    {
+      "keyword": "cotton",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "cotton"
+    },
+    {
+      "keyword": "Candu 6",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "candu 6"
+    },
+    {
+      "keyword": "LNG",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "lng"
+    },
+    {
+      "keyword": "aesthetic enhancement",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "심미성 향상"
+    },
+    {
+      "keyword": "air-based solar collector",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "공기식 태양열 집열기"
+    },
+    {
+      "keyword": "artificial neural networks",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "인공신경망"
+    },
+    {
+      "keyword": "benefit sharing",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "benefit sharing"
+    },
+    {
+      "keyword": "catalysis",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "catalysis"
+    },
+    {
+      "keyword": "color module",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "컬러 모듈"
+    },
+    {
+      "keyword": "community investment",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "community investment"
+    },
+    {
+      "keyword": "crosslink",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "crosslink"
+    },
+    {
+      "keyword": "formaldehyde-free",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "formaldehyde free"
+    },
+    {
+      "keyword": "durable",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "durable"
+    },
+    {
+      "keyword": "dyeing",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "dyeing"
+    },
+    {
+      "keyword": "economic analysis",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "경제성 분석"
+    },
+    {
+      "keyword": "energy plus",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "에너지플러스"
+    },
+    {
+      "keyword": "energy saving",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "energy saving"
+    },
+    {
+      "keyword": "energy storage system",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "ess"
+    },
+    {
+      "keyword": "extrusion",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "extrusion"
+    },
+    {
+      "keyword": "fastness",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "fastness"
+    },
+    {
+      "keyword": "flow accelerated corrosion",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "flow accelerated corrosion"
+    },
+    {
+      "keyword": "zeolite",
+      "weight": 0.008929,
+      "weight_raw": 0.058333,
+      "freq": 2,
+      "burst": 0.0,
+      "share": 0.006494,
+      "paper_count": 308,
+      "merged_variants": "zeolite"
+    }
+  ]
+}
