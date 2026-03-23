@@ -1,11 +1,20 @@
 import os
 import re
-import io
 import time
 import argparse
 import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
+
+
+# =========================================================
+# ✅ Confidence Gate Policy (UPDATED)
+#  - conf >= 0.85 : 병합 적용(그대로 canonical 사용) + auto 리스트 저장
+#  - 0.60 <= conf < 0.85 : 병합 적용(그대로 canonical 사용) + review 리스트 저장
+#  - conf < 0.60 : 병합 미적용(canonical=variant 강제) + hold 리스트 저장
+# =========================================================
+CONF_HIGH = 0.85
+CONF_MID = 0.60
 
 
 # =========================================================
@@ -65,14 +74,6 @@ def strip_code_fences(text: str) -> str:
     return "\n".join(lines).strip()
 
 
-def read_tsv_strip_fence_text(text: str) -> pd.DataFrame:
-    cleaned = strip_code_fences(text)
-    if not cleaned:
-        return pd.DataFrame()
-    # engine="python"으로 관대하게 파싱
-    return pd.read_csv(io.StringIO(cleaned), sep="\t", dtype=str, engine="python")
-
-
 def _norm(s: str) -> str:
     s = (s or "").strip().lower()
     s = s.replace("-", " ")
@@ -82,6 +83,194 @@ def _norm(s: str) -> str:
 
 def safe_filename(s: str) -> str:
     return "".join(c if c.isalnum() or c in " _-." else "_" for c in s).strip()
+
+
+# =========================================================
+# ✅ TSV Robust Parser (LLM output 안정화 핵심)
+# =========================================================
+ALLOWED_REASON = {"casing", "spacing", "plural", "typo", "acronym", "ko-en", "same"}
+
+
+def _is_float(x: str) -> bool:
+    try:
+        float(str(x).strip())
+        return True
+    except Exception:
+        return False
+
+
+def parse_merge_map_tsv_robust(text: str, keywords: list[str] | None = None, verbose: bool = True) -> pd.DataFrame:
+    cleaned = strip_code_fences(text or "")
+    cleaned = cleaned.replace("\ufeff", "").strip()  # BOM 제거
+
+    if not cleaned:
+        return pd.DataFrame()
+
+    lines = [ln.rstrip("\n") for ln in cleaned.splitlines() if str(ln).strip()]
+    if not lines:
+        return pd.DataFrame()
+
+    # 헤더 처리
+    header = lines[0].strip()
+    data_lines = lines[1:] if header.lower().replace(" ", "")[:7] == "variant" else lines
+
+    records = []
+    dropped = 0
+    fixed = 0
+
+    for idx, raw in enumerate(data_lines, start=1):
+        line = str(raw).strip()
+        line = line.rstrip("\t")  # trailing tab 제거
+
+        parts = line.split("\t")
+        while parts and parts[-1] == "":
+            parts = parts[:-1]
+
+        if len(parts) < 2:
+            dropped += 1
+            if verbose:
+                print(f"[WARN] drop line (too few cols) #{idx}: {line}")
+            continue
+
+        variant = parts[0].strip()
+        canonical = parts[1].strip()
+        reason = "same"
+        confidence = "1.0"
+
+        if len(parts) == 2:
+            pass
+        elif len(parts) == 3:
+            reason = parts[2].strip() or "same"
+        elif len(parts) == 4:
+            reason = parts[2].strip() or "same"
+            confidence = parts[3].strip() or "1.0"
+        else:
+            fixed += 1
+            variant = parts[0].strip()
+            canonical = parts[1].strip()
+
+            reason_candidate = None
+            for p in parts[2:]:
+                if p.strip() in ALLOWED_REASON:
+                    reason_candidate = p.strip()
+                    break
+            reason = reason_candidate or "same"
+
+            conf_candidate = None
+            for p in reversed(parts[2:]):
+                if _is_float(p.strip()):
+                    conf_candidate = p.strip()
+                    break
+            confidence = conf_candidate or "0.7"
+
+            if verbose:
+                print(f"[WARN] fix malformed TSV line #{idx}: cols={len(parts)} -> recovered")
+
+        if reason not in ALLOWED_REASON:
+            reason = "same"
+
+        if not _is_float(confidence):
+            confidence = "0.7"
+        else:
+            cf = float(confidence)
+            if cf < 0:
+                confidence = "0.0"
+            elif cf > 1.0:
+                confidence = "1.0"
+            else:
+                confidence = str(cf)
+
+        variant = variant.replace("\t", " ").strip()
+        canonical = canonical.replace("\t", " ").strip()
+
+        records.append({
+            "variant": variant,
+            "canonical": canonical,
+            "reason": reason,
+            "confidence": confidence
+        })
+
+    df = pd.DataFrame(records)
+    if df.empty:
+        return df
+
+    # coverage 보정(누락 키워드는 identity 추가)
+    if keywords:
+        kw_norms = {_norm(k): k for k in keywords if str(k).strip()}
+        df["variant"] = df["variant"].astype(str).str.strip()
+        df["canonical"] = df["canonical"].astype(str).str.strip()
+        df["variant_norm"] = df["variant"].map(_norm)
+
+        existing = set(df["variant_norm"].dropna().tolist())
+        missing_norms = [n for n in kw_norms.keys() if n not in existing]
+
+        if missing_norms:
+            add_rows = []
+            for n in missing_norms:
+                k = kw_norms[n]
+                add_rows.append({
+                    "variant": k,
+                    "canonical": k,
+                    "reason": "same",
+                    "confidence": "1.0",
+                    "variant_norm": n
+                })
+            df = pd.concat([df, pd.DataFrame(add_rows)], ignore_index=True)
+
+        df = df.drop_duplicates(subset=["variant_norm"], keep="first").copy()
+    else:
+        df["variant_norm"] = df["variant"].map(_norm)
+        df = df.drop_duplicates(subset=["variant_norm"], keep="first").copy()
+
+    if verbose:
+        print(f"[INFO] merge_map parsed: rows={len(df)}, dropped={dropped}, fixed={fixed}")
+    return df
+
+
+# =========================================================
+# ✅ Confidence Gate Tagger (UPDATED POLICY)
+#  - auto/review는 병합 적용(그대로 canonical 사용)
+#  - hold만 병합 미적용(canonical=variant)
+#  - 리스트 저장을 위해 gate/canonical_suggested/canonical_used를 넣음
+# =========================================================
+def tag_confidence_gate(
+    mm: pd.DataFrame,
+    high: float = CONF_HIGH,
+    mid: float = CONF_MID,
+) -> pd.DataFrame:
+    if mm is None or mm.empty:
+        return mm
+
+    mm = mm.copy()
+    mm["variant"] = mm.get("variant", "").astype(str).str.strip()
+    mm["canonical"] = mm.get("canonical", "").astype(str).str.strip()
+
+    # LLM 제안 canonical 보존
+    if "canonical_suggested" not in mm.columns:
+        mm["canonical_suggested"] = mm["canonical"]
+
+    # confidence 정규화
+    if "confidence" not in mm.columns:
+        mm["confidence"] = 1.0
+    mm["confidence"] = pd.to_numeric(mm["confidence"], errors="coerce").fillna(0.7)
+    mm["confidence"] = mm["confidence"].clip(lower=0.0, upper=1.0)
+
+    # gate 부여
+    mm["gate"] = "review"  # 기본을 review로 둬도 무방
+    mm.loc[mm["confidence"] >= high, "gate"] = "auto"
+    mm.loc[mm["confidence"] < mid, "gate"] = "hold"
+
+    # 실제 적용 canonical(used)
+    mm["canonical_used"] = mm["canonical_suggested"]
+
+    # hold만 병합 미적용
+    hold_mask = (mm["gate"] == "hold")
+    mm.loc[hold_mask, "canonical_used"] = mm.loc[hold_mask, "variant"]
+
+    # downstream은 canonical 컬럼을 사용하므로 canonical=canonical_used로 맞춤
+    mm["canonical"] = mm["canonical_used"]
+
+    return mm
 
 
 # =========================================================
@@ -114,7 +303,6 @@ def build_merge_map_llm(
         print((text[:900] + "...") if text else "(EMPTY)")
         print("----- END PREVIEW -----\n")
 
-    # 원본 덤프(디버깅)
     if dump_on_fail_path:
         try:
             with open(dump_on_fail_path, "w", encoding="utf-8") as f:
@@ -122,10 +310,9 @@ def build_merge_map_llm(
         except Exception:
             pass
 
-    text = strip_code_fences(text)
-    mm = read_tsv_strip_fence_text(text)
+    mm = parse_merge_map_tsv_robust(text, keywords=keywords, verbose=preview)
 
-    if mm.empty or not {"variant", "canonical"}.issubset(set(mm.columns)):
+    if mm.empty or not {"variant", "canonical", "variant_norm"}.issubset(set(mm.columns)):
         print("[WARN] merge_map parse failed. fallback to identity mapping.")
         mm = pd.DataFrame({
             "variant": keywords,
@@ -133,13 +320,9 @@ def build_merge_map_llm(
             "reason": ["same"] * len(keywords),
             "confidence": ["1.0"] * len(keywords)
         })
-
-    mm["variant"] = mm["variant"].astype(str).str.strip()
-    mm["canonical"] = mm["canonical"].astype(str).str.strip()
-    mm["variant_norm"] = mm["variant"].map(_norm)
-
-    # variant_norm 중복 제거(첫번째 우선)
-    mm = mm.drop_duplicates(subset=["variant_norm"], keep="first").copy()
+        mm["variant"] = mm["variant"].astype(str).str.strip()
+        mm["canonical"] = mm["canonical"].astype(str).str.strip()
+        mm["variant_norm"] = mm["variant"].map(_norm)
 
     time.sleep(sleep_sec)
     return mm
@@ -148,21 +331,19 @@ def build_merge_map_llm(
 def apply_merge_map_and_aggregate(freq_df: pd.DataFrame, mm: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     """
     freq_df columns expected: Year, NODE_CLSS_02, keyword, freq, paper_count
-    mm columns: variant, canonical, variant_norm
+    mm columns: variant, canonical, variant_norm (canonical is "used" canonical after gate)
     """
     df = freq_df.copy()
     df["keyword"] = df["keyword"].astype(str).str.strip()
     df["keyword_norm"] = df["keyword"].map(_norm)
 
     mp = dict(zip(mm["variant_norm"], mm["canonical"]))
-
     df["canonical"] = df["keyword_norm"].map(lambda x: mp.get(x, None))
     df["canonical"] = df["canonical"].fillna(df["keyword"])
 
     match_num = int(df["keyword_norm"].isin(set(mp.keys())).sum())
     match_den = int(len(df))
 
-    # merged_variants(원래 키워드들;로 나열)
     merged_variants = (
         df.groupby("canonical")["keyword"]
           .apply(lambda s: ";".join(sorted(set([x for x in s if str(x).strip()]))))
@@ -170,7 +351,6 @@ def apply_merge_map_and_aggregate(freq_df: pd.DataFrame, mm: pd.DataFrame) -> tu
           .rename(columns={"keyword": "merged_variants"})
     )
 
-    # freq 합산 + paper_count는 최대값 유지(연도×중분류 단위라 동일해야 정상)
     df["freq"] = pd.to_numeric(df["freq"], errors="coerce").fillna(0).astype(int)
     if "paper_count" in df.columns:
         df["paper_count"] = pd.to_numeric(df["paper_count"], errors="coerce").fillna(0).astype(int)
@@ -191,14 +371,12 @@ def apply_merge_map_and_aggregate(freq_df: pd.DataFrame, mm: pd.DataFrame) -> tu
         how="left"
     )
 
-    # share 재계산
     if "paper_count" in out.columns:
         out["share"] = out["freq"] / out["paper_count"].replace(0, pd.NA)
         out["share"] = out["share"].fillna(0.0)
     else:
         out["share"] = 0.0
 
-    # merge stats
     group_sizes = df.groupby("canonical")["keyword"].nunique()
     merged_groups = int((group_sizes >= 2).sum())
     merged_variants_n = int(group_sizes.sum() - group_sizes.size)
@@ -211,9 +389,6 @@ def apply_merge_map_and_aggregate(freq_df: pd.DataFrame, mm: pd.DataFrame) -> tu
     return out, stats
 
 
-# =========================================================
-# burst 재계산: share(Y) - share(Y-1)
-# =========================================================
 def recalc_burst(merged_all_years: pd.DataFrame) -> pd.DataFrame:
     base_cols = ["Year", "NODE_CLSS_02", "keyword", "freq", "paper_count", "share", "merged_variants"]
     base = merged_all_years[base_cols].copy()
@@ -246,10 +421,6 @@ def make_topn_per_class(df: pd.DataFrame, top_n: int, sort_col: str, min_freq: i
 
 
 def make_mix_topn(freq_all: pd.DataFrame, burst_all: pd.DataFrame, top_n: int, min_freq: int) -> pd.DataFrame:
-    """
-    1) burst>0 topN
-    2) 부족하면 freq top으로 채움(이미 포함된 keyword 제외)
-    """
     out_rows = []
     for cls in sorted(freq_all["NODE_CLSS_02"].dropna().unique().tolist()):
         f = freq_all[freq_all["NODE_CLSS_02"] == cls].copy()
@@ -285,10 +456,6 @@ def make_mix_topn(freq_all: pd.DataFrame, burst_all: pd.DataFrame, top_n: int, m
 
 
 def save_year_class_splits(df: pd.DataFrame, year: int, out_dir: str, subfolder_name: str, sort_col: str):
-    """
-    df: Year 단일 값으로 필터된 DF
-    sort_col: 'freq' 또는 'burst'
-    """
     per_class_dir = os.path.join(out_dir, subfolder_name)
     os.makedirs(per_class_dir, exist_ok=True)
 
@@ -304,13 +471,6 @@ def save_year_class_splits(df: pd.DataFrame, year: int, out_dir: str, subfolder_
 
 
 def make_summary_table(merged_all_years_df: pd.DataFrame, burst_all_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    year×class 요약표:
-    - num_keywords(병합 후 키워드 수)
-    - total_freq(합산 freq)
-    - num_merged_groups(merged_variants에 ';' 포함 = 실제 병합 발생)
-    - positive_burst_keywords( burst>0 키워드 수 )
-    """
     df = merged_all_years_df.copy()
     df["freq"] = pd.to_numeric(df["freq"], errors="coerce").fillna(0).astype(int)
     df["merged_flag"] = df["merged_variants"].astype(str).str.contains(";")
@@ -375,9 +535,8 @@ def run(
             freq_df["Year"] = year
         freq_df["Year"] = pd.to_numeric(freq_df["Year"], errors="coerce").fillna(year).astype(int)
 
-        # paper_count 없으면 share 계산이 약해짐(가능하면 생성단계에서 포함 권장)
         if "paper_count" not in freq_df.columns:
-            freq_df["paper_count"] = 0
+            freq_df["paper_count"] = 0  # ⚠️ 가능하면 생성단계에서 포함 권장
 
         merged_rows = []
         merge_map_rows = []
@@ -391,9 +550,22 @@ def run(
 
             mm_path = os.path.join(mm_dir, f"{year}_{safe_filename(str(cls))}_merge_map.tsv")
 
+            # ✅ 리스트 파일(자동/검토/보류)
+            mm_auto_path = os.path.join(mm_dir, f"{year}_{safe_filename(str(cls))}_merge_map_auto.tsv")
+            mm_review_path = os.path.join(mm_dir, f"{year}_{safe_filename(str(cls))}_merge_map_review.tsv")
+            mm_hold_path = os.path.join(mm_dir, f"{year}_{safe_filename(str(cls))}_merge_map_hold.tsv")
+
             # 캐시된 merge_map 있으면 재사용
             if os.path.exists(mm_path):
                 mm = pd.read_csv(mm_path, sep="\t", dtype=str, engine="python")
+
+                # backward compatibility: gate/canonical_suggested 없으면 채움
+                if "canonical_suggested" not in mm.columns and "canonical" in mm.columns:
+                    mm["canonical_suggested"] = mm["canonical"]
+
+                if "confidence" not in mm.columns:
+                    mm["confidence"] = "1.0"
+
                 # 내부 매칭용 norm 컬럼 보정
                 if "variant_norm" not in mm.columns:
                     if "variant" not in mm.columns or "canonical" not in mm.columns:
@@ -407,6 +579,24 @@ def run(
                     mm["variant"] = mm["variant"].astype(str).str.strip()
                     mm["canonical"] = mm["canonical"].astype(str).str.strip()
                     mm["variant_norm"] = mm["variant"].map(_norm)
+
+                # ✅ 캐시 파일에도 누락 키워드가 있을 수 있으니 보정
+                mm["variant"] = mm["variant"].astype(str).str.strip()
+                mm["canonical"] = mm["canonical"].astype(str).str.strip()
+                mm["variant_norm"] = mm["variant"].map(_norm)
+
+                existing = set(mm["variant_norm"].dropna().tolist())
+                for k in keywords:
+                    n = _norm(k)
+                    if n not in existing:
+                        mm = pd.concat([mm, pd.DataFrame([{
+                            "variant": k, "canonical": k, "reason": "same", "confidence": "1.0",
+                            "canonical_suggested": k,
+                            "variant_norm": n
+                        }])], ignore_index=True)
+
+                mm = mm.drop_duplicates(subset=["variant_norm"], keep="first").copy()
+
             else:
                 dump_path = None
                 if dump_raw_llm:
@@ -420,16 +610,62 @@ def run(
                     dump_on_fail_path=dump_path
                 )
 
-                # TSV로 저장(variant_norm은 내부용이라 제외)
-                mm_save = mm.drop(columns=["variant_norm"], errors="ignore").copy()
-                mm_save.to_csv(mm_path, index=False, sep="\t", encoding="utf-8-sig")
-                print(f"[OK] merge_map saved: {mm_path}")
+                # variant_norm은 내부 매칭용
+                if "variant_norm" not in mm.columns:
+                    mm["variant_norm"] = mm["variant"].map(_norm)
 
+            # ✅ Confidence gate tagging (UPDATED POLICY)
+            mm = tag_confidence_gate(mm, high=CONF_HIGH, mid=CONF_MID)
+
+            # ✅ 리스트 저장: (auto/review/hold) — 병합된 것만 보고 싶으면 "suggested!=variant"로 필터링
+            def _only_changed(xdf: pd.DataFrame) -> pd.DataFrame:
+                if xdf is None or xdf.empty:
+                    return xdf
+                # LLM이 병합을 제안한(변경) 건만 리스트로 뽑기
+                return xdf[xdf["canonical_suggested"].astype(str) != xdf["variant"].astype(str)].copy()
+
+            auto_df = _only_changed(mm[mm["gate"] == "auto"].copy())
+            review_df = _only_changed(mm[mm["gate"] == "review"].copy())
+            hold_df = _only_changed(mm[mm["gate"] == "hold"].copy())
+
+            if not auto_df.empty:
+                auto_df.drop(columns=["variant_norm"], errors="ignore").to_csv(
+                    mm_auto_path, index=False, sep="\t", encoding="utf-8-sig"
+                )
+
+            if not review_df.empty:
+                review_df.drop(columns=["variant_norm"], errors="ignore").to_csv(
+                    mm_review_path, index=False, sep="\t", encoding="utf-8-sig"
+                )
+
+            if not hold_df.empty:
+                hold_df.drop(columns=["variant_norm"], errors="ignore").to_csv(
+                    mm_hold_path, index=False, sep="\t", encoding="utf-8-sig"
+                )
+
+            if preview:
+                print(
+                    f"[INFO] gate counts {year}/{cls}: "
+                    f"auto={int((mm['gate']=='auto').sum())}, "
+                    f"review={int((mm['gate']=='review').sum())}, "
+                    f"hold={int((mm['gate']=='hold').sum())}"
+                )
+
+            # ✅ 메인 merge_map 저장(항상 갱신 저장을 원치 않으면 조건 걸어도 됨)
+            mm_save = mm.drop(columns=["variant_norm"], errors="ignore").copy()
+            # 권장 저장 컬럼 순서 정렬
+            ordered = ["variant", "canonical", "canonical_suggested", "canonical_used", "reason", "confidence", "gate"]
+            cols = [c for c in ordered if c in mm_save.columns] + [c for c in mm_save.columns if c not in ordered]
+            mm_save = mm_save[cols]
+            mm_save.to_csv(mm_path, index=False, sep="\t", encoding="utf-8-sig")
+
+            # ✅ 병합 적용(hold만 미적용 / auto+review는 적용)
             merged_sub, stats = apply_merge_map_and_aggregate(sub, mm)
 
             print(
                 f"[OK] {year} / {cls} merge stats: "
-                f"match_rate={stats['match_rate']}, merged_groups={stats['merged_groups']}, merged_variants={stats['merged_variants']}"
+                f"match_rate={stats['match_rate']}, merged_groups={stats['merged_groups']}, merged_variants={stats['merged_variants']}, "
+                f"gates(auto/review/hold)={int((mm['gate']=='auto').sum())}/{int((mm['gate']=='review').sum())}/{int((mm['gate']=='hold').sum())}"
             )
 
             merged_rows.append(merged_sub)
@@ -438,10 +674,12 @@ def run(
             mm_out = mm.drop(columns=["variant_norm"], errors="ignore").copy()
             mm_out["Year"] = year
             mm_out["NODE_CLSS_02"] = cls
+
             keep_cols = ["Year", "NODE_CLSS_02", "variant", "canonical"]
-            for c in ["reason", "confidence"]:
+            for c in ["canonical_suggested", "canonical_used", "reason", "confidence", "gate"]:
                 if c in mm_out.columns:
                     keep_cols.append(c)
+
             merge_map_rows.append(mm_out[keep_cols])
 
         merged_all = pd.concat(merged_rows, ignore_index=True) if merged_rows else pd.DataFrame()
@@ -451,12 +689,10 @@ def run(
             print(f"[WARN] {year} merged_all empty")
             continue
 
-        # 저장: 연도별 merged freq(통합)
         out_freq_all = os.path.join(out_dir, f"{year}_freq_merged_all.csv")
         merged_all.to_csv(out_freq_all, index=False, encoding="utf-8-sig")
         print(f"[OK] {out_freq_all}")
 
-        # 저장: 연도×중분류별 merged freq
         save_year_class_splits(
             df=merged_all,
             year=year,
@@ -466,12 +702,10 @@ def run(
         )
         print(f"[OK] per-class freq saved: {os.path.join(out_dir, f'{year}_freq_merged_by_class')}")
 
-        # 저장: merge_map(연도 통합본)
         out_mm_all = os.path.join(out_dir, f"{year}_merge_map_all.csv")
         merge_map_all.to_csv(out_mm_all, index=False, encoding="utf-8-sig")
         print(f"[OK] {out_mm_all}")
 
-        # topN(freq)
         freq_top = make_topn_per_class(merged_all, top_n=top_n, sort_col="freq", min_freq=min_freq)
         out_freq_top = os.path.join(out_dir, f"{year}_freq_merged_top{top_n}_min{min_freq}.csv")
         freq_top.to_csv(out_freq_top, index=False, encoding="utf-8-sig")
@@ -479,7 +713,7 @@ def run(
 
         merged_all_years.append(merged_all)
 
-    # ---------- 2) burst 재계산(연도 전체 합쳐서 prev year 사용) ----------
+    # ---------- 2) burst 재계산 ----------
     if not merged_all_years:
         print("[WARN] no merged data, stop.")
         return
@@ -487,7 +721,6 @@ def run(
     merged_all_years_df = pd.concat(merged_all_years, ignore_index=True)
     burst_all = recalc_burst(merged_all_years_df)
 
-    # 요약표 저장(year×class)
     summary = make_summary_table(merged_all_years_df, burst_all)
     out_summary = os.path.join(out_dir, "summary_year_class.csv")
     summary.to_csv(out_summary, index=False, encoding="utf-8-sig")
@@ -503,7 +736,6 @@ def run(
         yb.to_csv(out_burst_all, index=False, encoding="utf-8-sig")
         print(f"[OK] {out_burst_all}")
 
-        # 저장: 연도×중분류별 burst
         save_year_class_splits(
             df=yb,
             year=year,
@@ -513,22 +745,25 @@ def run(
         )
         print(f"[OK] per-class burst saved: {os.path.join(out_dir, f'{year}_burst_merged_by_class')}")
 
-        # burst TopN
         yb2 = yb.copy()
         yb2["burst"] = pd.to_numeric(yb2["burst"], errors="coerce").fillna(0.0)
-        burst_top = make_topn_per_class(yb2[yb2["burst"] > 0].copy(), top_n=top_n, sort_col="burst", min_freq=min_freq)
+        burst_top = make_topn_per_class(
+            yb2[yb2["burst"] > 0].copy(),
+            top_n=top_n,
+            sort_col="burst",
+            min_freq=min_freq
+        )
         out_burst_top = os.path.join(out_dir, f"{year}_trend_burst_merged_top{top_n}_min{min_freq}.csv")
         burst_top.to_csv(out_burst_top, index=False, encoding="utf-8-sig")
         print(f"[OK] {out_burst_top}")
 
-        # mix TopN (burst 부족하면 freq로 채움)
         yf = merged_all_years_df[merged_all_years_df["Year"] == year].copy()
         mix_top = make_mix_topn(yf, yb, top_n=top_n, min_freq=min_freq)
         out_mix = os.path.join(out_dir, f"{year}_trend_mix_merged_top{top_n}_min{min_freq}.csv")
         mix_top.to_csv(out_mix, index=False, encoding="utf-8-sig")
         print(f"[OK] {out_mix}")
 
-    print("\nDONE: (LLM merge_map=TSV) freq merge -> share 재계산 -> burst 재계산 -> topN/mix 생성 + 연도×중분류 split 저장 완료")
+    print("\nDONE: merge_map(confidence gate: auto/review apply, hold block) -> freq merge -> share 재계산 -> burst 재계산 -> topN/mix 생성 + split 저장 완료")
 
 
 if __name__ == "__main__":
